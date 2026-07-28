@@ -172,14 +172,14 @@ publication yet, although they are intended to eventually be.
 
 ## Repository statistics
 
-The counts below were taken on 27th July 2026, over the Agda files tracked
+The counts below were taken on 28th July 2026, over the Agda files tracked
 by git in the directory source.
 
 | what is counted | count |
 | --- | ---: |
-| Agda files | 989 |
-| Lines, including comments and blank lines | 287,510 |
-| Lines that are not blank | 223,035 |
+| Agda files | 988 |
+| Lines, including comments and blank lines | 287,520 |
+| Lines that are not blank | 223,006 |
 | Directories | 61 |
 | Contributors | 33 |
 
@@ -193,19 +193,19 @@ directory that is meant here and throughout.
 
 | directory | files | lines | share |
 | --- | ---: | ---: | ---: |
-| [Ordinals](#ordinals) | 67 | 29,904 | 10.4% |
-| [Locales](#locales) | 85 | 29,636 | 10.3% |
-| [UF](#uf) | 80 | 27,289 | 9.5% |
-| [DomainTheory](#domaintheory) | 44 | 19,302 | 6.7% |
-| [TypeTopology](#typetopology) | 35 | 14,647 | 5.1% |
-| [TWA](#twa) | 33 | 11,004 | 3.8% |
-| [InjectiveTypes](#injectivetypes) | 19 | 10,930 | 3.8% |
-| [MGS](#mgs) | 30 | 9,328 | 3.3% |
-| [Groups](#groups) | 27 | 7,706 | 2.7% |
-| [C-Spaces](#c-spaces) | 38 | 7,415 | 2.6% |
-| [EffectfulForcing](#effectfulforcing) | 27 | 7,381 | 2.6% |
-| [Various](#various) | 15 | 6,959 | 2.4% |
-| others | 480 | 104,949 | 36.6% |
+| [Ordinals](#ordinals) | 67 | 29,837 | 10.4% |
+| [Locales](#locales) | 85 | 29,551 | 10.3% |
+| [UF](#uf) | 80 | 27,209 | 9.5% |
+| [DomainTheory](#domaintheory) | 44 | 19,258 | 6.7% |
+| [TypeTopology](#typetopology) | 35 | 14,615 | 5.1% |
+| [TWA](#twa) | 33 | 10,971 | 3.8% |
+| [InjectiveTypes](#injectivetypes) | 19 | 10,911 | 3.8% |
+| [MGS](#mgs) | 30 | 9,298 | 3.2% |
+| [Groups](#groups) | 27 | 7,679 | 2.7% |
+| [C-Spaces](#c-spaces) | 38 | 7,377 | 2.6% |
+| [EffectfulForcing](#effectfulforcing) | 27 | 7,354 | 2.6% |
+| [Various](#various) | 15 | 6,944 | 2.4% |
+| others | 488 | 106,516 | 37.0% |
 
 [Table of contents](#table-of-contents)
 
@@ -215,7 +215,7 @@ TypeTopology was started by Martin Escardo at around 2010, and by now
 there are many contributors, including former and current students,
 collaborators, and people doing their own work.
 
-To put numbers on this, the table below gives the share of the 980 Agda
+To put numbers on this, the table below gives the share of the 988 Agda
 files of the repository that is due to each of us, counted in two ways. The
 first column attributes each file to the authors named in its header,
 splitting a file equally when it names several, and resolves the few files
@@ -225,23 +225,23 @@ so it counts the author of the last change to each line.
 
 | | by header | by blame |
 | --- | ---: | ---: |
-| Martin Escardo | 45.4% | 50.8% |
-| Tom de Jong | 12.3% | 15.0% |
-| Ayberk Tosun | 11.3% | 11.7% |
-| Andrew Sneap | 5.2% | 5.2% |
+| Martin Escardo | 45.6% | 53.4% |
+| Tom de Jong | 12.1% | 14.8% |
+| Ayberk Tosun | 11.6% | 11.5% |
+| Andrew Sneap | 5.4% | 4.3% |
 | Chuangjie Xu | 4.1% | 2.7% |
-| Todd Waugh Ambridge | 3.6% | 3.6% |
-| Ian Ray | 2.9% | 3.3% |
-| Paulo Oliva | 2.4% | 0.0% |
+| Todd Waugh Ambridge | 3.6% | 2.7% |
+| Ian Ray | 2.8% | 3.1% |
+| Paulo Oliva | 2.3% | 0.0% |
+| Nicolai Kraus | 1.6% | 0.3% |
 | Jon Sterling | 1.5% | 1.2% |
-| Nicolai Kraus | 1.5% | 0.3% |
 | Fredrik Nordvall Forsberg | 1.4% | 0.0% |
 | Anna Williams | 1.1% | 1.1% |
-| Ettore Aldrovandi | 1.0% | 1.6% |
+| Ettore Aldrovandi | 1.0% | 1.5% |
 | Brendan Hart | 1.0% | 0.0% |
-| others | 5.4% | 3.5% |
+| others | 4.9% | 3.4% |
 
-The table was last updated on 26th July 2026. It names only those of us who
+The table was last updated on 28th July 2026. It names only those of us who
 reach 1% in at least one of the two columns, and so it is not a list of
 contributors.
 The [full list](https://github.com/martinescardo/TypeTopology/blob/master/README.md#current-contributors-in-alphabetical-order-of-first-name)
