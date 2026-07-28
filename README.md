@@ -205,6 +205,8 @@ directory that is meant here and throughout.
 | [Various](#various) | 15 | 6,959 | 2.4% |
 | others | 480 | 104,949 | 36.6% |
 
+[Table of contents](#table-of-contents)
+
 ## Contributors
 
 TypeTopology was started by Martin Escardo at around 2010, and by now
@@ -252,6 +254,8 @@ one of us committed a file written by someone else, which is why some
 contributors have no lines at all in the second column. Neither count
 measures the ideas, the questions posed or the supervision that lie behind
 the files.
+
+[Table of contents](#table-of-contents)
 
 ## Description of safe modules
 
