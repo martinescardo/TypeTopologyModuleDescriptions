@@ -12,42 +12,6 @@ From now on, anybody contributing to TypeTopology should update this
 file whenever appropriate, manually, although the statistics below
 should be updated automatically by the repository maintainers.
 
-[Table of contents](#table-of-contents)
-
-## Organization
-
-There is one entry for each of the directories imported by the module
-[index](https://martinescardo.github.io/TypeTopology/index.html), a paragraph
-or a few for each, in alphabetical order, except for [Various](#various) and
-[gist](#gist), which collect miscellaneous material and come at the end. A final section
-describes the modules that are not `--safe`, which are those imported by
-[Unsafe.index](https://martinescardo.github.io/TypeTopology/Unsafe.index.html)
-and three of those of
-[InfinitePigeon](#infinitepigeon),
-saying in each case which Agda option is responsible.
-
-The names of the directories and modules link to their html rendering, which
-lives at <https://martinescardo.github.io/TypeTopology/>.
-
-Many directories collect the work of several people and span several
-years, and so the descriptions are deliberately brief, with the
-individual files and their own index modules giving the fuller
-details, references and precise attributions. The attributions are taken
-from the file headers, and for the larger directories they may be
-incomplete (please add yourself if you notice that you are missing, or
-anybody else you notice is missing).
-
-Where the files record a publication that resulted from the
-development, meaning an article, thesis or abstract by its authors
-reporting this work, or the unformalized counterpart that this
-formalizes, it is listed after the authors. The [README](https://github.com/martinescardo/TypeTopology/blob/master/README.md) of
-the repository has the same
-[publications](https://github.com/martinescardo/TypeTopology/blob/master/README.md#academic-publications-and-preprints-resulting-from-typetopology)
-in a single chronological list, and what the entries below add is the
-directory that each of them concerns. A number of the files are new
-research that haven't been written up as papers or submitted for
-publication yet, although they are intended to eventually be.
-
 ## Table of contents
 
 1\. [Organization](#organization)
@@ -169,6 +133,40 @@ publication yet, although they are intended to eventually be.
 </details>
 
 6\. [Philosophy of TypeTopology](https://martinescardo.github.io/TypeTopology/)
+
+## Organization
+
+There is one entry for each of the directories imported by the module
+[index](https://martinescardo.github.io/TypeTopology/index.html), a paragraph
+or a few for each, in alphabetical order, except for [Various](#various) and
+[gist](#gist), which collect miscellaneous material and come at the end. A final section
+describes the modules that are not `--safe`, which are those imported by
+[Unsafe.index](https://martinescardo.github.io/TypeTopology/Unsafe.index.html)
+and three of those of
+[InfinitePigeon](#infinitepigeon),
+saying in each case which Agda option is responsible.
+
+The names of the directories and modules link to their html rendering, which
+lives at <https://martinescardo.github.io/TypeTopology/>.
+
+Many directories collect the work of several people and span several
+years, and so the descriptions are deliberately brief, with the
+individual files and their own index modules giving the fuller
+details, references and precise attributions. The attributions are taken
+from the file headers, and for the larger directories they may be
+incomplete (please add yourself if you notice that you are missing, or
+anybody else you notice is missing).
+
+Where the files record a publication that resulted from the
+development, meaning an article, thesis or abstract by its authors
+reporting this work, or the unformalized counterpart that this
+formalizes, it is listed after the authors. The [README](https://github.com/martinescardo/TypeTopology/blob/master/README.md) of
+the repository has the same
+[publications](https://github.com/martinescardo/TypeTopology/blob/master/README.md#academic-publications-and-preprints-resulting-from-typetopology)
+in a single chronological list, and what the entries below add is the
+directory that each of them concerns. A number of the files are new
+research that haven't been written up as papers or submitted for
+publication yet, although they are intended to eventually be.
 
 ## Repository statistics
 
