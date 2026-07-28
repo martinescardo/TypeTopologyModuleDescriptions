@@ -168,6 +168,8 @@ directory that each of them concerns. A number of the files are new
 research that haven't been written up as papers or submitted for
 publication yet, although they are intended to eventually be.
 
+[Table of contents](#table-of-contents)
+
 ## Repository statistics
 
 The counts below were taken on 27th July 2026, over the Agda files tracked
