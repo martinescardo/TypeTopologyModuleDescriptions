@@ -1174,46 +1174,58 @@ By Tom de Jong, Martin Escardo, Kelton OBrien and Ian Ray.
 
 ### [Ordinals](https://martinescardo.github.io/TypeTopology/Ordinals.index.html)
 
-The theory of ordinals is developed in univalent foundations, as types
-equipped with a well-founded, extensional and transitive order, together
-with the type of all ordinals in a universe, which by univalence is itself a
-large ordinal in the next universe, is locally small, and is algebraically
-injective.
+The theory of ordinals is developed in univalent foundations, where an
+ordinal is a type equipped with a well-founded, extensional and transitive
+order. By univalence, the ordinals of a universe themselves form an ordinal
+in the next universe, which is large but locally small, and it is
+algebraically injective.
 
-The arithmetic comprises addition, multiplication and exponentiation, with
-their properties, bounded operations, limits and sums, and variants for the
-topped and the trichotomous ordinals. Exponentiation has a subdirectory of
-its own. It is specified first, then constructed abstractly using suprema
-and concretely using decreasing lists, and the two are shown to agree when
-the base has a trichotomous least element, which happens exactly when the
-base decomposes as 𝟙 + α. Robin Grayson's variant of the decreasing list
-construction is implemented and shown not to give an ordinal in general.
-There is also an abstract cancellation arithmetic, in which the maps α + −,
-α × − and exp α − are proved to reflect the order and equality.
+The arithmetic comprises addition, multiplication and exponentiation and
+their properties, together with bounded operations, suprema and sums, and
+variants of these for the topped and the trichotomous ordinals. It is
+noteworthy that the infimum of a merely inhabited family of ordinals is
+constructed using propositional truncation and univalence alone, whereas the
+known constructions of suprema need set quotients or, equivalently, set
+replacement.
 
-It is noteworthy that the infimum of a merely inhabited family of ordinals
-is constructed using propositional truncation and univalence alone, whereas
-the known constructions of suprema need set quotients or, equivalently, set
-replacement. A supremum of a compact-indexed family of compact ordinals is
-compact, and the lexicographic order gives further compactness results.
+Exponentiation has a subdirectory of its own. It is specified first, then
+constructed abstractly using suprema and concretely using decreasing lists,
+and the two constructions are shown to agree when the base has a
+trichotomous least element, which happens exactly when the base is of the
+form 𝟙 + α for some ordinal α. Robin Grayson's variant of the decreasing
+list construction is implemented and shown not to give an ordinal in
+general. Alongside this is the abstract cancellation arithmetic of de Jong,
+Kraus, Nordvall Forsberg and Xu, in which the maps α + −, α × − and exp α −
+are proved to reflect the order and the identity.
 
-Several of the classical principles turn out to be taboos here. Excluded
-middle follows if every subset of an ordinal is an ordinal, as Shulman
-observed, if every set can be inductively well-ordered, following Swan, and
-if every discrete ordinal is trichotomous. Trichotomy and total
-separatedness both fail in general, and it is the failure of extensionality
-for subsets that makes the topped ordinals the right setting for
-lexicographic sums. In the other direction, the axiom of choice does give
-the well-ordering principle. The Burali-Forti argument is used to show that
-the embedding of a universe into its successor is not an equivalence, and
-likewise for the types of sets, magmas, monoids and groups.
+Several classically true statements about ordinals are taboos here, in that
+each of them implies excluded middle. Shulman observed that this is so if
+every subset of an ordinal is an ordinal. Following Swan, it is so if every
+set can be inductively well-ordered, and again if every discrete ordinal is
+trichotomous. Trichotomy and total separatedness both fail in general. The
+inductive well-ordering principle is in fact equivalent to the axiom of
+choice, which gives that every set can be well-ordered, and conversely. The
+Burali-Forti argument is used to show that the embedding of a universe into
+its successor is not an equivalence, and likewise for the types of sets,
+magmas, monoids and groups.
+
+Sums of ordinal-indexed families are constructed with the lexicographic
+order for families indexed by an ordinal with a top element, and it is
+Shulman's taboo that justifies restricting to the topped ordinals, the
+obstruction in general being the extensionality of the lexicographic order
+on the sum.
 
 The set-theoretic reading is developed alongside. Inside the cumulative
 hierarchy 𝕍 the set-theoretic ordinals are the transitive sets of transitive
 sets, and this subtype is shown to coincide with the type-theoretic
-ordinals. Elsewhere there are Brouwer codes and other notation systems with
-their interpretations, the ordinal of truth values, the ordinals below ω
-given by Fin, the convergent sequence, a Church encoding, and machinery for
+ordinals.
+
+Ordinals are also presented syntactically, by Brouwer codes and by other
+notation systems, each with its interpretation. Among the concrete ordinals
+there are the ordinal of truth values, the ordinals below ω given by Fin, a
+Church encoding, and the convergent sequence ℕ∞. A supremum of a
+compact-indexed family of compact ordinals is compact, and the lexicographic
+order gives further compactness results. There is also machinery for
 transporting and extending well-orders and for identifying equivalent
 ordinals.
 
@@ -1254,8 +1266,11 @@ By Ettore Aldrovandi.
 
 The programming language PCF is developed in two presentations, one
 combinatory and the other based on the lambda calculus, each with its
-operational and denotational Scott semantics and a computational adequacy
-result relating them. Each presentation has its own subdirectory and index.
+operational and denotational Scott semantics. For the lambda-calculus
+presentation the Scott model is proved computationally adequate. For the
+combinatory presentation adequacy is not formalized here, having been proved
+by Tom de Jong in UniMath instead. Each presentation has its own
+subdirectory and index.
 
 By Tom de Jong, Brendan Hart and Martin Escardo.
 
@@ -1274,11 +1289,16 @@ By Tom de Jong, Brendan Hart and Martin Escardo.
 
 ### [Quotient](https://martinescardo.github.io/TypeTopology/Quotient.index.html)
 
-Set quotients are studied, with their axiomatization, the effectivity of the
-quotient, and the interderivability of the existence of quotients with set
-replacement and, together with function extensionality, with propositional
-truncation. Both implications of each equivalence are proved, and a large,
-universe-polymorphic variant is given alongside the small one.
+Set quotients are studied, starting from an axiomatization of them.
+Effectivity is not required as part of that axiomatization but is derived
+from it, in the presence of function extensionality and propositional
+extensionality. The existence of set quotients is interderivable with set
+replacement, and, given function extensionality, set quotients give
+propositional truncations, while conversely propositional truncations
+together with function and propositional extensionality give quotients that
+are large, living in a higher universe than the type quotiented and needing
+no resizing. A variation of that construction controls the universe in which
+the assumed truncations live.
 
 By Martin Escardo and Tom de Jong.
 
@@ -1303,6 +1323,10 @@ identity, illustrated by several examples. Reflexive graphs, their displayed
 and univalent versions, biased and unbiased lenses, and univalent closure
 properties are developed in turn.
 
+The primary source is J. Sterling, "Reflexive graph lenses in univalent
+foundations", Mathematical Structures in Computer Science 36, 2026, article
+e21, [doi:10.1017/S0960129526100565](https://doi.org/10.1017/S0960129526100565).
+
 By Ian Ray.
 
 [Table of contents](#table-of-contents)
@@ -1321,14 +1345,19 @@ By Martin Escardo.
 
 ### [RelativeMonadOnStructuredTypes](https://martinescardo.github.io/TypeTopology/RelativeMonadOnStructuredTypes.index.html)
 
-Relative monads on structured types are developed. To obtain an affine
-monad, one restricts to non-empty lists without repetitions, which requires
-decidable equality on the underlying type. Since decidable equality is
-needed to form the monad but not to iterate it, the construction is
-naturally a relative monad rather than an endofunctor, again with game
-theory as the motivating application. The general definition is instantiated
-at non-empty lists without repetitions, which is the affine example we are
-after.
+Relative monads on structured types are developed, motivated by applications
+to combinatorial game theory, which need monads that are affine, in the
+sense that the unit 𝟙 → T 𝟙 is an isomorphism. The list monad is not affine,
+but the non-empty lists without repetitions are, and to work with those one
+needs decidable equality on the type of entries. This is what makes the
+monad relative. Decidable equality on X is needed in order to form T X, but
+T X is not required to have decidable equality in turn, so T is not an
+endofunctor, and the monad is given instead by a unit and an extension
+operator, following Altenkirch, Chapman and Uustalu. The structure
+considered is required to be closed under 𝟙 and Σ, and the definition is
+parametrized by a map of universes, so that examples such as the non-empty
+powerset, which raise the universe level, are covered as well. There is also
+a monad transformer sending T to JT X = (X → T R) → T X.
 
 By Martin Escardo and Paulo Oliva.
 
@@ -1342,7 +1371,7 @@ universe, and a characterization of its identity types via the structure
 identity principle. This is the family fibration presentation, closely
 related to the lifting monad.
 
-By Martin Escardo, Ayberk Tosun and Ian Ray.
+By Martin Escardo, Ayberk Tosun, Ian Ray and Tom de Jong.
 
 [Table of contents](#table-of-contents)
 
@@ -1358,12 +1387,12 @@ By Tom de Jong.
 
 ### [Taboos](https://martinescardo.github.io/TypeTopology/Taboos.index.html)
 
-Constructive taboos are studied, that is, statements which, though not
-outright false, are not provable constructively because they are equivalent
-to, or imply, non-constructive principles such as excluded middle, and which
-therefore mark the boundary of constructive reasoning.
+The non-constructive principles that mark the boundary of constructive
+reasoning are collected here, chiefly excluded middle and the omniscience
+principles of Bishop, together with statements that are shown to be taboos
+by reducing them to such principles.
 
-The omniscience principles of Bishop come first. LPO is the compactness of
+The omniscience principles come first. LPO is the compactness of
 ℕ, that is, for every binary sequence either some term is 0 or all of them
 are 1, and it is treated both in this form, which is not a proposition
 because there may be many such terms, and in its truncated form. WLPO is
@@ -1377,10 +1406,12 @@ disjunction, and it is the untruncated version, with + in place of ∨, that
 implies WLPO and is an instance of De Morgan's Law, whereas the truncated
 one is known not to imply it.
 
-Then come taboos of a more geometric flavour. A function ℕ∞ → 𝟚 that is
-discontinuous in a particular basic way is a taboo, which says equivalently
-that the convergence of the constant sequence 0 to 1 in the binary numbers
-is a taboo. The type of ordinals is decomposable as a disjoint union of two
+Then come taboos of a more geometric flavour. A function ℕ∞ → 𝟚 that takes
+the value 0 at every finite element and the value 1 at ∞ gives WLPO.
+Equivalently, it is a taboo that the constant sequence 0 converges to the
+number 1 in the binary numbers, which a Brouwerian continuity axiom, not
+postulated here, would rule out by requiring every convergent sequence of
+binary numbers to be eventually constant. The type of ordinals is decomposable as a disjoint union of two
 pointed types if and only if weak excluded middle holds, so that it has no
 non-trivial decidable property unless the taboo holds, and the same is later
 shown for injective types, which subsumes it since the type of ordinals is
@@ -1509,11 +1540,12 @@ developed on demand over many years. Of the other 59 directories, all but
 Notation and InfinitePigeon import it, and only MLTT, which every one of
 them imports, is more widely used.
 
-The axioms live here rather than being postulated, namely function
+The axioms are defined here as types rather than postulated, namely function
 extensionality in several equivalent forms, propositional extensionality,
 the existence of propositional truncations, univalence, propositional
-resizing, excluded middle and choice, so that each theorem elsewhere can
-name exactly what it uses. Several equivalent formulations of the axiom of
+resizing, excluded middle and choice, and they are taken as explicit
+assumptions wherever they are used, so that each theorem elsewhere names
+exactly what it needs. Several equivalent formulations of the axiom of
 choice are given, one of which seems to be new, along with its relation to
 the double-negation shift, a pre-univalence axiom due to Cavallo and
 Lumsdaine, and a derivation of function extensionality from a generalization
@@ -1525,12 +1557,8 @@ subtype and other classifiers, the powerset in several variants, image and
 surjection, size and resizing, the Yoneda machinery with the embedding
 Id : X → (X → 𝓤), the cumulative hierarchy, and a semistrict identity type
 whose composition is definitionally associative and unital. A more recent
-strand develops general truncations defined by records, pushouts as the
-universal completion of a span, sequential colimits, connected types and the
-axiom of replacement. Among the smaller curiosities is that from the mere
-existence of an equivalence of a type with 𝟚, which gives no point of it,
-one can nonetheless construct an involution swapping its two unknown
-points.
+strand develops general truncations defined by records, pushouts, sequential
+colimits, connected types and the axiom of replacement.
 
 By Martin Escardo, Ian Ray, Tom de Jong, Cory Knapp, Jon Sterling, Ayberk
 Tosun, Nicolai Kraus, Fredrik Nordvall Forsberg, Chuangjie Xu and Ettore
