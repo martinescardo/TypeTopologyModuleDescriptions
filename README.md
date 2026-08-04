@@ -1682,9 +1682,14 @@ By Tom de Jong.
 
 #### [Various.DummettDisjunction](https://martinescardo.github.io/TypeTopology/Various.DummettDisjunction.html)
 
-The Dummett disjunction of two propositions, ((P → Q) → Q) × ((Q → P) → P),
-is studied in intuitionistic logic as rendered in MLTT, together with a weak
-form of it and a motivation coming from univalent type theory.
+Dummett disjunction of two propositions P and Q, defined as ((P → Q) → Q) ×
+((Q → P) → P), is weaker than intuitionistic disjunction and stronger than
+classical disjunction, agreeing with intuitionistic disjunction under
+Dummett's linearity axiom (P → Q) + (Q → P) or whenever one of the
+propositions is decidable. It arose from a universe-preserving variant of
+propositional truncation indexed by the booleans, motivated by univalent
+foundations, and a weak, asymmetric form of it, (P → Q) → Q, is studied
+alongside it.
 
 By Martin Escardo.
 
@@ -1697,11 +1702,11 @@ consequences. In our type theoretic form, the theorem says that if a type A
 admits a map onto the functions from A to X, then every endomap of X has a
 fixed point, so that a type carrying a fixed-point-free endomap admits no
 such map. Underlying it is what is called here Lawvere's fixed-point
-combinator, which Lawvere did not consider, definable from maps r : A → (A →
-X) and s : (A → X) → A under no assumptions at all, and a typed relative of
-the Y combinator of the untyped lambda calculus, the assumption that they
-form a section-retraction pair being needed only to show that what it
-produces is indeed a fixed point.
+combinator, which Lawvere did not consider. It is definable from maps r : A
+→ (A → X) and s : (A → X) → A under no assumptions at all, and is a typed
+relative of the Y combinator of the untyped lambda calculus; the assumption
+that r and s form a section-retraction pair is needed only to show that
+what the combinator produces is indeed a fixed point.
 
 The theorem is proved first for retractions, which can be formulated
 in a Spartan MLTT, and in fact for a pointwise weakening of retraction
@@ -1730,10 +1735,10 @@ treatment for embeddings rather than surjections is in
 
 The universe is then shown uncountable, and more generally regular
 against families indexed by a discrete type, in proofs due to Ingo
-Blechschmidt after a problem posed to students at the Fischbachau
-autumn school of 2018, reworked jointly to go through the fixed point
-theorem, with a variant trading discreteness for sethood at the cost
-of raising a universe level.
+Blechschmidt after a problem posed to the students, Ingo in particular, at
+the Fischbachau autumn school of 2018, reworked jointly to go through the
+fixed point theorem, with a variant trading discreteness for sethood at
+the cost of raising a universe level.
 
 Adapting Coquand's paradox of trees, which shows type-in-type
 inconsistent for a universe closed under W-types, as formalized in
@@ -1812,7 +1817,20 @@ By Martin Escardo.
 
 #### [Various.Pataraia-Taylor](https://martinescardo.github.io/TypeTopology/Various.Pataraia-Taylor.html)
 
-The same fixed point theorem is proved predicatively.
+A predicative version of Pataraia's fixed point theorem is proved here:
+every monotone endomap of a directed complete poset with a least element
+has a least fixed point, now in a setting with function extensionality and
+propositional truncations but no resizing axioms. Pataraia's own proof, as
+formalized in Various.Pataraia, has an impredicative second step forming
+the intersection of all subsets of the dcpo that contain the least element
+and are closed under both the endomap and directed suprema. That step is
+replaced here by an explicit predicative construction due to Paul Taylor,
+which is why the theorem is named after both of them. There is a catch,
+though: this predicative version applies only to dcpos whose carrier,
+order and index types for directed families all live in the same universe,
+and no non-trivial example of such a dcpo exists without assuming
+propositional resizing, so producing one to apply the theorem to still
+requires such axioms.
 
 By Martin Escardo and Tom de Jong.
 
@@ -2150,8 +2168,10 @@ continuity.
 Berger's modified bar recursion realizes the shift for the continuation
 monad K.
 
-The three of them are by Martin Escardo and Paulo Oliva, as is the rest of
-the directory.
+This Agda formalization, like the rest of the directory, is by Martin
+Escardo and Paulo Oliva, but of the three realizers only the selection one
+is originally theirs: the BBC realizer is due to Berardi, Bezem and
+Coquand, and the modified bar recursion realizer here is due to Berger.
 
 **Publications.**
 
