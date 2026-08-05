@@ -496,50 +496,34 @@ By Martin Escardo and Paulo Oliva.
 ### [DomainTheory](https://martinescardo.github.io/TypeTopology/DomainTheory.index.html)
 
 Domain theory is developed in constructive and predicative univalent
-foundations, accompanying the PhD thesis of Tom de Jong, and its own index
-describes each subdirectory and lists the modules that index the papers.
+foundations. Much of the code accompanies Tom de Jong's PhD thesis "Domain
+Theory in Constructive and Predicative Univalent Foundations" and the index file
+provides an overview of the full development.
 
-The basics are directed complete posets and Scott continuous maps,
-exponentials, least fixed points, embedding-projection pairs, local
-smallness, pointed dcpos and strict maps, sup-complete dcpos, and the
-way-below relation with compactness. Bilimits of directed and of ℕ-indexed
-diagrams are constructed, and with them Scott's D∞, which is isomorphic to
-its own function space.
+We give a brief summary here and highlight the additions outside the
+aforementioned PhD thesis after. The code defines directed complete posets
+(dcpos) and their basic theory. It also develops the theory of continuous and
+algebraic dcpos, with small bases playing an important role in the predicative
+setting where dcpos are large structures. The classical construction of flat
+domains is shown to be constructively inadequate: if the flat poset with carrier
+𝟙 + ℕ is ω-complete/directed complete, then the constructive taboo LPO
+holds. Instead, the Escardó–Knapp lifting (the type of partial elements) is used
+to construct the free pointed dcpo on a set (and with a refined order relation,
+on a dcpo as well). Formalized examples of dcpos include (large) powersets, the
+type of propositions, the poset of ordinals, the type of extended partial
+Dedekind reals, and the ideal completion of the dyadics. Finally, Scott's D∞,
+which is isomorphic to its own function space, is constructed via general
+directed bilimits, and the Scott model of the combinatory version of PCF is also
+defined.
 
-What makes the development predicative is the attention to bases. A dcpo is
-continuous or algebraic when it has a small basis or a small compact basis,
-and with univalence and set replacement the type of small compact bases has
-split support, so that having one is a property rather than data. The
-Ind-completion is used to compare possible definitions of continuity, the
-impredicative setting is treated separately for comparison, and step
-functions show that sup-complete dcpos with small compact bases are closed
-under exponentials. The rounded ideal completion of an abstract basis has a
-small compact basis, and through it every continuous dcpo with a small basis
-is a continuous retract of an algebraic one with a small compact basis.
-
-The examples are chosen to show what these distinctions do. The ideal
-completion of the dyadics is continuous with a small basis but has no
-compact elements at all, and so cannot be algebraic. The type Ω of
-propositions is pointed algebraic with the booleans as a small compact
-basis, and the powerset is pointed algebraic with Kuratowski finite subsets
-as one, whereas the large poset of small ordinals is algebraic with no small
-compact basis. The lifting of a large proposition has a small compact basis
-exactly when the proposition is suitably small. The extended partial
-Dedekind reals are a pointed dcpo.
-
-The lifting freely adds a least element and is the free pointed dcpo on a
-set, algebraic with a small compact basis. The Scott model of PCF is built
-from the combinatory version of the language and the semantics of its K, S
-and ifZero combinators. The Scott topology of a dcpo and its properties are
-developed by Ayberk Tosun, together with the notion of Scott domain, and the
-point-free counterpart is in [Locales](#locales), where the Scott locale of
-a Scott domain is proved spectral. One taboo is recorded: if the flat poset
-on 𝟙 + ℕ is directed complete, then LPO holds.
-
-The index also records what has been left unformalized, namely the closure
-of bounded complete dcpos with small bases under exponentials, the untyped
-λ-calculus interpreted in D∞, and the results on reverse mathematics and
-δ-complete posets from the thesis.
+Martin Escardo ported code by Brendan Hart that formalizes the Scott model for
+the λ-calculus version of PCF and the proof of its computational adequacy.
+The Scott topology of a dcpo and the notion of a Scott domain are formalized by
+Ayberk Tosun. The point-free counterpart is in [Locales](#locales), where the
+Scott locale of a Scott domain is proved spectral.
+Finally, Simcha van Collem showed that, in the presence of propositional
+resizing, canonical continuity and algebraicity data can be defined from their
+respective truncated existence.
 
 By Tom de Jong, Brendan Hart, Ayberk Tosun, Simcha van Collem and Martin
 Escardo.
