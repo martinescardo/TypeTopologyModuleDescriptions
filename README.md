@@ -155,7 +155,11 @@ individual files and their own index modules giving the fuller
 details, references and precise attributions. The attributions are taken
 from the file headers, and for the larger directories they may be
 incomplete (please add yourself if you notice that you are missing, or
-anybody else you notice is missing).
+anybody else you notice is missing). Where an entry names several
+authors, they are listed in order of the amount contributed, without
+saying by how much, since the boundary between one person's
+contribution and another's is usually too blurred for a number to mean
+much.
 
 Where the files record a publication that resulted from the
 development, meaning an article, thesis or abstract by its authors
