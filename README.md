@@ -1118,13 +1118,20 @@ By Martin Escardo and Tom de Jong.
 
 ### [OrderedTypes](https://martinescardo.github.io/TypeTopology/OrderedTypes.index.html)
 
-Ordered structures are developed, namely posets and their reflections,
-frames, σ-frames and σ-sup-lattices, and join-semilattices and sup-lattices
-together with their free constructions on a set, given by the Kuratowski
-finite subsets and by the powerset. Sup-lattices with a small basis, in a
-sense going back to Curi, support a predicative treatment of least fixed
-points, δ-complete posets formalize theorems of Tom de Jong's thesis
-involving resizing, and the axiom of choice is shown to imply Zorn's lemma.
+Various ordered structures are defined, such as posets, frames, σ-frames,
+σ-sup-lattices, join-semilattices, and sup- and inf-lattices. There are also
+related constructions, such as the poset reflection of a preorder, the powerset
+as the free sup-lattice, and the Kuratowski finite subsets as the free
+join-semilattice.
+
+The main theorems of Ch. 6 of Tom de Jong's thesis involving propositional
+resizing and the technical notion of δ-complete poset can be found here too.
+A type-theoretic account of work by Giovanni Curi, due to Ian Ray and
+accompanying his paper referenced below, is part of the development. This
+account is instantiated in the presence of propositional resizing to obtain a
+generalization of Tarski's least fixed point theorem, namely one for endomaps on
+a large sup-lattice with a small basis.
+Finally, the proof that the axiom of choice implies Zorn's lemma is included.
 
 By Tom de Jong, Martin Escardo, Kelton OBrien and Ian Ray.
 
