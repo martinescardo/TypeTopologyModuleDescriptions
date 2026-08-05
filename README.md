@@ -14,14 +14,13 @@ should be updated automatically by the repository maintainers.
 
 ## Table of contents
 
-1\. [Organization](#organization)
-
-2\. [Repository statistics](#repository-statistics)
-
-3\. [Contributors](#contributors)
+1. [Organization](#organization)
+1. [Repository statistics](#repository-statistics)
+1. [Contributors](#contributors)
+1. [Authors](#authors)
 
 <details>
-<summary>4. <a href="#description-of-safe-modules">Description of safe modules</a></summary>
+<summary>5. <a href="#description-of-safe-modules">Description of safe modules</a></summary>
 
 1. [AlgebraicStructuresForcingSethood](#algebraicstructuresforcingsethood)
 1. [Apartness](#apartness)
@@ -113,7 +112,7 @@ should be updated automatically by the repository maintainers.
 </details>
 
 <details>
-<summary>5. <a href="#description-of-unsafe-modules">Description of unsafe modules</a></summary>
+<summary>6. <a href="#description-of-unsafe-modules">Description of unsafe modules</a></summary>
 
 1. [Unsafe](#unsafe)
    1. [Games.Main](#gamesmain)
@@ -132,7 +131,7 @@ should be updated automatically by the repository maintainers.
 
 </details>
 
-6\. [Philosophy of TypeTopology](https://martinescardo.github.io/TypeTopology/)
+7. [Philosophy of TypeTopology](https://martinescardo.github.io/TypeTopology/)
 
 ## Organization
 
@@ -155,11 +154,7 @@ individual files and their own index modules giving the fuller
 details, references and precise attributions. The attributions are taken
 from the file headers, and for the larger directories they may be
 incomplete (please add yourself if you notice that you are missing, or
-anybody else you notice is missing). Where an entry names several
-authors, they are listed in order of the amount contributed, without
-saying by how much, since the boundary between one person's
-contribution and another's is usually too blurred for a number to mean
-much.
+anybody else you notice is missing).
 
 Where the files record a publication that resulted from the
 development, meaning an article, thesis or abstract by its authors
@@ -260,6 +255,15 @@ one of us committed a file written by someone else, which is why some
 contributors have no lines at all in the second column. Neither count
 measures the ideas, the questions posed or the supervision that lie behind
 the files.
+
+[Table of contents](#table-of-contents)
+
+## Authors
+
+Where an entry below names several authors, they are listed in order of
+the amount contributed, without saying by how much, since the boundary
+between one person's contribution and another's is usually too blurred
+for a number to mean much.
 
 [Table of contents](#table-of-contents)
 
