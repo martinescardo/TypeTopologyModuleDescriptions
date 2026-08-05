@@ -263,21 +263,22 @@ the files.
 
 ### [AlgebraicStructuresForcingSethood](https://martinescardo.github.io/TypeTopology/AlgebraicStructuresForcingSethood.index.html)
 
-Here we study algebraic structures whose mere existence on a type forces
-that type to be a set, that is, to have propositional identity types. What
-is striking is that the equations are ordinary ones, imposed on points only,
-with no higher coherence asked for, and yet they collapse the higher
-structure. Any type with a binary operation that is associative, commutative
-and idempotent is a set, so that there are no higher semilattices, and the
-same holds for a type with a ternary majority operation and for one with
-ternary operations satisfying Willard's equations. Weaker hypotheses give
-weaker conclusions: a commutative idempotent operation makes the loop spaces
-commutative, and an operation satisfying a non-trivial idempotent Maltsev
-condition makes the fundamental group abelian. The proofs go through the
-loop spaces, and the streamlined versions factor the original ones through a
-single criterion for their triviality. The ancestry is in universal algebra,
-in results of Taylor from 1977 about topological algebras being homotopy
-equivalent to discrete spaces.
+We study algebraic structures whose mere existence on a type forces
+the type to be a set, that is, to have propositional identity
+types. What is striking is that the equations are ordinary ones,
+imposed on points only, with no higher coherences, and yet
+they collapse the higher structure. Any type with a binary operation
+that is associative, commutative and idempotent is a set, so that
+there are no higher semilattices, and the same holds for a type with a
+ternary majority operation and for one with ternary operations
+satisfying Willard's equations. Weaker hypotheses give weaker
+conclusions: a commutative idempotent operation makes the loop spaces
+commutative, and an operation satisfying a non-trivial idempotent
+Maltsev condition makes the fundamental group abelian. The proofs go
+through the loop spaces, and the streamlined versions factor the
+original ones through a single criterion for their triviality. The
+ancestry is in universal algebra, in results of Taylor from 1977 about
+topological algebras being homotopy equivalent to discrete spaces.
 
 By Jakub Opršal, Tom de Jong and Martin Escardo, the semilattice part
 following David Wärn.
@@ -294,6 +295,8 @@ material was originally part of the development of total separatedness, from
 which it was later split off. Besides the definition and the general
 properties, there are morphisms of apartness types and the tight reflection,
 which universally forces an apartness to be tight.
+
+TODO. I feel that there are some significant things omitted here.
 
 By Martin Escardo and Tom de Jong.
 
@@ -316,16 +319,15 @@ By Martin Escardo and Alex Rice.
 ### [CantorSchroederBernstein](https://martinescardo.github.io/TypeTopology/CantorSchroederBernstein.index.html)
 
 Here the Cantor–Schröder–Bernstein theorem is generalized from sets to
-arbitrary (homotopy) types, so that if there are embeddings between two
-types in both directions, then the types are equivalent. This is proved
-under the assumption of excluded middle, and holds in any boolean ∞-topos. A
-later variation weakens excluded middle to WLPO, at the cost of stronger
-hypotheses on the two embeddings, which is necessary because the theorem for
-sets already implies excluded middle. The classical argument proceeds
-through the notion of a perfect image, with the perfect-image machinery and
-the WLPO variant developed in their own modules.
+arbitrary (homotopy) types, so that if there are embeddings between
+two types in both directions, then the types are equivalent. This is
+proved under the assumption of excluded middle, and holds in any
+boolean ∞-topos. A later variation, by Fredrik Bakke, weakens excluded
+middle to WLPO, at the cost of stronger hypotheses on the two
+embeddings, which is necessary because the theorem for sets already
+implies excluded middle.
 
-By Martin Escardo and Fredrik Bakke.
+By Martin Escardo.
 
 **Publications.**
 
@@ -340,12 +342,10 @@ By Martin Escardo and Fredrik Bakke.
 
 ### [Cardinals](https://martinescardo.github.io/TypeTopology/Cardinals.index.html)
 
-Cardinals are studied in univalent foundations. A cardinal is a set
-truncation of the type of sets in a universe, so that the type of cardinals
-is itself a set, and it carries the expected preorder. The HoTT book obtains
-weak successor cardinals from excluded middle, and what is shown here is
-that suitable propositional resizing assumptions give them constructively
-instead.
+Cardinals are studied in univalent foundations. The HoTT book obtains
+weak successor cardinals from excluded middle, and what is shown here
+is that suitable propositional resizing assumptions give them
+constructively instead.
 
 By Jon Sterling.
 
@@ -1485,7 +1485,7 @@ By Todd Waugh Ambridge, Andrew Sneap and Martin Escardo.
 Here we have the topological view of types after which the repository is
 named. The two should not be confused. TypeTopology is the repository, of
 which this is one directory among 61, and it is the one where the
-topological view itself is developed rather than applied. Types are treated
+topological view itself is developed. Types are treated
 as though they carried an intrinsic topology, so that notions such as
 compactness, in the sense of exhaustive searchability, discreteness, total
 separatedness and the structure of the Cantor type can be studied, along
@@ -1494,7 +1494,7 @@ exhaustively searchable, types and their closure properties, the generic
 convergent sequence and the Cantor type, total separatedness, weakly compact
 types, squashed sums, Rice's theorem for the universe, and the
 indiscreteness of the universe. Crucially, we don't assume continuity axioms
-so that most results hold in all toposes.
+so that all results hold in all toposes.
 
 By Martin Escardo, Andrew Swan, Fredrik Bakke, Chuangjie Xu and Ayberk
 Tosun.
@@ -1834,7 +1834,7 @@ correctness. A putative root is one which is a root provided the function
 has any root at all. This is based on Section 8.1 of "Exhaustible sets in
 higher-type computation", cited under [TypeTopology](#typetopology) above.
 
-By Martin Escardo, with additions by Alice Laroche.
+By Martin Escardo and Alice Laroche.
 
 [Table of contents](#table-of-contents)
 
