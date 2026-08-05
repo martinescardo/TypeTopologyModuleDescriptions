@@ -496,50 +496,34 @@ By Martin Escardo and Paulo Oliva.
 ### [DomainTheory](https://martinescardo.github.io/TypeTopology/DomainTheory.index.html)
 
 Domain theory is developed in constructive and predicative univalent
-foundations, accompanying the PhD thesis of Tom de Jong, and its own index
-describes each subdirectory and lists the modules that index the papers.
+foundations. Much of the code accompanies Tom de Jong's PhD thesis "Domain
+Theory in Constructive and Predicative Univalent Foundations" and the index file
+provides an overview of the full development.
 
-The basics are directed complete posets and Scott continuous maps,
-exponentials, least fixed points, embedding-projection pairs, local
-smallness, pointed dcpos and strict maps, sup-complete dcpos, and the
-way-below relation with compactness. Bilimits of directed and of ℕ-indexed
-diagrams are constructed, and with them Scott's D∞, which is isomorphic to
-its own function space.
+We give a brief summary here and highlight the additions outside the
+aforementioned PhD thesis after. The code defines directed complete posets
+(dcpos) and their basic theory. It also develops the theory of continuous and
+algebraic dcpos, with small bases playing an important role in the predicative
+setting where dcpos are large structures. The classical construction of flat
+domains is shown to be constructively inadequate: if the flat poset with carrier
+𝟙 + ℕ is ω-complete/directed complete, then the constructive taboo LPO
+holds. Instead, the Escardó–Knapp lifting (the type of partial elements) is used
+to construct the free pointed dcpo on a set (and with a refined order relation,
+on a dcpo as well). Formalized examples of dcpos include (large) powersets, the
+type of propositions, the poset of ordinals, the type of extended partial
+Dedekind reals, and the ideal completion of the dyadics. Finally, Scott's D∞,
+which is isomorphic to its own function space, is constructed via general
+directed bilimits, and the Scott model of the combinatory version of PCF is also
+defined.
 
-What makes the development predicative is the attention to bases. A dcpo is
-continuous or algebraic when it has a small basis or a small compact basis,
-and with univalence and set replacement the type of small compact bases has
-split support, so that having one is a property rather than data. The
-Ind-completion is used to compare possible definitions of continuity, the
-impredicative setting is treated separately for comparison, and step
-functions show that sup-complete dcpos with small compact bases are closed
-under exponentials. The rounded ideal completion of an abstract basis has a
-small compact basis, and through it every continuous dcpo with a small basis
-is a continuous retract of an algebraic one with a small compact basis.
-
-The examples are chosen to show what these distinctions do. The ideal
-completion of the dyadics is continuous with a small basis but has no
-compact elements at all, and so cannot be algebraic. The type Ω of
-propositions is pointed algebraic with the booleans as a small compact
-basis, and the powerset is pointed algebraic with Kuratowski finite subsets
-as one, whereas the large poset of small ordinals is algebraic with no small
-compact basis. The lifting of a large proposition has a small compact basis
-exactly when the proposition is suitably small. The extended partial
-Dedekind reals are a pointed dcpo.
-
-The lifting freely adds a least element and is the free pointed dcpo on a
-set, algebraic with a small compact basis. The Scott model of PCF is built
-from the combinatory version of the language and the semantics of its K, S
-and ifZero combinators. The Scott topology of a dcpo and its properties are
-developed by Ayberk Tosun, together with the notion of Scott domain, and the
-point-free counterpart is in [Locales](#locales), where the Scott locale of
-a Scott domain is proved spectral. One taboo is recorded: if the flat poset
-on 𝟙 + ℕ is directed complete, then LPO holds.
-
-The index also records what has been left unformalized, namely the closure
-of bounded complete dcpos with small bases under exponentials, the untyped
-λ-calculus interpreted in D∞, and the results on reverse mathematics and
-δ-complete posets from the thesis.
+Martin Escardo ported code by Brendan Hart that formalizes the Scott model for
+the λ-calculus version of PCF and the proof of its computational adequacy.
+The Scott topology of a dcpo and the notion of a Scott domain are formalized by
+Ayberk Tosun. The point-free counterpart is in [Locales](#locales), where the
+Scott locale of a Scott domain is proved spectral.
+Finally, Simcha van Collem showed that, in the presence of propositional
+resizing, canonical continuity and algebraicity data can be defined from their
+respective truncated existence.
 
 By Tom de Jong, Brendan Hart, Ayberk Tosun, Simcha van Collem and Martin
 Escardo.
@@ -1108,35 +1092,25 @@ By Martin Escardo, Ian Ray and Lane Biocini.
 
 ### [NotionsOfDecidability](https://martinescardo.github.io/TypeTopology/NotionsOfDecidability.index.html)
 
-Various notions of decidability and their relationships are studied, namely
-complemented subsets and their classifier, together with semidecidable and
-quasidecidable propositions.
+Various (closure) properties of decidable types are shown and completed families
+are defined as families of decidable types. The type 𝟚 of booleans is shown to
+classify completed subsets (i.e. completed families of propositions).
 
-A subset is complemented when membership in it is decidable, and the type 𝟚
-of booleans classifies such subsets, just as Ω classifies arbitrary ones. A
-proposition is semidecidable when it is the countable join of a sequence of
-decidable propositions, and what is studied here is which closure properties
-of the semidecidable propositions can be had and at what cost. The answer is
-that it costs a taboo or a choice principle. The three taboos say where the
-semidecidable propositions sit between the decidable ones and all
-propositions. Both inclusions are embeddings, the first is an equivalence
-precisely when LPO holds and the second precisely when the strong
-Brouwer-Kripke schema holds, and Markov's principle says precisely that every
-semidecidable proposition is ¬¬-stable. Being closed under Σ is equivalent
-both to Rosolini's dominance axiom and to a weak choice principle of Escardo
-and Knapp, and being closed under subsingleton countable joins is equivalent
-to a subsingleton form of countable semidecidable choice. Whether closure
-under countable joins likewise amounts to some form of countable choice is
-left as a conjecture, although it is shown to imply the subsingleton form.
-
-The quasidecidable propositions are what one gets by asking instead for the
-least collection of propositions containing 𝟘 and 𝟙 and closed under
-countable existential quantification. They generalize the semidecidable
-ones and they form a dominance. They don't seem to be definable in a spartan
-univalent type theory. Their existence is equivalent to the existence of the
-free σ-sup-lattice on one generator, which is shown to be also the initial
-σ-frame, and they are constructed here both from this hypothesis and from
-propositional resizing, with all assumptions stated explicitly each time.
+In addition, semidecidable and quasidecidable propositions are studied.
+A proposition P is semidecidable if there exists a binary sequence such that P is
+equivalent to the statement that the sequence has a 1 somewhere. The
+constructive taboos LPO, Markov's Principle and strong Brouwer-Kripke-Schema are
+related to closure and embedding properties of the type of semidecidable
+propositions. Closure under Σ and countable joins are related to (weak) choice
+axioms, partly following Escardó–Knapp.
+Motivated by the lack of countable joins (in general) for semidecidable
+propositions, the quasidecidable propositions are defined as the least
+collection of types (which happen to be propositions) closed under the empty
+type, the unit type and ℕ-indexed existential quantification. It seems this
+collection is not definable without higher inductive types or propositional
+resizing. It is shown that the quasidecidable propositions form a dominance. The
+existence of the type of quasidecidable propositions is related to the existence
+of the initial σ-frame and the free σ-sup-lattice on one generator.
 
 By Martin Escardo and Tom de Jong.
 
@@ -1144,13 +1118,20 @@ By Martin Escardo and Tom de Jong.
 
 ### [OrderedTypes](https://martinescardo.github.io/TypeTopology/OrderedTypes.index.html)
 
-Ordered structures are developed, namely posets and their reflections,
-frames, σ-frames and σ-sup-lattices, and join-semilattices and sup-lattices
-together with their free constructions on a set, given by the Kuratowski
-finite subsets and by the powerset. Sup-lattices with a small basis, in a
-sense going back to Curi, support a predicative treatment of least fixed
-points, δ-complete posets formalize theorems of Tom de Jong's thesis
-involving resizing, and the axiom of choice is shown to imply Zorn's lemma.
+Various ordered structures are defined, such as posets, frames, σ-frames,
+σ-sup-lattices, join-semilattices, and sup- and inf-lattices. There are also
+related constructions, such as the poset reflection of a preorder, the powerset
+as the free sup-lattice, and the Kuratowski finite subsets as the free
+join-semilattice.
+
+The main theorems of Ch. 6 of Tom de Jong's thesis involving propositional
+resizing and the technical notion of δ-complete poset can be found here too.
+A type-theoretic account of work by Giovanni Curi, due to Ian Ray and
+accompanying his paper referenced below, is part of the development. This
+account is instantiated in the presence of propositional resizing to obtain a
+generalization of Tarski's least fixed point theorem, namely one for endomaps on
+a large sup-lattice with a small basis.
+Finally, the proof that the axiom of choice implies Zorn's lemma is included.
 
 By Tom de Jong, Martin Escardo, Kelton OBrien and Ian Ray.
 
@@ -1377,9 +1358,18 @@ By Martin Escardo, Ayberk Tosun, Ian Ray and Tom de Jong.
 
 ### [SyntheticHomotopyTheory](https://martinescardo.github.io/TypeTopology/SyntheticHomotopyTheory.index.html)
 
-Synthetic homotopy theory treats spaces directly as types, computing
-homotopy-theoretic invariants inside the type theory. So far it has the
-circle and the infinite real projective space.
+Two types of interest for homotopy theory are defined. The first is the infinite
+dimensional real projective space ℝP∞. Following a paper by Ulrik Buchholtz and
+Egbert Rijke, the simple definition as the connected component of the booleans
+is adopted.
+The second is the (homotopy) circle S¹. Following a paper by Marc Bezem, Ulrik
+Buchholtz, Dan Grayson and Mike Shulman, it is constructed as the type of
+ℤ-torsors.
+
+See also
+[SyntheticHomotopyTheory.Circle.FundamentalGroup](#synthetichomotopytheorycirclefundamentalgroup)
+and
+[SyntheticHomotopyTheory.Circle.WithRewriting](#synthetichomotopytheorycirclewithrewriting).
 
 By Tom de Jong.
 
