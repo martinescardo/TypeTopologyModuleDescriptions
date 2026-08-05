@@ -1358,9 +1358,18 @@ By Martin Escardo, Ayberk Tosun, Ian Ray and Tom de Jong.
 
 ### [SyntheticHomotopyTheory](https://martinescardo.github.io/TypeTopology/SyntheticHomotopyTheory.index.html)
 
-Synthetic homotopy theory treats spaces directly as types, computing
-homotopy-theoretic invariants inside the type theory. So far it has the
-circle and the infinite real projective space.
+Two types of interest for homotopy theory are defined. The first is the infinite
+dimensional real projective space ℝP∞. Following a paper by Ulrik Buchholtz and
+Egbert Rijke, the simple definition as the connected component of the booleans
+is adopted.
+The second is the (homotopy) circle S¹. Following a paper by Marc Bezem, Ulrik
+Buchholtz, Dan Grayson and Mike Shulman, it is constructed as the type of
+ℤ-torsors.
+
+See also
+[SyntheticHomotopyTheory.Circle.FundamentalGroup](#synthetichomotopytheorycirclefundamentalgroup)
+and
+[SyntheticHomotopyTheory.Circle.WithRewriting](#synthetichomotopytheorycirclewithrewriting).
 
 By Tom de Jong.
 
