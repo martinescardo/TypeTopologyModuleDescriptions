@@ -1092,35 +1092,25 @@ By Martin Escardo, Ian Ray and Lane Biocini.
 
 ### [NotionsOfDecidability](https://martinescardo.github.io/TypeTopology/NotionsOfDecidability.index.html)
 
-Various notions of decidability and their relationships are studied, namely
-complemented subsets and their classifier, together with semidecidable and
-quasidecidable propositions.
+Various (closure) properties of decidable types are shown and completed families
+are defined as families of decidable types. The type 𝟚 of booleans is shown to
+classify completed subsets (i.e. completed families of propositions).
 
-A subset is complemented when membership in it is decidable, and the type 𝟚
-of booleans classifies such subsets, just as Ω classifies arbitrary ones. A
-proposition is semidecidable when it is the countable join of a sequence of
-decidable propositions, and what is studied here is which closure properties
-of the semidecidable propositions can be had and at what cost. The answer is
-that it costs a taboo or a choice principle. The three taboos say where the
-semidecidable propositions sit between the decidable ones and all
-propositions. Both inclusions are embeddings, the first is an equivalence
-precisely when LPO holds and the second precisely when the strong
-Brouwer-Kripke schema holds, and Markov's principle says precisely that every
-semidecidable proposition is ¬¬-stable. Being closed under Σ is equivalent
-both to Rosolini's dominance axiom and to a weak choice principle of Escardo
-and Knapp, and being closed under subsingleton countable joins is equivalent
-to a subsingleton form of countable semidecidable choice. Whether closure
-under countable joins likewise amounts to some form of countable choice is
-left as a conjecture, although it is shown to imply the subsingleton form.
-
-The quasidecidable propositions are what one gets by asking instead for the
-least collection of propositions containing 𝟘 and 𝟙 and closed under
-countable existential quantification. They generalize the semidecidable
-ones and they form a dominance. They don't seem to be definable in a spartan
-univalent type theory. Their existence is equivalent to the existence of the
-free σ-sup-lattice on one generator, which is shown to be also the initial
-σ-frame, and they are constructed here both from this hypothesis and from
-propositional resizing, with all assumptions stated explicitly each time.
+In addition, semidecidable and quasidecidable propositions are studied.
+A proposition P is semidecidable if there exists a binary sequence such that P is
+equivalent to the statement that the sequence has a 1 somewhere. The
+constructive taboos LPO, Markov's Principle and strong Brouwer-Kripke-Schema are
+related to closure and embedding properties of the type of semidecidable
+propositions. Closure under Σ and countable joins are related to (weak) choice
+axioms, partly following Escardó–Knapp.
+Motivated by the lack of countable joins (in general) for semidecidable
+propositions, the quasidecidable propositions are defined as the least
+collection of types (which happen to be propositions) closed under the empty
+type, the unit type and ℕ-indexed existential quantification. It seems this
+collection is not definable without higher inductive types or propositional
+resizing. It is shown that the quasidecidable propositions form a dominance. The
+existence of the type of quasidecidable propositions is related to the existence
+of the initial σ-frame and the free σ-sup-lattice on one generator.
 
 By Martin Escardo and Tom de Jong.
 
