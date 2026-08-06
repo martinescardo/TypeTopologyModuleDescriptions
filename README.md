@@ -4,9 +4,11 @@ This file describes what each directory of
 [TypeTopology](https://github.com/martinescardo/TypeTopology) does.
 
 It was automatically generated using various command-line tools and
-generative AI, and then manually curated by Martin Escardo, July 2026,
-over a period of two weeks, but significant errors and omissions may
-still remain, given the [magnitude of the repository](#repository-statistics).
+generative AI, and then manually curated by Martin Escardo,
+July–August 2026, over a period of five weeks. Tom de Jong suggested
+and contributed further revisions over the span of two weeks. However,
+significant errors and omissions may still remain, given the
+[magnitude of the repository](#repository-statistics).
 
 From now on, anybody contributing to TypeTopology should update this
 file whenever appropriate, manually, although the statistics below
