@@ -1617,8 +1617,7 @@ By Jon Sterling and Martin Escardo.
 ### [Various](https://martinescardo.github.io/TypeTopology/Various.index.html)
 
 Miscellaneous results of interest that do not belong naturally to any
-of the other directories are collected here, rather than forced into
-an ill-fitting home.
+of the other directories are collected here.
 
 By Martin Escardo, Tom de Jong, Alice Laroche, Evan Cavallo and Jon
 Sterling.
