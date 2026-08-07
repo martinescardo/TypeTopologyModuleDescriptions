@@ -1992,7 +1992,7 @@ By Marc Bezem, Thierry Coquand, Peter Dybjer and Martin Escardo.
 These proofs are kept as they were so that [this mathstodon discussion](https://mathstodon.xyz/deck/@MartinEscardo/115751523590095370) can be understood in its
 original context. The conclusion of that discussion is that they are not
 wrong after all, translating to the known proofs by the encode-decode
-method.
+method, but, crucially relying on having a universe.
 
 By Martin Escardo.
 
