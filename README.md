@@ -1392,18 +1392,19 @@ omniscience principles of Bishop, together with statements that are
 shown to be constructive taboos in the sense of Aczel by reducing them
 to such principles.
 
-The omniscience principles come first. LPO is the compactness of
-ℕ, that is, for every binary sequence either some term is 0 or all of them
-are 1, and it is treated both in this form, which is not a proposition
-because there may be many such terms, and in its truncated form. WLPO is
-stated here as saying that every element of the type ℕ∞ of conatural numbers is ∞ or not, and this is proved equivalent to the
-traditional formulation, that it is decidable whether a binary sequence is
-constantly 1. Markov's principle is here too, with the fact that it and WLPO
-together give LPO. LPO and WLPO are independent, holding in the model of
-classical sets and failing in recursive models. LLPO is stated with
-disjunction, and it is the untruncated version, with + in place of ∨, that
-implies WLPO and is an instance of De Morgan's Law, whereas the truncated
-one is known not to imply it.
+The omniscience principles come first. LPO is the compactness of ℕ,
+that is, for every binary sequence either some term is 0 or all of
+them are 1, and it is treated both in this form, which is not a
+proposition because there may be many such terms, and in its truncated
+form. WLPO is stated here as saying that every element of the type ℕ∞
+of conatural numbers is ∞ or not, and this is proved equivalent to the
+traditional formulation, that it is decidable whether a binary
+sequence is constantly 1. Markov's principle is here too, with the
+fact that it and WLPO together give LPO. LPO and WLPO are independent,
+holding in the model of classical sets and failing in recursive
+models. LLPO is stated with disjunction, and its untruncated version,
+with + in place of disjunction ∨, implies WLPO and is an instance of
+De Morgan's Law, whereas the truncated one is known not to imply it.
 
 Then come taboos of a more geometric flavour. A function ℕ∞ → 𝟚 that takes
 the value 0 at every finite element and the value 1 at ∞ gives WLPO.
