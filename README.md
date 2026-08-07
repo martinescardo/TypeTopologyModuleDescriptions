@@ -1052,7 +1052,7 @@ By Jon Sterling and Andrew Swan.
 
 ### [MonadOnTypes](https://martinescardo.github.io/TypeTopology/MonadOnTypes.index.html)
 
-Wild monads on types are developed, carrying a universe-level parameter so
+Wild monads on types are developed, carrying a universe-level transformer so
 that the value of a monad may live in a higher universe than its argument, as
 for the powerset monad, whose value on a type in 𝓤 lands in 𝓤⁺. The monad
 laws are imposed, as identifications, and the monads are wild in that no
