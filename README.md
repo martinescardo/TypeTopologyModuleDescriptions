@@ -1387,9 +1387,9 @@ By Tom de Jong.
 ### [Taboos](https://martinescardo.github.io/TypeTopology/Taboos.index.html)
 
 The non-constructive principles that mark the boundary of constructive
-reasoning are collected here, chiefly excluded middle and the omniscience
-principles of Bishop, together with statements that are shown to be taboos
-by reducing them to such principles.
+reasoning are collected here, chiefly excluded middle and the
+omniscience principles of Bishop, together with statements that are
+shown to be constructive taboos by reducing them to such principles.
 
 The omniscience principles come first. LPO is the compactness of
 ℕ, that is, for every binary sequence either some term is 0 or all of them
