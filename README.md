@@ -1103,8 +1103,7 @@ By Martin Escardo, Ian Ray and Lane Biocini.
 ### [NotionsOfDecidability](https://martinescardo.github.io/TypeTopology/NotionsOfDecidability.index.html)
 
 Various (closure) properties of decidable types are discussed. The
-type 𝟚 of booleans is shown to classify completed subsets
-(i.e. completed families of propositions).
+type 𝟚 of booleans is shown to classify completed subsets.
 
 In addition, semidecidable and quasidecidable propositions are studied.
 A proposition P is semidecidable if there exists a binary sequence such that P is
