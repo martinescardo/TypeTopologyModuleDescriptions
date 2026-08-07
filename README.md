@@ -1686,10 +1686,7 @@ Dummett disjunction of two propositions P and Q, defined as ((P → Q) → Q) ×
 ((Q → P) → P), is weaker than intuitionistic disjunction and stronger than
 classical disjunction, agreeing with intuitionistic disjunction under
 Dummett's linearity axiom (P → Q) + (Q → P) or whenever one of the
-propositions is decidable. It arose from a universe-preserving variant of
-propositional truncation indexed by the booleans, motivated by univalent
-foundations, and a weak, asymmetric form of it, (P → Q) → Q, is studied
-alongside it.
+propositions is decidable. Many more things in this direction are discussed.
 
 By Martin Escardo.
 
