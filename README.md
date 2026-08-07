@@ -1835,11 +1835,11 @@ By Martin Escardo and Tom de Jong.
 
 #### [Various.RootsOfBooleanFunctions](https://martinescardo.github.io/TypeTopology/Various.RootsOfBooleanFunctions.html)
 
-A formula is given for a putative root of any boolean function 𝟚ⁿ → 𝟚,
-written using only the function and ₀, together with a proof of its
-correctness. A putative root is one which is a root provided the function
-has any root at all. This is based on Section 8.1 of "Exhaustible sets in
-higher-type computation", cited under [TypeTopology](#typetopology) above.
+A formula is given for a putative root of any boolean function f : 𝟚ⁿ → 𝟚, written using only the function f and the constant 0, together
+with a proof of its correctness. A putative root is one which is a
+root provided the function has any root at all. This is based on
+Section 8.1 of "Exhaustible sets in higher-type computation", cited
+under [TypeTopology](#typetopology) above.
 
 By Martin Escardo and Alice Laroche.
 
