@@ -1395,8 +1395,7 @@ The omniscience principles come first. LPO is the compactness of
 ℕ, that is, for every binary sequence either some term is 0 or all of them
 are 1, and it is treated both in this form, which is not a proposition
 because there may be many such terms, and in its truncated form. WLPO is
-stated here as saying that every element of the type ℕ∞ of decreasing binary
-sequences either is ∞ or is not, and this is proved equivalent to the
+stated here as saying that every element of the type ℕ∞ of conatural numbers either is ∞ or is not, and this is proved equivalent to the
 traditional formulation, that it is decidable whether a binary sequence is
 constantly 1. Markov's principle is here too, with the fact that it and WLPO
 together give LPO. LPO and WLPO are independent, holding in the model of
