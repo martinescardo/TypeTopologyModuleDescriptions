@@ -1344,8 +1344,8 @@ monad relative. Decidable equality on X is needed in order to form T X, but
 T X is not required to have decidable equality in turn, so T is not an
 endofunctor, and the monad is given instead by a unit and an extension
 operator, following Altenkirch, Chapman and Uustalu. The structure
-considered is required to be closed under 𝟙 and Σ, and the definition is
-parametrized by a map of universes, so that examples such as the non-empty
+considered is required to be closed under 𝟙 and Σ, and the definition
+carries a universe-level transformer, so that examples such as the non-empty
 powerset, which raise the universe level, are covered as well. There is also
 a monad transformer sending T to JT X = (X → T R) → T X.
 
