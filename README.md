@@ -1213,7 +1213,7 @@ ordinals.
 Ordinals are also presented syntactically, by Brouwer codes and by other
 notation systems, each with its interpretation. Among the concrete ordinals
 there are the ordinal of truth values, the ordinals below ω given by Fin, a
-Church encoding, and the convergent sequence ℕ∞. A supremum of a
+Church encoding, and the conatural numbers ℕ∞. A supremum of a
 compact-indexed family of compact ordinals is compact, and the lexicographic
 order gives further compactness results. There is also machinery for
 transporting and extending well-orders and for identifying equivalent
