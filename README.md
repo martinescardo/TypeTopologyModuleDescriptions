@@ -1874,7 +1874,8 @@ Examples used for discussion or illustration are kept here, together with
 blackboard-style experiments which, if successful, are eventually moved to
 the main directories.
 
-By Martin Escardo, Alice Laroche, Ayberk Tosun and others.
+By Martin Escardo, Alice Laroche, Ayberk Tosun, Stefano Gogioso, Marc Bezem,
+Thierry Coquand, Peter Dybjer, Jakub Opršal and Tom de Jong.
 
 [Table of contents](#table-of-contents)
 
