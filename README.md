@@ -1233,7 +1233,8 @@ transporting and extending well-orders and for identifying equivalent
 ordinals.
 
 By Martin Escardo, Tom de Jong, Fredrik Nordvall Forsberg, Nicolai Kraus,
-Chuangjie Xu, Andrew Swan and Alice Laroche.
+Chuangjie Xu, Andrew Swan, Alice Laroche, Marc Bezem, Thierry Coquand and
+Peter Dybjer.
 
 **Publications.**
 
@@ -1588,17 +1589,43 @@ Lumsdaine, and a derivation of function extensionality from a generalization
 of univalence taken from Cory Knapp's thesis.
 
 On this rest equivalences and embeddings, subsingletons, sets and h-levels,
-Hedberg's theorem, the structure identity principle with its examples, the
-subtype and other classifiers, the powerset in several variants, image and
+Hedberg's theorem, discrete and ¬¬-separated types, the structure identity
+principle with its examples, identity systems, the subtype and other
+classifiers, the powerset in variants differing in how they treat universes
+and resizing, together with its Kuratowski-finite subsets, image and
 surjection, size and resizing, the Yoneda machinery with the embedding
 Id : X → (X → 𝓤), the cumulative hierarchy, and a semistrict identity type
-whose composition is definitionally associative and unital. A more recent
-strand develops general truncations defined by records, pushouts, sequential
-colimits, connected types and the axiom of replacement.
+whose composition is definitionally associative and unital. There are also
+general truncations defined by records, homotopy pullbacks, pushouts,
+sequential colimits, connected types and the axiom of replacement.
+
+A type is collapsible when it has a weakly constant endomap. Kraus's lemma,
+that the fixed points of such an endomap form a proposition, holds in pure
+Martin-Löf type theory, and gives a propositional truncation of any
+collapsible type that one can exit, obtaining a point of the type. A family
+indexed by a proposition has its product and its sum equivalent to the fibre
+over any point of the index, while over an empty index the product is the
+unit type and the sum is the empty type. Groupoids are defined directly
+rather than as the types of h-level two, which keeps their basic theory free
+of univalence, and the two definitions are proved to agree when univalence is
+assumed. Univalence transports a structure along an equivalence, and this
+transport is characterised by acting as the identity at the identity
+equivalence, so any explicitly defined operation with that property agrees
+with it and is easier to compute with.
+
+Under univalence any universe embeds into any larger one, which has to be
+proved because the type theory used here has no cumulativity. Local smallness
+has a version graded by truncation level, which is closed under truncation
+and strong enough that requiring it of all truncated types gives
+propositional resizing. Smallness is closed under equivalence and under Σ,
+and under Π given function extensionality. Small maps are closed under
+composition, and a decidable embedding is small with respect to every
+universe, as is the embedding Id : X → (X → 𝓤) under univalence, although its
+codomain lies in a larger universe.
 
 By Martin Escardo, Ian Ray, Tom de Jong, Cory Knapp, Jon Sterling, Ayberk
-Tosun, Nicolai Kraus, Fredrik Nordvall Forsberg, Chuangjie Xu and Ettore
-Aldrovandi.
+Tosun, Nicolai Kraus, Fredrik Nordvall Forsberg, Chuangjie Xu, Ettore
+Aldrovandi, Marc Bezem, Thierry Coquand and Peter Dybjer.
 
 **Publications.**
 
