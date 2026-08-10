@@ -308,9 +308,19 @@ equal, one gives positive information witnessing that they are apart. This
 material was originally part of the development of total separatedness, from
 which it was later split off. Besides the definition and the general
 properties, there are morphisms of apartness types and the tight reflection,
-which universally forces an apartness to be tight.
+which universally forces an apartness to be tight. A strong version of the
+notion is also considered, whose cotransitivity is untruncated. Elements that
+are not not equal are never apart, and it follows that a type with a tight
+apartness is a set. The negation of an apartness has a positive
+characterization, two elements failing to be apart precisely when the same
+elements are apart from both, which as far as we know is new.
 
-TODO. I feel that there are some significant things omitted here.
+An apartness is nontrivial when it does tell two points apart. Weak excluded
+middle gives a nontrivial apartness on any type with two distinct points.
+Classically the negation of equality is the only tight apartness a type can
+have, but this uniqueness is a taboo. For the Cantor type it implies that
+WLPO gives LPO, and for ℕ, or any discrete type with two distinct points, it
+gives double negation elimination.
 
 By Martin Escardo and Tom de Jong.
 
@@ -322,7 +332,7 @@ The initial binary system is constructed, with variations on the
 construction. A binary system is a type with two endofunctions and a point,
 satisfying equations that make it the algebra underlying binary subdivision,
 and hence closely related to the interval and to signed binary notation for
-real numbers. Different presentations are compared, one working with a
+dyadic numbers. Different presentations are compared, one working with a
 subtype of normal elements, a second, simpler one that avoids it, and a
 cubical variant.
 
