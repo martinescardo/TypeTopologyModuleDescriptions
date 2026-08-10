@@ -304,16 +304,15 @@ following David Wärn.
 Apartness relations, including tight apartness, are treated together with
 their basic theory. An apartness is the positive, constructive counterpart
 of the negation of equality. Rather than saying that two points are not
-equal, one gives positive information witnessing that they are apart. This
-material was originally part of the development of total separatedness, from
-which it was later split off. Besides the definition and the general
-properties, there are morphisms of apartness types and the tight reflection,
-which universally forces an apartness to be tight. A strong version of the
-notion is also considered, whose cotransitivity is untruncated. Elements that
-are not not equal are never apart, and it follows that a type with a tight
-apartness is a set. The negation of an apartness has a positive
-characterization, two elements failing to be apart precisely when the same
-elements are apart from both, which as far as we know is new.
+equal, one gives positive information witnessing that they are apart.
+Besides the definition and the general properties, there are morphisms of
+apartness types and the tight reflection, which universally forces an
+apartness to be tight. A strong version of the notion is also considered,
+whose cotransitivity is untruncated. Elements that are not not equal are
+never apart, and it follows that a type with a tight apartness is a set. The
+negation of an apartness has a positive characterization, two elements
+failing to be apart precisely when the same elements are apart from both,
+which as far as we know is new.
 
 An apartness is nontrivial when it does tell two points apart. Weak excluded
 middle gives a nontrivial apartness on any type with two distinct points.
