@@ -317,9 +317,9 @@ which as far as we know is new.
 An apartness is nontrivial when it does tell two points apart. Weak excluded
 middle gives a nontrivial apartness on any type with two distinct points.
 Classically the negation of equality is the only tight apartness a type can
-have, but this uniqueness is a taboo. For the Cantor type it implies that
-WLPO gives LPO, and for ℕ, or any discrete type with two distinct points, it
-gives double negation elimination.
+have, but this uniqueness is a constructive taboo. For the Cantor type it
+implies that WLPO gives LPO, and for ℕ, or any discrete type with two
+distinct points, it gives double negation elimination.
 
 By Martin Escardo and Tom de Jong.
 
@@ -1419,7 +1419,7 @@ models. LLPO is stated with disjunction, and its untruncated version,
 with + in place of disjunction ∨, implies WLPO and is an instance of
 De Morgan's Law, whereas the truncated one is known not to imply it.
 
-Then come taboos of a more geometric flavour. A function ℕ∞ → 𝟚 that takes
+Then come taboos of a more topological flavour. A function ℕ∞ → 𝟚 that takes
 the value 0 at every finite element and the value 1 at ∞ gives WLPO.
 Equivalently, it is a taboo that the constant sequence 0 converges to the
 number 1 in the binary numbers, which a Brouwerian continuity axiom, not
