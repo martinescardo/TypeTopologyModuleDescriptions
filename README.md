@@ -1507,17 +1507,40 @@ By Todd Waugh Ambridge, Andrew Sneap and Martin Escardo.
 
 Here we have the topological view of types after which the repository is
 named. The two should not be confused. TypeTopology is the repository, of
-which this is one directory among 61, and it is the one where the
-topological view itself is developed. Types are treated
-as though they carried an intrinsic topology, so that notions such as
-compactness, in the sense of exhaustive searchability, discreteness, total
-separatedness and the structure of the Cantor type can be studied, along
-with the ways in which they interact. Concretely this includes compact, or
-exhaustively searchable, types and their closure properties, the generic
-convergent sequence and the Cantor type, total separatedness, weakly compact
-types, squashed sums, Rice's theorem for the universe, and the
-indiscreteness of the universe. Crucially, we don't assume continuity axioms
-so that all results hold in all toposes.
+which this is one directory among 61, and it is the one where the topological
+view itself is developed. Types are treated as though they carried an
+intrinsic topology, so that notions such as compactness, in the sense of
+exhaustive searchability, discreteness, total separatedness, disconnectedness,
+sequential Hausdorffness and the structure of the Cantor type can be studied,
+along with the ways in which they interact. Concretely this includes compact, or exhaustively
+searchable, types and their closure properties, the generic convergent
+sequence and the Cantor type, total separatedness, weakly compact types,
+squashed sums, Rice's theorem for the universe, and the indiscreteness of the
+universe.
+
+Not only is the generic convergent sequence compact, but minimal witnesses
+can be found. The totally separated reflection is constructed in two ways, as
+the image of the evaluation map into ((X → 𝟚) → 𝟚) and as a set quotient. The
+Cantor type is searchable for uniformly continuous decidable predicates, and
+more generally so is ℕ → X for any compact X. For any function ℕ∞ → ℕ it is
+decidable whether it fails to be continuous, and for any function ℕ∞ → 𝟚 it
+is decidable whether it takes the value 1 at every finite element. The simple
+types, generated from ℕ by function types, all have ℕ as a retract, so none
+of them is 𝟚-compact unless WLPO holds. A product of pointed compact types
+indexed by a proposition is compact, whereas assuming this for compact types
+that are not pointed gives weak excluded middle. Compactness is upwards
+absolute for modalities, a type compact in the internal logic of a reflective
+subuniverse being compact as a type, though not conversely. Sums do not
+preserve total separatedness, and the compact ordinals are nevertheless shown
+to be totally separated by exhibiting them as retracts of the Cantor type,
+which suffices because total separatedness is inherited by retracts. The
+decreasing sequences of natural numbers bounded by a fixed number form a
+Stone type, being both compact and totally separated. The Cantor type with a
+point removed, in the sense of the subtype of points apart from it, is
+isomorphic to ℕ × (ℕ → 𝟚). A point is a limit point when its being isolated
+would imply WLPO, a formulation chosen to stay agnostic about classical
+principles, since under excluded middle every point of a set is isolated. Crucially, we
+don't assume continuity axioms so that all results hold in all toposes.
 
 By Martin Escardo, Andrew Swan, Fredrik Bakke, Chuangjie Xu and Ayberk
 Tosun.
