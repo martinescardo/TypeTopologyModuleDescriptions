@@ -983,19 +983,20 @@ uses function extensionality, propositional truncation, and set replacement
 whilst avoiding both excluded middle and propositional resizing. Due to the
 predicative nature of the foundational setting, the category of locales
 considered is that of large, locally small, and small-complete locales. This
-requires suitable reformulations of many standard notions of locale, which a key
-contribution of this development.
+requires suitable reformulations of many established definitions of locale
+theory, which is a key contribution of this development.
 
 The project began with the goal of constructing the patch locale of a spectral
 locale in univalent foundations, building on Escardó’s characterization of it as
 the frame of Scott-continuous nuclei. Achieving this required a substantial
-development of general point-free topology, and the work has thus expanded into
-a broader study of locale theory in univalent foundations. Salient topological
+development of general point-free topology and the work has thus expanded into a
+broader study of locale theory in univalent foundations. Salient topological
 notions developed include compactness, the way-below relation, clopens, the
 well-inside relation, regularity, zero-dimensionality, bases (especially small
-bases), sublocales, and patch topology in localic form. Salient examples of
-locales studied in this development include the terminal locale, the Sierpiński
-locale, the discrete locale, and the Scott locale of an algebraic DCPO.
+bases), sublocales, the patch topology (in localic form), and Stone dualit.
+Salient examples of locales studied in this development include the terminal
+locale, the Sierpiński locale, the discrete locale, and the Scott locale of an
+algebraic DCPO.
 
 A further strand of work is on the point-free topology of domains. This uses Tom
 de Jong's development of domain theory and connects the two TypeTopology
@@ -1003,8 +1004,8 @@ developments via the Scott topology. Key constructions and theorems include the
 Scott locale of an algebraic DCPO, the spectrality of the Scott locale of a
 Scott domain (involving nontrivial base constructions in the predicative
 setting), the characterization of points of the patch of the Scott locale of a
-Scott domain. The Sierpiński locale is also constructed as the Scott locale
-of the Sierpiński DCPO.
+Scott domain. The Sierpiński locale is also constructed as the Scott locale of
+the Sierpiński DCPO.
 
 By Ayberk Tosun.
 
