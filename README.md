@@ -993,7 +993,7 @@ development of general point-free topology and the work has thus expanded into a
 broader study of locale theory in univalent foundations. Salient topological
 notions developed include compactness, the way-below relation, clopens, the
 well-inside relation, regularity, zero-dimensionality, bases (especially small
-bases), sublocales, the patch topology (in localic form), and Stone dualit.
+bases), sublocales, the patch topology (in localic form), and Stone duality.
 Salient examples of locales studied in this development include the terminal
 locale, the Sierpiński locale, the discrete locale, and the Scott locale of an
 algebraic DCPO.
