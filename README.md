@@ -561,9 +561,9 @@ the λ-calculus version of PCF and the proof of its computational adequacy.
 The Scott topology of a dcpo and the notion of a Scott domain are formalized by
 Ayberk Tosun. The point-free counterpart is in [Locales](#locales), where the
 Scott locale of a Scott domain is proved spectral.
-Finally, Simcha van Collem showed that, in the presence of propositional
-resizing, canonical continuity and algebraicity data can be defined from their
-respective truncated existence.
+Finally, Simcha van Collem showed that for small dcpos (which exist in the
+presence of propositional resizing), canonical continuity and algebraicity data
+can be defined from their respective truncated existence.
 
 By Tom de Jong, Brendan Hart, Ayberk Tosun, Simcha van Collem and Martin
 Escardo.
@@ -1405,9 +1405,9 @@ By Martin Escardo, Ayberk Tosun, Ian Ray and Tom de Jong.
 ### [SyntheticHomotopyTheory](https://martinescardo.github.io/TypeTopology/SyntheticHomotopyTheory.index.html)
 
 Two types of interest for homotopy theory are defined. The first is the infinite
-dimensional real projective space ℝP∞. Following a paper by Ulrik Buchholtz and
-Egbert Rijke, the simple definition as the connected component of the booleans
-is adopted.
+dimensional real projective space ℝP∞. Justified by a paper by Ulrik Buchholtz
+and Egbert Rijke, the simple definition as the connected component of the
+booleans is adopted.
 The second is the (homotopy) circle S¹. Following a paper by Marc Bezem, Ulrik
 Buchholtz, Dan Grayson and Mike Shulman, it is constructed as the type of
 ℤ-torsors.
