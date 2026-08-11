@@ -2443,3 +2443,5 @@ repository.
 * [Nobuo Yoneda](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Yoneda%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
 * [Ernst Zermelo](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Zermelo%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
 * [Max Zorn](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Zorn%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
+
+[Table of contents](#table-of-contents)
