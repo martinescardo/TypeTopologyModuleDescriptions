@@ -139,14 +139,14 @@ should be updated automatically by the repository maintainers.
 ## Organization
 
 There is one entry for each of the directories imported by the module
-[index](https://martinescardo.github.io/TypeTopology/index.html), a paragraph
-or a few for each, in alphabetical order, except for [Various](#various) and
-[gist](#gist), which collect miscellaneous material and come at the end. A final section
-describes the modules that are not `--safe`, which are those imported by
+[index](https://martinescardo.github.io/TypeTopology/index.html), a
+paragraph or a few for each, in alphabetical order, except for
+[Various](#various) and [gist](#gist), which collect miscellaneous material
+and come at the end. A final section describes the modules that are not
+`--safe`, which are those imported by
 [Unsafe.index](https://martinescardo.github.io/TypeTopology/Unsafe.index.html)
-and three of those of
-[InfinitePigeon](#infinitepigeon),
-saying in each case which Agda option is responsible.
+and three of those of [InfinitePigeon](#infinitepigeon), saying in each case
+which Agda option is responsible.
 
 The names of the directories and modules link to their html rendering, which
 lives at <https://martinescardo.github.io/TypeTopology/>.
@@ -159,23 +159,24 @@ from the file headers, and for the larger directories they may be
 incomplete (please add yourself if you notice that you are missing, or
 anybody else you notice is missing).
 
-Where the files record a publication that resulted from the
-development, meaning an article, thesis or abstract by its authors
-reporting this work, or the unformalized counterpart that this
-formalizes, it is listed after the authors. The [README](https://github.com/martinescardo/TypeTopology/blob/master/README.md) of
-the repository has the same
+Where the files record a publication that resulted from the development,
+meaning an article, thesis or abstract by its authors reporting this work,
+or the unformalized counterpart that this formalizes, it is listed after the
+authors. The
+[README](https://github.com/martinescardo/TypeTopology/blob/master/README.md)
+of the repository has the same
 [publications](https://github.com/martinescardo/TypeTopology/blob/master/README.md#academic-publications-and-preprints-resulting-from-typetopology)
 in a single chronological list, and what the entries below add is the
-directory that each of them concerns. A number of the files are new
-research that haven't been written up as papers or submitted for
-publication yet, although they are intended to eventually be.
+directory that each of them concerns. A number of the files are new research
+that haven't been written up as papers or submitted for publication yet,
+although they are intended to eventually be.
 
 [Table of contents](#table-of-contents)
 
 ## Repository statistics
 
-The counts below were taken on <!--#date-->11th August 2026<!--/#-->, over the Agda files tracked
-by git in the directory source.
+The counts below were taken on <!--#date-->11th August 2026<!--/#-->, over
+the Agda files tracked by git in the directory source.
 
 | what is counted | count |
 | --- | ---: |
@@ -185,9 +186,15 @@ by git in the directory source.
 | Directories | <!--#dirs-->61<!--/#--> |
 | Contributors | <!--#contributors-->35<!--/#--> |
 
-Of the <!--#dirs-->61<!--/#--> directories, <!--#indexed-->59<!--/#--> are imported by [index](https://martinescardo.github.io/TypeTopology/index.html) and are described below, and the
-remaining two, [InfinitePigeon](#infinitepigeon) and [Unsafe](#unsafe), are reached only through [AllModulesIndex](https://martinescardo.github.io/TypeTopology/AllModulesIndex.html). Besides the directories,
-the [root of source](https://github.com/martinescardo/TypeTopology/tree/master/source) holds those two index files themselves.
+Of the <!--#dirs-->61<!--/#--> directories, <!--#indexed-->59<!--/#--> are
+imported by [index](https://martinescardo.github.io/TypeTopology/index.html)
+and are described below, and the remaining two,
+[InfinitePigeon](#infinitepigeon) and [Unsafe](#unsafe), are reached only
+through
+[AllModulesIndex](https://martinescardo.github.io/TypeTopology/AllModulesIndex.html).
+Besides the directories, the [root of
+source](https://github.com/martinescardo/TypeTopology/tree/master/source)
+holds those two index files themselves.
 
 The twelve largest directories account for about two thirds of the lines.
 One of them, `TypeTopology`, bears the same name as the repository; it is the
@@ -219,13 +226,14 @@ TypeTopology was started by Martin Escardo at around 2010, and by now
 there are many contributors, including former and current students,
 collaborators, and people doing their own work.
 
-To put numbers on this, the table below gives the share of the <!--#files-->990<!--/#--> Agda
-files of the repository that is due to each of us, counted in two ways. The
-first column attributes each file to the authors named in its header,
-splitting a file equally when it names several, and resolves the few files
-with no name in the header by the git history. The second column is what git
-blame reports, after merging the aliases under which some of us commit, and
-so it counts the author of the last change to each line.
+To put numbers on this, the table below gives the share of the
+<!--#files-->990<!--/#--> Agda files of the repository that is due to each
+of us, counted in two ways. The first column attributes each file to the
+authors named in its header, splitting a file equally when it names several,
+and resolves the few files with no name in the header by the git history.
+The second column is what git blame reports, after merging the aliases under
+which some of us commit, and so it counts the author of the last change to
+each line.
 
 <!-- ttstats:contributors -->
 | | by header | by blame |
@@ -247,13 +255,15 @@ so it counts the author of the last change to each line.
 | others | 5.0% | 3.5% |
 <!-- /ttstats:contributors -->
 
-The table was last updated on <!--#date-->11th August 2026<!--/#-->. It names only those of us who
-reach 1% in at least one of the two columns, and so it is not a list of
-contributors.
-The [full list](https://github.com/martinescardo/TypeTopology/blob/master/README.md#current-contributors-in-alphabetical-order-of-first-name)
-is in the [README](https://github.com/martinescardo/TypeTopology/blob/master/README.md) of the repository, which also records two
-contributors who wrote no Agda here, having contributed to constructions,
-theorems and proofs through the hands of others.
+The table was last updated on <!--#date-->11th August 2026<!--/#-->. It
+names only those of us who reach 1% in at least one of the two columns, and
+so it is not a list of contributors. The [full
+list](https://github.com/martinescardo/TypeTopology/blob/master/README.md#current-contributors-in-alphabetical-order-of-first-name)
+is in the
+[README](https://github.com/martinescardo/TypeTopology/blob/master/README.md)
+of the repository, which also records two contributors who wrote no Agda
+here, having contributed to constructions, theorems and proofs through the
+hands of others.
 
 Both counts include comments and blank lines. They differ where a file was
 later edited, refactored or renamed by someone other than its author, which
@@ -514,8 +524,9 @@ The Dedekind real numbers are constructed as two-sided Dedekind cuts,
 together with their arithmetic and order. A real is a pair of a lower and an
 upper cut, and the library develops addition, multiplication, order and
 their properties, with a mechanism for extending functions to the reals.
-This is the proper library of Dedekind reals, whereas [Various.Dedekind](#variousdedekind) is separate, being
-exploratory notes rather than a library.
+This is the proper library of Dedekind reals, whereas
+[Various.Dedekind](#variousdedekind) is separate, being exploratory notes
+rather than a library.
 
 By Andrew Sneap.
 
@@ -632,10 +643,11 @@ By Andrew Sneap.
 
 Here the dyadic rationals are defined inductively, as suggested by Martin
 Escardo and formalized by Tom de Jong, giving an alternative to the
-construction in the [Dyadics](#dyadics) directory. Those of the open interval from −1 to 1
-are generated from its midpoint by the two maps that send x to (x−1)/2 and
-to (x+1)/2, an order on them is defined inductively and shown to be
-transitive and linear, and density and the absence of endpoints are proved.
+construction in the [Dyadics](#dyadics) directory. Those of the open
+interval from −1 to 1 are generated from its midpoint by the two maps that
+send x to (x−1)/2 and to (x+1)/2, an order on them is defined inductively
+and shown to be transitive and linear, and density and the absence of
+endpoints are proved.
 
 By Tom de Jong.
 
@@ -691,14 +703,16 @@ the insertion of generators to a homomorphism, uniquely up to the
 equivalence relation of that egroup.
 
 Size is measured by the relation of a setoid rather than by its identity
-type. As in [Groups.Large](https://martinescardo.github.io/TypeTopology/Groups.Large.html), the free egroup on a large setoid whose relation is
-small-valued is itself large, in the sense that no egroup whose underlying
-type and relation are both small is isomorphic to it. The example is the
-universe taken with type equivalence as its relation, which has a
-small-valued relation with no assumptions, since X ≃ Y already lives in the
-universe of X and Y, whereas the identity type X ＝ Y is not small without
-something such as univalence. That it is large follows from the
-generalization of Coquand's paradox of trees in [Various.LawvereFPT](#variouslawverefpt), which uses Lawvere's
+type. As in
+[Groups.Large](https://martinescardo.github.io/TypeTopology/Groups.Large.html),
+the free egroup on a large setoid whose relation is small-valued is itself
+large, in the sense that no egroup whose underlying type and relation are
+both small is isomorphic to it. The example is the universe taken with type
+equivalence as its relation, which has a small-valued relation with no
+assumptions, since X ≃ Y already lives in the universe of X and Y, whereas
+the identity type X ＝ Y is not small without something such as univalence.
+That it is large follows from the generalization of Coquand's paradox of
+trees in [Various.LawvereFPT](#variouslawverefpt), which uses Lawvere's
 fixed point theorem and W-types to rule out a type of the universe that is
 equivalent to the universe itself, and so, for any universe 𝓤, there is an
 egroup in the next universe 𝓤⁺ that is isomorphic to no egroup in 𝓤.
@@ -844,13 +858,15 @@ truth values to itself is an involution, is adapted to univalent
 mathematics, together with a number of its consequences.
 
 An automorphism of Ω is determined by its value at ⊤, in the sense that it
-sends p to p ⇔ 𝕗 ⊤, and the type of automorphisms is equivalent to [Johnstone](https://doi.org/10.1007/BF02488012)'s
-Higgs object ℍ, whose elements are the widespread truth values, those r for
-which ((p ⇔ r) ⇔ r) ＝ p for every p. The main results of Johnstone and [Freyd](https://doi.org/10.1016/0168-0072%2887%2990060-1)
-about automorphisms of Ω are proved in this form. In particular ℍ, and hence
-Aut Ω, has at most two elements, which seems to be due to Freyd, although
-the proof given here is not his. Both a truncated and an untruncated form of
-the at-most-two statement are given, the untruncated one being equivalent to
+sends p to p ⇔ 𝕗 ⊤, and the type of automorphisms is equivalent to
+[Johnstone](https://doi.org/10.1007/BF02488012)'s Higgs object ℍ, whose
+elements are the widespread truth values, those r for which
+((p ⇔ r) ⇔ r) ＝ p for every p. The main results of Johnstone and
+[Freyd](https://doi.org/10.1016/0168-0072%2887%2990060-1) about
+automorphisms of Ω are proved in this form. In particular ℍ, and hence Aut
+Ω, has at most two elements, which seems to be due to Freyd, although the
+proof given here is not his. Both a truncated and an untruncated form of the
+at-most-two statement are given, the untruncated one being equivalent to
 saying that Aut Ω has exactly one or two elements, so that every
 automorphism is either the identity or negation. There is also a variant
 showing that Aut Ω satisfies a form of weak excluded middle, in that an
@@ -859,9 +875,11 @@ holds, or not equal to it, and hence not not equal to the identity.
 
 The second is that a group structure on Ω gives excluded middle, which
 doesn't seem to be known in the topos theory community, and is the subject
-of a [blog post](https://homotopytypetheory.org/2021/01/23/can-the-type-of-truth-values-be-given-the-structure-of-a-group/). Such a structure is necessarily abelian, and indeed any
-left-cancellable monoid structure on Ω is an abelian group structure in
-which every element is its own inverse.
+of a [blog
+post](https://homotopytypetheory.org/2021/01/23/can-the-type-of-truth-values-be-given-the-structure-of-a-group/).
+Such a structure is necessarily abelian, and indeed any left-cancellable
+monoid structure on Ω is an abelian group structure in which every element
+is its own inverse.
 
 The third concerns rigidity. A type is rigid when its only automorphism is
 the identity, or, as one says in univalent mathematics, when its type of
@@ -882,17 +900,18 @@ worked out and an article module that follows the published account.
 The central notions are algebraic injectivity and algebraic flabbiness, the
 second being the working tool for establishing the first. Injective types
 are closed under retracts, and are themselves the retracts of the
-exponential powers of universes. A sufficient condition is given for Σ x ꞉ X , A x to be
-algebraically flabby when X is, which subsumes an earlier condition for
-types of mathematical structures and gives the injectivity of the types of
-pointed types, ∞-magmas, pointed ∞-magmas and monoids. The other examples
-found since the first paper are obtained separately, the type of ordinals
-directly and also as a pointed dcpo, the type of iterative multisets from
-prop-indexed sums and also from prop-indexed products, the type of iterative
-sets as a retract of the multisets, the type of non-empty types as a retract
-of the universe, and the type of iterative ordinals from its equivalence
-with the ordinals. Injectivity also plays a major role in the construction
-of compact, or searchable, types.
+exponential powers of universes. A sufficient condition is given for
+Σ x ꞉ X , A x to be algebraically flabby when X is, which subsumes an
+earlier condition for types of mathematical structures and gives the
+injectivity of the types of pointed types, ∞-magmas, pointed ∞-magmas and
+monoids. The other examples found since the first paper are obtained
+separately, the type of ordinals directly and also as a pointed dcpo, the
+type of iterative multisets from prop-indexed sums and also from
+prop-indexed products, the type of iterative sets as a retract of the
+multisets, the type of non-empty types as a retract of the universe, and the
+type of iterative ordinals from its equivalence with the ordinals.
+Injectivity also plays a major role in the construction of compact, or
+searchable, types.
 
 Counterexamples are necessarily indirect. Excluded middle holds if and only
 if every pointed type is algebraically injective, so no type other than the
@@ -963,11 +982,12 @@ The lifting monad, also known as the partial-map classifier monad, is
 developed, its value at a type X being the type of partial elements of X,
 each given by a proposition together with a map from it into X. The
 propositions are all those of a chosen universe, the variant that restricts
-them by a dominance being in [Dominance](#dominance), and the sense in which the lifting is free,
-as the free pointed dcpo on a set, belonging to [DomainTheory](#domaintheory). Its algebras are studied,
-its identity types are characterized both directly and via the structure
-identity principle, size issues are addressed, and it is organized as a
-univalent wild category, with several results on free algebras.
+them by a dominance being in [Dominance](#dominance), and the sense in which
+the lifting is free, as the free pointed dcpo on a set, belonging to
+[DomainTheory](#domaintheory). Its algebras are studied, its identity types
+are characterized both directly and via the structure identity principle,
+size issues are addressed, and it is organized as a univalent wild category,
+with several results on free algebras.
 
 By Martin Escardo and Tom de Jong.
 
@@ -1073,12 +1093,13 @@ Carlo Angiuli.
 ### [Modal](https://martinescardo.github.io/TypeTopology/Modal.index.html)
 
 Reflective subuniverses and modalities in homotopy type theory are treated,
-roughly following [Rijke, Shulman and Spitters](https://doi.org/10.23638/LMCS-16%281:2%292020) on modalities and [Rijke's
-thesis](https://arxiv.org/abs/1906.09435), on whose proofs much of the
-treatment of reflective subuniverses is based. Subuniverses, reflective
+roughly following [Rijke, Shulman and
+Spitters](https://doi.org/10.23638/LMCS-16%281:2%292020) on modalities and
+[Rijke's thesis](https://arxiv.org/abs/1906.09435), on whose proofs much of
+the treatment of reflective subuniverses is based. Subuniverses, reflective
 subuniverses and their Σ-closed, or modal, versions are developed, with the
-truncation and open modalities as examples, and with the closure of the modal
-types under pullbacks and identity types.
+truncation and open modalities as examples, and with the closure of the
+modal types under pullbacks and identity types.
 
 By Jon Sterling and Andrew Swan.
 
@@ -1281,9 +1302,9 @@ Coquand and Peter Dybjer.
 
 This is a library for manipulating sequences of paths, providing a calculus
 for reassociating and reversing concatenations, ported from the [HoTT-Agda
-library](https://github.com/HoTT/HoTT-Agda). The operations include concatenation, application of functions,
-cancellation, inversion, rotation and splitting, with an
-equational-reasoning interface.
+library](https://github.com/HoTT/HoTT-Agda). The operations include
+concatenation, application of functions, cancellation, inversion, rotation
+and splitting, with an equational-reasoning interface.
 
 By Ettore Aldrovandi.
 
@@ -1448,17 +1469,17 @@ the value 0 at every finite element and the value 1 at ∞ gives WLPO.
 Equivalently, it is a taboo that the constant sequence 0 converges to the
 number 1 in the binary numbers, which a Brouwerian continuity axiom, not
 postulated here, would rule out by requiring every convergent sequence of
-binary numbers to be eventually constant. The type of ordinals is decomposable as a disjoint union of two
-pointed types if and only if weak excluded middle holds, so that it has no
-non-trivial decidable property unless the taboo holds, and the same is later
-shown for injective types, which subsumes it since the type of ordinals is
-injective. There are three versions of the drinker paradox, one of which is
-equivalent to excluded middle, a taboo about Kuratowski-finite subsets,
-namely that if every subset of a Kuratowski-finite subset of a set is again
-Kuratowski-finite then the set is discrete, and a study of when the
-constant map 𝟚 → (X → 𝟚) is an equivalence, a property called thin
-inhabitedness which is stronger than nonemptiness precisely because weak
-excluded middle is not decided.
+binary numbers to be eventually constant. The type of ordinals is
+decomposable as a disjoint union of two pointed types if and only if weak
+excluded middle holds, so that it has no non-trivial decidable property
+unless the taboo holds, and the same is later shown for injective types,
+which subsumes it since the type of ordinals is injective. There are three
+versions of the drinker paradox, one of which is equivalent to excluded
+middle, a taboo about Kuratowski-finite subsets, namely that if every subset
+of a Kuratowski-finite subset of a set is again Kuratowski-finite then the
+set is discrete, and a study of when the constant map 𝟚 → (X → 𝟚) is an
+equivalence, a property called thin inhabitedness which is stronger than
+nonemptiness precisely because weak excluded middle is not decided.
 
 By Martin Escardo, Ayberk Tosun and Tom de Jong.
 
@@ -1531,40 +1552,41 @@ By Todd Waugh Ambridge, Andrew Sneap and Martin Escardo.
 
 Here we have the topological view of types after which the repository is
 named. The two should not be confused. TypeTopology is the repository, of
-which this is one directory among 61, and it is the one where the topological
-view itself is developed. Types are treated as though they carried an
-intrinsic topology, so that notions such as compactness, in the sense of
-exhaustive searchability, discreteness, total separatedness, disconnectedness,
-sequential Hausdorffness and the structure of the Cantor type can be studied,
-along with the ways in which they interact. Concretely this includes compact, or exhaustively
-searchable, types and their closure properties, the generic convergent
-sequence and the Cantor type, total separatedness, weakly compact types,
-squashed sums, Rice's theorem for the universe, and the indiscreteness of the
-universe.
+which this is one directory among 61, and it is the one where the
+topological view itself is developed. Types are treated as though they
+carried an intrinsic topology, so that notions such as compactness, in the
+sense of exhaustive searchability, discreteness, total separatedness,
+disconnectedness, sequential Hausdorffness and the structure of the Cantor
+type can be studied, along with the ways in which they interact. Concretely
+this includes compact, or exhaustively searchable, types and their closure
+properties, the generic convergent sequence and the Cantor type, total
+separatedness, weakly compact types, squashed sums, Rice's theorem for the
+universe, and the indiscreteness of the universe.
 
 Not only is the generic convergent sequence compact, but minimal witnesses
-can be found. The totally separated reflection is constructed in two ways, as
-the image of the evaluation map into ((X → 𝟚) → 𝟚) and as a set quotient. The
-Cantor type is searchable for uniformly continuous decidable predicates, and
-more generally so is ℕ → X for any compact X. For any function ℕ∞ → ℕ it is
-decidable whether it fails to be continuous, and for any function ℕ∞ → 𝟚 it
-is decidable whether it takes the value 1 at every finite element. The simple
-types, generated from ℕ by function types, all have ℕ as a retract, so none
-of them is 𝟚-compact unless WLPO holds. A product of pointed compact types
-indexed by a proposition is compact, whereas assuming this for compact types
-that are not pointed gives weak excluded middle. Compactness is upwards
-absolute for modalities, a type compact in the internal logic of a reflective
-subuniverse being compact as a type, though not conversely. Sums do not
-preserve total separatedness, and the compact ordinals are nevertheless shown
-to be totally separated by exhibiting them as retracts of the Cantor type,
-which suffices because total separatedness is inherited by retracts. The
-decreasing sequences of natural numbers bounded by a fixed number form a
-Stone type, being both compact and totally separated. The Cantor type with a
-point removed, in the sense of the subtype of points apart from it, is
-isomorphic to ℕ × (ℕ → 𝟚). A point is a limit point when its being isolated
-would imply WLPO, a formulation chosen to stay agnostic about classical
-principles, since under excluded middle every point of a set is isolated. Crucially, we
-don't assume continuity axioms so that all results hold in all toposes.
+can be found. The totally separated reflection is constructed in two ways,
+as the image of the evaluation map into ((X → 𝟚) → 𝟚) and as a set quotient.
+The Cantor type is searchable for uniformly continuous decidable predicates,
+and more generally so is ℕ → X for any compact X. For any function ℕ∞ → ℕ it
+is decidable whether it fails to be continuous, and for any function ℕ∞ → 𝟚
+it is decidable whether it takes the value 1 at every finite element. The
+simple types, generated from ℕ by function types, all have ℕ as a retract,
+so none of them is 𝟚-compact unless WLPO holds. A product of pointed compact
+types indexed by a proposition is compact, whereas assuming this for compact
+types that are not pointed gives weak excluded middle. Compactness is
+upwards absolute for modalities, a type compact in the internal logic of a
+reflective subuniverse being compact as a type, though not conversely. Sums
+do not preserve total separatedness, and the compact ordinals are
+nevertheless shown to be totally separated by exhibiting them as retracts of
+the Cantor type, which suffices because total separatedness is inherited by
+retracts. The decreasing sequences of natural numbers bounded by a fixed
+number form a Stone type, being both compact and totally separated. The
+Cantor type with a point removed, in the sense of the subtype of points
+apart from it, is isomorphic to ℕ × (ℕ → 𝟚). A point is a limit point when
+its being isolated would imply WLPO, a formulation chosen to stay agnostic
+about classical principles, since under excluded middle every point of a set
+is isolated. Crucially, we don't assume continuity axioms so that all
+results hold in all toposes.
 
 By Martin Escardo, Andrew Swan, Fredrik Bakke, Chuangjie Xu and Ayberk
 Tosun.
@@ -1715,9 +1737,10 @@ and Ingo Blechschmidt.
 
 Cantor's theorem is proved for embeddings of the powerset of a type into the
 type itself, following Taylor's Practical Foundations of Mathematics by way
-of [the nLab](https://ncatlab.org/nlab/show/Cantor%27s+theorem). It applies Cantor's theorem for surjections, proved in [Various.LawvereFPT](#variouslawverefpt), and uses
-function extensionality, propositional extensionality and propositional
-resizing.
+of [the nLab](https://ncatlab.org/nlab/show/Cantor%27s+theorem). It applies
+Cantor's theorem for surjections, proved in
+[Various.LawvereFPT](#variouslawverefpt), and uses function extensionality,
+propositional extensionality and propositional resizing.
 
 By Jon Sterling.
 
@@ -1726,7 +1749,8 @@ By Jon Sterling.
 #### [Various.Dedekind](https://martinescardo.github.io/TypeTopology/Various.Dedekind.html)
 
 These are exploratory notes on the Dedekind reals, written to try out ideas
-rather than to build a library, the library proper being [DedekindReals](#dedekindreals).
+rather than to build a library, the library proper being
+[DedekindReals](#dedekindreals).
 
 What is explored is how the Dedekind reals can be defined, there being
 several candidate definitions, and the notes set them out and compare them,
@@ -1865,11 +1889,11 @@ By Martin Escardo.
 #### [Various.NatIsSetWithoutUniverse](https://martinescardo.github.io/TypeTopology/Various.NatIsSetWithoutUniverse.html)
 
 The natural numbers form a set, proved without using a universe, in answer
-to [a question of Naïm Favier](https://types.pl/@ncf/114779291760324789). The usual route through Hedberg's theorem is
-not available, because 0 ≠ 1 is not provable without universes or large
-elimination from ℕ, by a theorem of Jan M. Smith. Several proofs are given,
-the first original and the others simplifications, and at the end that the
-type of lists over a set is a set.
+to [a question of Naïm Favier](https://types.pl/@ncf/114779291760324789).
+The usual route through Hedberg's theorem is not available, because 0 ≠ 1 is
+not provable without universes or large elimination from ℕ, by a theorem of
+Jan M. Smith. Several proofs are given, the first original and the others
+simplifications, and at the end that the type of lists over a set is a set.
 
 By Evan Cavallo.
 
@@ -1936,9 +1960,9 @@ By Martin Escardo and Alice Laroche.
 #### [Various.Types2019](https://martinescardo.github.io/TypeTopology/Various.Types2019.html)
 
 Here are links to the modules that implement the ideas of the TYPES 2019
-abstract on compact, totally separated and well-ordered types, cited under [TypeTopology](#typetopology)
-above. This module is linked from the published abstract, and for that
-reason it is not to be moved.
+abstract on compact, totally separated and well-ordered types, cited under
+[TypeTopology](#typetopology) above. This module is linked from the
+published abstract, and for that reason it is not to be moved.
 
 By Martin Escardo.
 
@@ -1982,7 +2006,8 @@ By Martin Escardo.
 #### [gist.Ackermann](https://martinescardo.github.io/TypeTopology/gist.Ackermann.html)
 
 The Ackermann function is defined by induction on the ordinal ω², regarding
-[this discussion thread](https://mathstodon.xyz/deck/@cxandru@types.pl/115984233527105134).
+[this discussion
+thread](https://mathstodon.xyz/deck/@cxandru@types.pl/115984233527105134).
 
 By Martin Escardo.
 
@@ -2000,8 +2025,9 @@ By Stefano Gogioso and Ayberk Tosun.
 
 #### [gist.Hydra](https://martinescardo.github.io/TypeTopology/gist.Hydra.html)
 
-The [Kirby-Paris hydra game](https://en.wikipedia.org/wiki/Hydra_game) is defined, with a proof that every battle eventually ends, and used
-to compute the first terms of the function Hydra.
+The [Kirby-Paris hydra game](https://en.wikipedia.org/wiki/Hydra_game) is
+defined, with a proof that every battle eventually ends, and used to compute
+the first terms of the function Hydra.
 
 By Alice Laroche, using ideas and notations from Ayberk Tosun.
 
@@ -2010,8 +2036,9 @@ By Alice Laroche, using ideas and notations from Ayberk Tosun.
 #### [gist.InjectivesVersusAlgebras](https://martinescardo.github.io/TypeTopology/gist.InjectivesVersusAlgebras.html)
 
 These are blackboard thoughts on injective types as algebras of the
-partial-map classifier monad, superseded by [InjectiveTypes.Algebra](https://martinescardo.github.io/TypeTopology/InjectiveTypes.Algebra.html) apart from a few speculative
-ideas towards the end.
+partial-map classifier monad, superseded by
+[InjectiveTypes.Algebra](https://martinescardo.github.io/TypeTopology/InjectiveTypes.Algebra.html)
+apart from a few speculative ideas towards the end.
 
 By Martin Escardo.
 
@@ -2030,7 +2057,8 @@ By Martin Escardo.
 
 #### [gist.multiset-addendum-question](https://martinescardo.github.io/TypeTopology/gist.multiset-addendum-question.html)
 
-This answers the question asked in [Iterative.Multisets-Addendum](https://martinescardo.github.io/TypeTopology/Iterative.Multisets-Addendum.html).
+This answers the question asked in
+[Iterative.Multisets-Addendum](https://martinescardo.github.io/TypeTopology/Iterative.Multisets-Addendum.html).
 
 By Alice Laroche.
 
@@ -2048,7 +2076,8 @@ By Martin Escardo.
 #### [gist.remove-swap](https://martinescardo.github.io/TypeTopology/gist.remove-swap.html)
 
 The functions remove and remove-swap are defined without Agda's with,
-regarding [this mastodon discussion](https://mathstodon.xyz/deck/@MartinEscardo/112214064298894127).
+regarding [this mastodon
+discussion](https://mathstodon.xyz/deck/@MartinEscardo/112214064298894127).
 
 By Martin Escardo.
 
@@ -2078,10 +2107,11 @@ By Marc Bezem, Thierry Coquand, Peter Dybjer and Martin Escardo.
 
 #### [gist.wrong-proofs](https://martinescardo.github.io/TypeTopology/gist.wrong-proofs.html)
 
-These proofs are kept as they were so that [this mathstodon discussion](https://mathstodon.xyz/deck/@MartinEscardo/115751523590095370) can be understood in its
-original context. The conclusion of that discussion is that they are not
-wrong after all, translating to the known proofs by the encode-decode
-method, but, crucially relying on having a universe.
+These proofs are kept as they were so that [this mathstodon
+discussion](https://mathstodon.xyz/deck/@MartinEscardo/115751523590095370)
+can be understood in its original context. The conclusion of that discussion
+is that they are not wrong after all, translating to the known proofs by the
+encode-decode method, but, crucially relying on having a universe.
 
 By Martin Escardo.
 
@@ -2089,13 +2119,16 @@ By Martin Escardo.
 
 #### [gist.MajoritiesOnlyActOnSets](https://martinescardo.github.io/TypeTopology/gist.MajoritiesOnlyActOnSets.html)
 
-This, together with [gist.ThereAreNoHigherSemilattices](https://martinescardo.github.io/TypeTopology/gist.ThereAreNoHigherSemilattices.html) and
-[gist.ThereAreNoHigherSemilattices2](https://martinescardo.github.io/TypeTopology/gist.ThereAreNoHigherSemilattices2.html), is what remains of experiments that were
-moved to [AlgebraicStructuresForcingSethood](#algebraicstructuresforcingsethood)
-in April 2026. The three modules now do nothing but import the material in
-its new place. The only reason to keep them here is that links to these
-gists had been given publicly on mathstodon before the move, and deleting
-the modules would break those links.
+This, together with
+[gist.ThereAreNoHigherSemilattices](https://martinescardo.github.io/TypeTopology/gist.ThereAreNoHigherSemilattices.html)
+and
+[gist.ThereAreNoHigherSemilattices2](https://martinescardo.github.io/TypeTopology/gist.ThereAreNoHigherSemilattices2.html),
+is what remains of experiments that were moved to
+[AlgebraicStructuresForcingSethood](#algebraicstructuresforcingsethood) in
+April 2026. The three modules now do nothing but import the material in its
+new place. The only reason to keep them here is that links to these gists
+had been given publicly on mathstodon before the move, and deleting the
+modules would break those links.
 
 By Jakub Opršal, by Martin Escardo following a result of David Wärn,
 and by Tom de Jong, respectively.
@@ -2104,10 +2137,16 @@ and by Tom de Jong, respectively.
 
 ## Description of unsafe modules
 
-Besides index, the module [AllModulesIndex](https://martinescardo.github.io/TypeTopology/AllModulesIndex.html) imports [Unsafe.index](https://martinescardo.github.io/TypeTopology/Unsafe.index.html) and [InfinitePigeon.index](https://martinescardo.github.io/TypeTopology/InfinitePigeon.index.html). Everything
-imported by the first, and three of the modules of the second, is what Agda
-cannot certify as [`--safe`](https://agda.readthedocs.io/en/latest/language/safe-agda.html). All of them are `--without-K`, like the rest of
-the development.
+Besides index, the module
+[AllModulesIndex](https://martinescardo.github.io/TypeTopology/AllModulesIndex.html)
+imports
+[Unsafe.index](https://martinescardo.github.io/TypeTopology/Unsafe.index.html)
+and
+[InfinitePigeon.index](https://martinescardo.github.io/TypeTopology/InfinitePigeon.index.html).
+Everything imported by the first, and three of the modules of the second, is
+what Agda cannot certify as
+[`--safe`](https://agda.readthedocs.io/en/latest/language/safe-agda.html).
+All of them are `--without-K`, like the rest of the development.
 
 ### [Unsafe](https://martinescardo.github.io/TypeTopology/Unsafe.index.html)
 
@@ -2121,8 +2160,9 @@ there because it is here that they are collected.
 #### [Games.Main](https://martinescardo.github.io/TypeTopology/Games.Main.html)
 
 This compiles, through Haskell, to a program that plays tic-tac-toe by the
-alpha-beta pruning of the directory [Games](#games), and prints an optimal play. It is
-not `--safe` because it prints, using the postulates of [Unsafe.Haskell](#unsafehaskell).
+alpha-beta pruning of the directory [Games](#games), and prints an optimal
+play. It is not `--safe` because it prints, using the postulates of
+[Unsafe.Haskell](#unsafehaskell).
 
 By Martin Escardo and Paulo Oliva.
 
@@ -2132,7 +2172,8 @@ By Martin Escardo and Paulo Oliva.
 
 The loop space of the circle is equivalent to the integers, by the map that
 sends an integer k to the k-th power of the loop. It is not `--safe` because
-it rests on the postulated circle of the [module below](#synthetichomotopytheorycirclewithrewriting), and hence also uses
+it rests on the postulated circle of the [module
+below](#synthetichomotopytheorycirclewithrewriting), and hence also uses
 `--rewriting`.
 
 By Tom de Jong.
@@ -2153,9 +2194,9 @@ By Tom de Jong.
 #### [TWA.Thesis.Chapter6.Main](https://martinescardo.github.io/TypeTopology/TWA.Thesis.Chapter6.Main.html)
 
 This compiles, through Haskell, to a program that runs the exact-real search
-and regression algorithms of [Todd Waugh Ambridge's thesis](#twa) and prints a
-prefix of the answer to a requested precision. Like [Games.Main](#gamesmain), it is not `--safe`
-because it prints.
+and regression algorithms of [Todd Waugh Ambridge's thesis](#twa) and prints
+a prefix of the answer to a requested precision. Like
+[Games.Main](#gamesmain), it is not `--safe` because it prints.
 
 By Todd Waugh Ambridge.
 
@@ -2164,8 +2205,8 @@ By Todd Waugh Ambridge.
 #### [Unsafe.CantorCompact](https://martinescardo.github.io/TypeTopology/Unsafe.CantorCompact.html)
 
 The Cantor type ℕ → 𝟚 is compact, as a corollary of the [countable Tychonoff
-theorem below](#unsafecountabletychonoff), together with further consequences of that theorem. It is not
-`--safe` because it depends on it.
+theorem below](#unsafecountabletychonoff), together with further
+consequences of that theorem. It is not `--safe` because it depends on it.
 
 By Martin Escardo.
 
@@ -2195,9 +2236,10 @@ By Martin Escardo.
 
 #### [Unsafe.Haskell](https://martinescardo.github.io/TypeTopology/Unsafe.Haskell.html)
 
-Haskell primitives are postulated here, adapted from the [Agda standard library](https://github.com/agda/agda-stdlib) and given as
-postulates, so that programs can be compiled through Haskell and print their
-output. It is not `--safe` because of the postulates.
+Haskell primitives are postulated here, adapted from the [Agda standard
+library](https://github.com/agda/agda-stdlib) and given as postulates, so
+that programs can be compiled through Haskell and print their output. It is
+not `--safe` because of the postulates.
 
 By Martin Escardo.
 
@@ -2206,10 +2248,13 @@ By Martin Escardo.
 #### [Unsafe.Type-in-Type-False](https://martinescardo.github.io/TypeTopology/Unsafe.Type-in-Type-False.html)
 
 Type-in-type is inconsistent, shown in two ways. The first is [Coquand's
-paradox of trees](https://pdfs.semanticscholar.org/f2f3/30b27f1d7ca99c2550f96581a4400c209ef8.pdf), phrased in terms of Lawvere's fixed point theorem, and the
-second follows an argument of Ingo Blechschmidt. It is not `--safe` because it
-assumes `--type-in-type`, which is the very hypothesis being refuted. The
-module [Various.LawvereFPT](#variouslawverefpt) has formulations that don't assume it.
+paradox of
+trees](https://pdfs.semanticscholar.org/f2f3/30b27f1d7ca99c2550f96581a4400c209ef8.pdf),
+phrased in terms of Lawvere's fixed point theorem, and the second follows an
+argument of Ingo Blechschmidt. It is not `--safe` because it assumes
+`--type-in-type`, which is the very hypothesis being refuted. The module
+[Various.LawvereFPT](#variouslawverefpt) has formulations that don't assume
+it.
 
 By Martin Escardo.
 
