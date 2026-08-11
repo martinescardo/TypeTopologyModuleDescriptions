@@ -975,36 +975,36 @@ By Martin Escardo and Tom de Jong.
 
 ### [Locales](https://martinescardo.github.io/TypeTopology/Locales.index.html)
 
-Constructive and predicative locale theory is developed in univalent
-foundations, accompanying the PhD thesis of Ayberk Tosun, whose chapters its
-own index follows. Locales are treated point-free, so that a locale is given
-by its frame of opens and a continuous map by a frame homomorphism in the
-opposite direction. The development uses function extensionality,
-propositional truncation and set replacement, but neither excluded middle
-nor propositional resizing.
+This is a constructive and predicative development of point-free topology in
+univalent foundations, accompanying the PhD thesis of Ayberk Tosun. Alongside a
+general theory of locales in UF, it develops the theory of spectral and Stone
+locales as well as the point-free topology of Scott domains. The development
+uses function extensionality, propositional truncation, and set replacement
+whilst avoiding both excluded middle and propositional resizing. Due to the
+predicative nature of the foundational setting, the category of locales
+considered is that of large, locally small, and small-complete locales. This
+requires suitable reformulations of many standard notions of locale, which a key
+contribution of this development.
 
-The main aim is the patch topology. Patch turns a spectral locale into a
-Stone one, and the construction given here, which follows earlier work of
-Escardo, is proved to have its universal property, namely that every
-continuous map into a spectral locale A from a Stone locale factors
-uniquely through the patch of A. It is instantiated to the terminal locale
-and to the Sierpinski locale.
+The project began with the goal of constructing the patch locale of a spectral
+locale in univalent foundations, building on Escardó’s characterization of it as
+the frame of Scott-continuous nuclei. Achieving this required a substantial
+development of general point-free topology, and the work has thus expanded into
+a broader study of locale theory in univalent foundations. Salient topological
+notions developed include compactness, the way-below relation, clopens, the
+well-inside relation, regularity, zero-dimensionality, bases (especially small
+bases), sublocales, and patch topology in localic form. Salient examples of
+locales studied in this development include the terminal locale, the Sierpiński
+locale, the discrete locale, and the Scott locale of an algebraic DCPO.
 
-Getting there needs a good deal of point-free topology, developed in the
-same constructive and predicative spirit. There are the initial frame,
-which is the terminal locale, the Sierpinski locale with its universal
-property, and the discrete locale on a set. There are continuous maps and
-frame homomorphisms, sublocales and nuclei, compactness and the way-below
-relation, clopens and the well-inside relation, bases and small bases, and
-an adjoint functor theorem for frames. On top of this come spectral and
-Stone locales, distributive lattices, zero-dimensionality and regularity,
-the lattice of compact opens, and Stone duality for spectral locales.
-
-A further strand is the point-free topology of domains, where the Scott
-locale of a domain is constructed, its Scott opens are classified,
-continuity is characterized, and the points of patch are studied through the
-Lawson locale, where the spectral points are shown to coincide with the
-sharp elements.
+A further strand of work is on the point-free topology of domains. This uses Tom
+de Jong's development of domain theory and connects the two TypeTopology
+developments via the Scott topology. Key constructions and theorems include the
+Scott locale of an algebraic DCPO, the spectrality of the Scott locale of a
+Scott domain (involving nontrivial base constructions in the predicative
+setting), the characterization of points of the patch of the Scott locale of a
+Scott domain. The Sierpiński locale is also constructed as the Scott locale
+of the Sierpiński DCPO.
 
 By Ayberk Tosun.
 
