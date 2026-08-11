@@ -2033,10 +2033,10 @@ By Martin Escardo.
 #### [gist.TotallySeparatedReflectionOfOmega](https://martinescardo.github.io/TypeTopology/gist.TotallySeparatedReflectionOfOmega.html)
 
 This is about the totally separated reflection of the type Ω of
-propositions. Every type has one, given by the image of its evaluation map
-into the double booleans, and the question here is whether that of Ω has a
-more direct description. Assuming propositional resizing, the type of maps
-from weak excluded middle to 𝟚 has its universal property.
+propositions. Every type X has one, given by the image of its evaluation map
+into ((X → 𝟚) → 𝟚), and the question here is whether that of Ω has a more
+direct description. Assuming propositional resizing, the type of maps from
+weak excluded middle to 𝟚 has its universal property.
 
 By Martin Escardo.
 
