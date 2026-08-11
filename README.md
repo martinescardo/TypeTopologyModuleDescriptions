@@ -2278,9 +2278,10 @@ Coquand, and the modified bar recursion realizer here is due to Berger.
 
 Everybody named anywhere in the Agda files is listed here, whether they
 wrote code, supplied an idea, asked a question, or gave their name to a
-notion. Those who wrote Agda are marked as authors, and their entry links to
-a search for the files they contributed to. The others link to the file that
-mentions them, or, when there are several, to a search of the repository.
+notion. Those who wrote Agda are marked as contributors, and their entry
+links to a search for the files they contributed to. The others link to the
+file that mentions them, or, when there are several, to a search of the
+repository.
 
 * [Andreas Abel](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Abel%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
 * [Samson Abramsky](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Abramsky%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
