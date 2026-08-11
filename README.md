@@ -2405,7 +2405,7 @@ mentions them, or, when there are several, to a search of the repository.
 * [Bertrand Russell](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Russell%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
 * [Christian Sattler](https://martinescardo.github.io/TypeTopology/Ordinals.OrdinalOfOrdinalsInfima.html)
 * [Ernst Schröder](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Schr%C3%B6der%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
-* [Dana Scott](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Dana%20Scott%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
+* [Dana Scott](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Scott%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
 * [Phil Scott](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Phil%20Scott%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
 * [Monika Seisenberger](https://martinescardo.github.io/TypeTopology/InfinitePigeon.index.html)
 * [Anton Setzer](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Setzer%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
