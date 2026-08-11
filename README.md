@@ -1061,7 +1061,8 @@ and Π-types, the identity type, the natural numbers, and the basic notation
 built on them. The Spartan module gathers the core, with further modules for
 lists, vectors and finite types and a slightly larger Athenian selection.
 
-By Martin Escardo, Ayberk Tosun and Tom de Jong.
+By Martin Escardo, Ayberk Tosun, Tom de Jong, Fredrik Nordvall Forsberg and
+Carlo Angiuli.
 
 [Table of contents](#table-of-contents)
 
@@ -1641,8 +1642,9 @@ universe, as is the embedding Id : X → (X → 𝓤) under univalence, although
 codomain lies in a larger universe.
 
 By Martin Escardo, Ian Ray, Tom de Jong, Cory Knapp, Jon Sterling, Ayberk
-Tosun, Nicolai Kraus, Fredrik Nordvall Forsberg, Chuangjie Xu, Ettore
-Aldrovandi, Marc Bezem, Thierry Coquand and Peter Dybjer.
+Tosun, Nicolai Kraus, Fredrik Nordvall Forsberg, Chuangjie Xu, Anna Williams,
+Fredrik Bakke, Carlo Angiuli, Ettore Aldrovandi, Marc Bezem, Thierry Coquand
+and Peter Dybjer.
 
 **Publications.**
 
