@@ -181,8 +181,8 @@ the Agda files tracked by git in the directory source.
 | what is counted | count |
 | --- | ---: |
 | Agda files | <!--#files-->990<!--/#--> |
-| Lines, including comments and blank lines | <!--#lines-->287,849<!--/#--> |
-| Lines that are not blank | <!--#nonblank-->223,247<!--/#--> |
+| Lines, including comments and blank lines | <!--#lines-->287,880<!--/#--> |
+| Lines that are not blank | <!--#nonblank-->223,277<!--/#--> |
 | Directories | <!--#dirs-->61<!--/#--> |
 | Contributors | <!--#contributors-->35<!--/#--> |
 
@@ -203,19 +203,19 @@ directory that is meant here and throughout.
 <!-- ttstats:directories -->
 | directory | files | lines | share |
 | --- | ---: | ---: | ---: |
-| [Ordinals](#ordinals) | 67 | 29,839 | 10.4% |
+| [Ordinals](#ordinals) | 67 | 29,838 | 10.4% |
 | [Locales](#locales) | 85 | 29,552 | 10.3% |
-| [UF](#uf) | 80 | 27,210 | 9.5% |
+| [UF](#uf) | 80 | 27,213 | 9.5% |
 | [DomainTheory](#domaintheory) | 44 | 19,260 | 6.7% |
 | [TypeTopology](#typetopology) | 35 | 14,615 | 5.1% |
-| [TWA](#twa) | 33 | 10,971 | 3.9% |
-| [InjectiveTypes](#injectivetypes) | 19 | 10,913 | 3.8% |
+| [TWA](#twa) | 33 | 10,972 | 3.9% |
+| [InjectiveTypes](#injectivetypes) | 19 | 10,915 | 3.8% |
 | [MGS](#mgs) | 30 | 9,298 | 3.3% |
-| [Groups](#groups) | 27 | 7,679 | 2.7% |
+| [Groups](#groups) | 27 | 7,681 | 2.7% |
 | [C-Spaces](#c-spaces) | 38 | 7,377 | 2.6% |
-| [EffectfulForcing](#effectfulforcing) | 27 | 7,354 | 2.6% |
-| [Various](#various) | 15 | 6,944 | 2.5% |
-| others | 490 | 106,837 | 37.2% |
+| [EffectfulForcing](#effectfulforcing) | 27 | 7,355 | 2.6% |
+| [Various](#various) | 15 | 6,945 | 2.5% |
+| others | 490 | 106,859 | 37.2% |
 <!-- /ttstats:directories -->
 
 [Table of contents](#table-of-contents)
