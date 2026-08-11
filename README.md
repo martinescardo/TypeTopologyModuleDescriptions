@@ -174,16 +174,16 @@ publication yet, although they are intended to eventually be.
 
 ## Repository statistics
 
-The counts below were taken on <!--#date-->10th August 2026<!--/#-->, over the Agda files tracked
+The counts below were taken on <!--#date-->11th August 2026<!--/#-->, over the Agda files tracked
 by git in the directory source.
 
 | what is counted | count |
 | --- | ---: |
 | Agda files | <!--#files-->990<!--/#--> |
-| Lines, including comments and blank lines | <!--#lines-->287,839<!--/#--> |
-| Lines that are not blank | <!--#nonblank-->223,241<!--/#--> |
+| Lines, including comments and blank lines | <!--#lines-->287,849<!--/#--> |
+| Lines that are not blank | <!--#nonblank-->223,247<!--/#--> |
 | Directories | <!--#dirs-->61<!--/#--> |
-| Contributors | <!--#contributors-->32<!--/#--> |
+| Contributors | <!--#contributors-->35<!--/#--> |
 
 Of the <!--#dirs-->61<!--/#--> directories, <!--#indexed-->59<!--/#--> are imported by [index](https://martinescardo.github.io/TypeTopology/index.html) and are described below, and the
 remaining two, [InfinitePigeon](#infinitepigeon) and [Unsafe](#unsafe), are reached only through [AllModulesIndex](https://martinescardo.github.io/TypeTopology/AllModulesIndex.html). Besides the directories,
@@ -197,7 +197,7 @@ directory that is meant here and throughout.
 | directory | files | lines | share |
 | --- | ---: | ---: | ---: |
 | [Ordinals](#ordinals) | 67 | 29,839 | 10.4% |
-| [Locales](#locales) | 85 | 29,551 | 10.3% |
+| [Locales](#locales) | 85 | 29,552 | 10.3% |
 | [UF](#uf) | 80 | 27,210 | 9.5% |
 | [DomainTheory](#domaintheory) | 44 | 19,260 | 6.7% |
 | [TypeTopology](#typetopology) | 35 | 14,615 | 5.1% |
@@ -208,7 +208,7 @@ directory that is meant here and throughout.
 | [C-Spaces](#c-spaces) | 38 | 7,377 | 2.6% |
 | [EffectfulForcing](#effectfulforcing) | 27 | 7,354 | 2.6% |
 | [Various](#various) | 15 | 6,944 | 2.5% |
-| others | 490 | 106,828 | 37.2% |
+| others | 490 | 106,837 | 37.2% |
 <!-- /ttstats:directories -->
 
 [Table of contents](#table-of-contents)
@@ -230,9 +230,9 @@ so it counts the author of the last change to each line.
 <!-- ttstats:contributors -->
 | | by header | by blame |
 | --- | ---: | ---: |
-| Martin Escardo | 45.4% | 53.4% |
+| Martin Escardo | 45.3% | 53.4% |
 | Tom de Jong | 12.3% | 14.8% |
-| Ayberk Tosun | 11.5% | 11.5% |
+| Ayberk Tosun | 11.6% | 11.5% |
 | Andrew Sneap | 5.5% | 4.3% |
 | Chuangjie Xu | 4.1% | 2.7% |
 | Todd Waugh Ambridge | 3.7% | 2.8% |
@@ -247,7 +247,7 @@ so it counts the author of the last change to each line.
 | others | 5.0% | 3.5% |
 <!-- /ttstats:contributors -->
 
-The table was last updated on <!--#date-->10th August 2026<!--/#-->. It names only those of us who
+The table was last updated on <!--#date-->11th August 2026<!--/#-->. It names only those of us who
 reach 1% in at least one of the two columns, and so it is not a list of
 contributors.
 The [full list](https://github.com/martinescardo/TypeTopology/blob/master/README.md#current-contributors-in-alphabetical-order-of-first-name)
@@ -2307,7 +2307,7 @@ repository.
 * [Auke Booij](https://martinescardo.github.io/TypeTopology/Various.Dedekind.html)
 * [John Bourke](https://martinescardo.github.io/TypeTopology/InjectiveTypes.Article.html)
 * [L. E. J. Brouwer](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Brouwer%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
-* [Ulrik Buchholtz](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Buchholtz%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
+* [Ulrik Buchholtz](https://martinescardo.github.io/TypeTopologySearch.html#q=Ulrik%20Buchholtz) (contributor)
 * [Cesare Burali-Forti](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Burali-Forti%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
 * [Pierre Cagne](https://martinescardo.github.io/TypeTopology/UF.Size.html)
 * [Georg Cantor](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Cantor%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
@@ -2399,7 +2399,7 @@ repository.
 * [Cécilia Pradic](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Pradic%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
 * [Vincent Rahli](https://martinescardo.github.io/TypeTopologySearch.html#q=Vincent%20Rahli) (contributor)
 * [Ian Ray](https://martinescardo.github.io/TypeTopologySearch.html#q=Ian%20Ray) (contributor)
-* [Alex Rice](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Rice%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
+* [Alex Rice](https://martinescardo.github.io/TypeTopologySearch.html#q=Alex%20Rice) (contributor)
 * [Egbert Rijke](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Rijke%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
 * [Giuseppe Rosolini](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Rosolini%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
 * [J. Barkley Rosser](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Rosser%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
@@ -2410,7 +2410,7 @@ repository.
 * [Phil Scott](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Phil%20Scott%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
 * [Monika Seisenberger](https://martinescardo.github.io/TypeTopology/InfinitePigeon.index.html)
 * [Anton Setzer](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Setzer%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
-* [Mike Shulman](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Shulman%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
+* [Mike Shulman](https://martinescardo.github.io/TypeTopologySearch.html#q=Mike%20Shulman) (contributor)
 * [Wacław Sierpiński](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Sierpi%C5%84ski%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
 * [Alex Simpson](https://github.com/search?q=repo%3Amartinescardo%2FTypeTopology+%22Simpson%22+%28path%3A*.lagda+OR+path%3A*.agda%29&type=code)
 * [Jan M. Smith](https://martinescardo.github.io/TypeTopology/Various.NatIsSetWithoutUniverse.html)
