@@ -1003,9 +1003,9 @@ de Jong's development of domain theory and connects the two TypeTopology
 developments via the Scott topology. Key constructions and theorems include the
 Scott locale of an algebraic DCPO, the spectrality of the Scott locale of a
 Scott domain (involving nontrivial base constructions in the predicative
-setting), the characterization of points of the patch of the Scott locale of a
-Scott domain. The Sierpiński locale is also constructed as the Scott locale of
-the Sierpiński DCPO.
+setting), and the points of the patch of the Scott locale of a Scott domain. The
+Sierpiński locale is also constructed as the Scott locale of the Sierpiński
+DCPO.
 
 By Ayberk Tosun.
 
