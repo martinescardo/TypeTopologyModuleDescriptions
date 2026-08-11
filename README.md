@@ -458,12 +458,16 @@ theory. A central outcome is a fan functional that continuously computes
 least moduli of uniform continuity for maps from the Cantor space to the
 natural numbers. The modules are arranged to mirror the main mathematical
 stages of the thesis and can be read as a guide to where the corresponding
-arguments appear in Agda. They include the syntax and the structure of a
-category with families, a coverage and the associated notion of uniform
-continuity, developed twice, with the first assuming function extensionality
-and the second assuming only its double negation, which suffices because
-negative axioms can be postulated without loss of canonicity, as shown in
-the note by Coquand, Danielsson, Escardó, Norell and Xu cited below.
+arguments appear in Agda. They include a coverage and the associated notion
+of uniform continuity, the syntax of system T and of HAω, and the structure
+of a category with families. The main development assumes function
+extensionality. A second and less direct one strengthens the probe axioms so
+that only the double negation of function extensionality is needed, which
+carries no computational content and so does not obstruct normalization, with
+the effect that the moduli extracted there normalize to numerals, as they
+need not do in the first. The note by Coquand, Danielsson, Escardó, Norell
+and Xu cited below justifies this, showing that negative consistent axioms
+can be postulated without loss of canonicity.
 
 By Chuangjie Xu and Martin Escardo.
 
