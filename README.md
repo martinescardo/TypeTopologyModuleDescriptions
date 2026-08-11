@@ -327,13 +327,25 @@ By Martin Escardo and Tom de Jong.
 
 ### [BinarySystems](https://martinescardo.github.io/TypeTopology/BinarySystems.index.html)
 
-The initial binary system is constructed, with variations on the
-construction. A binary system is a type with two endofunctions and a point,
-satisfying equations that make it the algebra underlying binary subdivision,
-and hence closely related to the interval and to signed binary notation for
-dyadic numbers. Different presentations are compared, one working with a
-subtype of normal elements, a second, simpler one that avoids it, and a
-cubical variant.
+The initial binary system is constructed. A binary system is a type with two
+distinguished points a and b and two endofunctions f and g, subject to the
+equations a = f a, f b = g a and b = g b, which make it the algebra
+underlying binary subdivision, so that it is closely related to the interval
+and to signed binary notation for dyadic numbers. The initial one is the
+closed interval of dyadic rationals, and it is built in Spartan Martin-Löf
+type theory without higher inductive types, quotients or extensionality
+axioms, because the quotient that is needed happens to be available.
+
+Two constructions are given, the first working with a subtype of normal
+elements and the second avoiding it, which is simpler. The second does not
+require the underlying type of a binary system to be a set, and sethood of
+the initial one follows rather than being assumed. A third construction, in
+cubical type theory, defines the initial binary system both as a higher
+inductive type and in pure Martin-Löf type theory and shows the two
+definitions equivalent, from which sethood also follows. It is not imported
+by the index, because it needs Agda 2.6.2 together with the Cubical Library
+and currently breaks the build, so it is linked directly:
+[CubicalBinarySystem](https://github.com/martinescardo/TypeTopology/blob/master/source/BinarySystems/CubicalBinarySystem.lagda).
 
 By Martin Escardo and Alex Rice.
 
