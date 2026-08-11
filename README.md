@@ -753,7 +753,10 @@ By Andrew Sneap.
 The standard finite types Fin n and their properties are developed,
 including their role as the canonical types with exactly n elements. Three
 notions of finiteness for arbitrary types are compared, namely those of
-Bishop, Kuratowski and Dedekind. There are also the pigeonhole principle,
+Bishop, Kuratowski and Dedekind. Whether every Kuratowski finite discrete
+type can be linearly ordered is a question of Steve Vickers, asked for the
+internal language of a 1-topos, and answered here in a different way. There
+are also the pigeonhole principle,
 choice for finite types, the discreteness and compactness of the types Fin
 n, and a proof that addition and multiplication of natural numbers are
 commutative which constructs equivalences of finite types instead of arguing
@@ -1206,8 +1209,9 @@ The arithmetic comprises addition, multiplication and exponentiation and
 their properties, together with bounded operations, suprema and sums, and
 variants of these for the topped and the trichotomous ordinals. It is
 noteworthy that the infimum of a merely inhabited family of ordinals is
-constructed using propositional truncation and univalence alone, whereas the
-known constructions of suprema need set quotients or, equivalently, set
+constructed using propositional truncation and univalence alone, the
+construction staying small by an observation of Christian Sattler, whereas
+the known constructions of suprema need set quotients or, equivalently, set
 replacement.
 
 Exponentiation has a subdirectory of its own. It is specified first, then
@@ -1702,8 +1706,8 @@ By Martin Escardo and Jon Sterling.
 Miscellaneous results of interest that do not belong naturally to any
 of the other directories are collected here.
 
-By Martin Escardo, Tom de Jong, Alice Laroche, Evan Cavallo and Jon
-Sterling.
+By Martin Escardo, Tom de Jong, Alice Laroche, Evan Cavallo, Jon Sterling
+and Ingo Blechschmidt.
 
 [Table of contents](#table-of-contents)
 
@@ -1832,7 +1836,7 @@ there could be replaced by a second application of the fixed point
 theorem was left as a question, and is answered in
 [Various.LawvereFPT-Generalized](#variouslawverefpt-generalized).
 
-By Martin Escardo.
+By Martin Escardo and Ingo Blechschmidt.
 
 [Table of contents](#table-of-contents)
 
