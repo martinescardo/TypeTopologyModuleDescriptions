@@ -655,8 +655,8 @@ proofs of correctness. From these terms one obtains further system T terms
 that compute moduli of continuity and of uniform continuity, again proved
 correct.
 
-By Martin Escardo, Paulo Oliva, Vincent Rahli, Bruno da Rocha Paiva, Ayberk
-Tosun and Chuangjie Xu.
+By Martin Escardo, Ayberk Tosun, Bruno da Rocha Paiva, Vincent Rahli,
+Chuangjie Xu and Paulo Oliva.
 
 **Publications.**
 
@@ -828,8 +828,8 @@ groups, and specific examples such as the symmetric groups and the modular
 group. There are also group actions and torsors, automorphism groups, the
 opposite group, and a development of large groups.
 
-By Martin Escardo, Marc Bezem, Thierry Coquand, Peter Dybjer, Ettore
-Aldrovandi, Keri D'Angelo and Lane Biocini.
+By Martin Escardo, Lane Biocini, Ettore Aldrovandi, Keri D'Angelo, Marc
+Bezem, Thierry Coquand and Peter Dybjer.
 
 [Table of contents](#table-of-contents)
 
@@ -1113,7 +1113,8 @@ common factors, parity, a binary representation, and truncation principles
 for finding roots and least elements, together with the universal property
 of ℕ.
 
-By Martin Escardo, Andrew Sneap, Lane Biocini, Tom de Jong and Chuangjie Xu.
+By Martin Escardo, Andrew Sneap, Lane Biocini, Tom de Jong, Chuangjie Xu and
+Fredrik Nordvall Forsberg.
 
 [Table of contents](#table-of-contents)
 
@@ -1171,7 +1172,7 @@ generalization of Tarski's least fixed point theorem, namely one for endomaps on
 a large sup-lattice with a small basis.
 Finally, the proof that the axiom of choice implies Zorn's lemma is included.
 
-By Tom de Jong, Martin Escardo, Kelton OBrien and Ian Ray.
+By Ian Ray, Tom de Jong, Martin Escardo and Kelton OBrien.
 
 **Publications.**
 
@@ -1249,8 +1250,8 @@ transporting and extending well-orders and for identifying equivalent
 ordinals.
 
 By Martin Escardo, Tom de Jong, Fredrik Nordvall Forsberg, Nicolai Kraus,
-Chuangjie Xu, Andrew Swan, Alice Laroche, Marc Bezem, Thierry Coquand and
-Peter Dybjer.
+Chuangjie Xu, Andrew Swan, Alice Laroche, Ohad Kammar, Marc Bezem, Thierry
+Coquand and Peter Dybjer.
 
 **Publications.**
 
@@ -1292,7 +1293,7 @@ combinatory presentation adequacy is not formalized here, having been proved
 by Tom de Jong in UniMath instead. Each presentation has its own
 subdirectory and index.
 
-By Tom de Jong, Brendan Hart and Martin Escardo.
+By Brendan Hart, Tom de Jong and Martin Escardo.
 
 **Publications.**
 
@@ -1689,7 +1690,7 @@ available. It currently holds earlier accounts of categories and of the structur
 identity principle, and a first construction of free groups over setoids,
 superseded by [EGroups](#egroups).
 
-By Jon Sterling and Martin Escardo.
+By Martin Escardo and Jon Sterling.
 
 [Table of contents](#table-of-contents)
 
