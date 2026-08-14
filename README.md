@@ -226,14 +226,14 @@ TypeTopology was started by Martin Escardo at around 2010, and by now
 there are many contributors, including former and current students,
 collaborators, and people doing their own work.
 
-To put numbers on this, the table below gives the share of the
-<!--#files-->990<!--/#--> Agda files of the repository that is due to each
-of us, counted in two ways. The first column attributes each file to the
-authors named in its header, splitting a file equally when it names several,
-and resolves the few files with no name in the header by the git history.
-The second column is what git blame reports, after merging the aliases under
-which some of us commit, and so it counts the author of the last change to
-each line.
+To put numbers on this, the table below gives the share of
+the <!--#files-->990<!--/#--> Agda files of the repository that is due to
+each of us, counted in two ways. The first column attributes each file to
+the authors named in its header, splitting a file equally when it names
+several, and resolves the few files with no name in the header by the git
+history. The second column is what git blame reports, after merging the
+aliases under which some of us commit, and so it counts the author of the
+last change to each line.
 
 <!-- ttstats:contributors -->
 | | by header | by blame |
