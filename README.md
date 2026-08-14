@@ -233,9 +233,11 @@ directory that is meant here and throughout.
 
 ## Contributors
 
-TypeTopology was started by Martin Escardo at around 2010, and by now
-there are many contributors, including former and current students,
-collaborators, and people doing their own work.
+[TypeTopology](https://github.com/martinescardo/TypeTopology)
+was started by [Martin Escardo](https://www.cs.bham.ac.uk/~mhe)
+at around 2010, and by now there are many contributors, including
+former and current students, collaborators, and people doing their own
+work.
 
 To put numbers on this, the table below gives the share of
 the <!--#files-->990<!--/#--> Agda files of the repository that is due to
