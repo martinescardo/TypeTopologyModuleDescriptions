@@ -17,12 +17,13 @@ should be updated automatically by the repository maintainers.
 ## Table of contents
 
 1. [Organization](#organization)
+1. [Searching TypeTopology](#searching-typetopology)
 1. [Repository statistics](#repository-statistics)
 1. [Contributors](#contributors)
 1. [Authors](#authors)
 
 <details>
-<summary>5. <a href="#description-of-safe-modules">Description of safe modules</a></summary>
+<summary>6. <a href="#description-of-safe-modules">Description of safe modules</a></summary>
 
 1. [AlgebraicStructuresForcingSethood](#algebraicstructuresforcingsethood)
 1. [Apartness](#apartness)
@@ -114,7 +115,7 @@ should be updated automatically by the repository maintainers.
 </details>
 
 <details>
-<summary>6. <a href="#description-of-unsafe-modules">Description of unsafe modules</a></summary>
+<summary>7. <a href="#description-of-unsafe-modules">Description of unsafe modules</a></summary>
 
 1. [Unsafe](#unsafe)
    1. [Games.Main](#gamesmain)
@@ -133,8 +134,8 @@ should be updated automatically by the repository maintainers.
 
 </details>
 
-7. [List of people mentioned in the files](#list-of-people-mentioned-in-the-files)
-8. [Philosophy of TypeTopology](https://martinescardo.github.io/TypeTopology/)
+8. [List of people mentioned in the files](#list-of-people-mentioned-in-the-files)
+9. [Philosophy of TypeTopology](https://martinescardo.github.io/TypeTopology/)
 
 ## Organization
 
@@ -170,6 +171,16 @@ in a single chronological list, and what the entries below add is the
 directory that each of them concerns. A number of the files are new research
 that haven't been written up as papers or submitted for publication yet,
 although they are intended to eventually be.
+
+[Table of contents](#table-of-contents)
+
+## Searching TypeTopology
+
+The library can be searched for a name, a concept or a contributor at
+<https://martinescardo.github.io/TypeTopologySearch.html>, which is also
+what the links in the [contributors](#contributors) list below use. The
+same searches are
+[available from Emacs](https://github.com/martinescardo/TypeTopologySearch/blob/main/README.md).
 
 [Table of contents](#table-of-contents)
 
