@@ -304,9 +304,11 @@ induction-recursion, and a number of them use the universe 𝓤ω. Nothing
 is postulated. Univalence, function extensionality, propositional
 truncation, propositional resizing, excluded middle and choice are
 explicit assumptions of the theorems and modules that need them, so
-that each result records what it depends on. See [the philosophy of
-the repository](https://martinescardo.github.io/TypeTopology/index.html)
-for further details.
+that each result records what it depends on. See the main
+[index file of the repository](https://martinescardo.github.io/TypeTopology/index.html)
+for further details. A few modules that significantly depart from this
+philosophy are discussed in
+[Description of unsafe modules](#description-of-unsafe-modules).
 
 [Table of contents](#table-of-contents)
 
