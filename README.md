@@ -5,7 +5,7 @@ This file describes what each directory of
 
 It was automatically generated using various command-line tools and
 generative AI, and then manually curated by Martin Escardo,
-July–August 2026, over a period of five weeks. Tom de Jong suggested
+July–August 2026, over a period of six weeks. Tom de Jong suggested
 and contributed further revisions over the span of two weeks. However,
 significant errors and omissions may still remain, given the
 [magnitude of the repository](#repository-statistics).
@@ -176,7 +176,7 @@ although they are intended to eventually be.
 
 ## Searching TypeTopology
 
-The library can be searched for a name, a concept or a contributor at
+The repository can be searched for a name, a concept or a contributor at
 <https://martinescardo.github.io/TypeTopologySearch.html>, which is also
 what the links in the [contributors](#contributors) list below use. The
 same searches are
