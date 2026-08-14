@@ -21,9 +21,10 @@ should be updated automatically by the repository maintainers.
 1. [Repository statistics](#repository-statistics)
 1. [Contributors](#contributors)
 1. [Authors](#authors)
+1. [Philosophy of the repository](#philosophy-of-the-repository)
 
 <details>
-<summary>6. <a href="#description-of-safe-modules">Description of safe modules</a></summary>
+<summary>7. <a href="#description-of-safe-modules">Description of safe modules</a></summary>
 
 1. [AlgebraicStructuresForcingSethood](#algebraicstructuresforcingsethood)
 1. [Apartness](#apartness)
@@ -115,7 +116,7 @@ should be updated automatically by the repository maintainers.
 </details>
 
 <details>
-<summary>7. <a href="#description-of-unsafe-modules">Description of unsafe modules</a></summary>
+<summary>8. <a href="#description-of-unsafe-modules">Description of unsafe modules</a></summary>
 
 1. [Unsafe](#unsafe)
    1. [Games.Main](#gamesmain)
@@ -134,8 +135,7 @@ should be updated automatically by the repository maintainers.
 
 </details>
 
-8. [List of people mentioned in the files](#list-of-people-mentioned-in-the-files)
-9. [Philosophy of TypeTopology](https://martinescardo.github.io/TypeTopology/)
+9. [List of people mentioned in the files](#list-of-people-mentioned-in-the-files)
 
 ## Organization
 
@@ -292,6 +292,21 @@ Where an entry below names several authors, they are listed in order of
 the amount contributed, without saying by how much, since the boundary
 between one person's contribution and another's is usually too blurred
 for a number to mean much.
+
+[Table of contents](#table-of-contents)
+
+## Philosophy of the repository
+
+Most modules of the repository are developed in a Spartan intensional
+Martin-Löf type theory, with the univalent point of view adopted
+throughout. A few modules rely on more advanced MLTT concepts, such as
+induction-recursion, and a number of them use the universe 𝓤ω. Nothing
+is postulated. Univalence, function extensionality, propositional
+truncation, propositional resizing, excluded middle and choice are
+explicit assumptions of the theorems and modules that need them, so
+that each result records what it depends on. See [the philosophy of
+the repository](https://martinescardo.github.io/TypeTopology/index.html)
+for further details.
 
 [Table of contents](#table-of-contents)
 
