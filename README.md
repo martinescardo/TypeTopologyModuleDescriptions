@@ -175,14 +175,14 @@ although they are intended to eventually be.
 
 ## Repository statistics
 
-The counts below were taken on <!--#date-->11th August 2026<!--/#-->, over
+The counts below were taken on <!--#date-->14th August 2026<!--/#-->, over
 the Agda files tracked by git in the directory source.
 
 | what is counted | count |
 | --- | ---: |
 | Agda files | <!--#files-->990<!--/#--> |
-| Lines, including comments and blank lines | <!--#lines-->287,880<!--/#--> |
-| Lines that are not blank | <!--#nonblank-->223,277<!--/#--> |
+| Lines, including comments and blank lines | <!--#lines-->287,833<!--/#--> |
+| Lines that are not blank | <!--#nonblank-->223,253<!--/#--> |
 | Directories | <!--#dirs-->61<!--/#--> |
 | Contributors | <!--#contributors-->35<!--/#--> |
 
@@ -203,19 +203,19 @@ directory that is meant here and throughout.
 <!-- ttstats:directories -->
 | directory | files | lines | share |
 | --- | ---: | ---: | ---: |
-| [Ordinals](#ordinals) | 67 | 29,838 | 10.4% |
-| [Locales](#locales) | 85 | 29,552 | 10.3% |
+| [Ordinals](#ordinals) | 67 | 29,825 | 10.4% |
+| [Locales](#locales) | 85 | 29,553 | 10.3% |
 | [UF](#uf) | 80 | 27,213 | 9.5% |
 | [DomainTheory](#domaintheory) | 44 | 19,260 | 6.7% |
-| [TypeTopology](#typetopology) | 35 | 14,615 | 5.1% |
+| [TypeTopology](#typetopology) | 35 | 14,611 | 5.1% |
 | [TWA](#twa) | 33 | 10,972 | 3.9% |
-| [InjectiveTypes](#injectivetypes) | 19 | 10,915 | 3.8% |
+| [InjectiveTypes](#injectivetypes) | 19 | 10,913 | 3.8% |
 | [MGS](#mgs) | 30 | 9,298 | 3.3% |
 | [Groups](#groups) | 27 | 7,681 | 2.7% |
 | [C-Spaces](#c-spaces) | 38 | 7,377 | 2.6% |
-| [EffectfulForcing](#effectfulforcing) | 27 | 7,355 | 2.6% |
+| [EffectfulForcing](#effectfulforcing) | 27 | 7,360 | 2.6% |
 | [Various](#various) | 15 | 6,945 | 2.5% |
-| others | 490 | 106,859 | 37.2% |
+| others | 490 | 106,825 | 37.2% |
 <!-- /ttstats:directories -->
 
 [Table of contents](#table-of-contents)
@@ -255,7 +255,7 @@ each line.
 | others | 5.0% | 3.5% |
 <!-- /ttstats:contributors -->
 
-The table was last updated on <!--#date-->11th August 2026<!--/#-->. It
+The table was last updated on <!--#date-->14th August 2026<!--/#-->. It
 names only those of us who reach 1% in at least one of the two columns, and
 so it is not a list of contributors. The [full
 list](https://github.com/martinescardo/TypeTopology/blob/master/README.md#current-contributors-in-alphabetical-order-of-first-name)
