@@ -140,17 +140,17 @@ should be updated automatically by the repository maintainers.
 ## Organization
 
 There is one entry for each of the directories imported by the module
-[index](https://martinescardo.github.io/TypeTopology/index.html), a
+[index](https://www.cs.bham.ac.uk/~mhe/TypeTopology/index.html), a
 paragraph or a few for each, in alphabetical order, except for
 [Various](#various) and [gist](#gist), which collect miscellaneous material
 and come at the end. A final section describes the modules that are not
 `--safe`, which are those imported by
-[Unsafe.index](https://martinescardo.github.io/TypeTopology/Unsafe.index.html)
+[Unsafe.index](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Unsafe.index.html)
 and three of those of [InfinitePigeon](#infinitepigeon), saying in each case
 which Agda option is responsible.
 
 The names of the directories and modules link to their html rendering, which
-lives at <https://martinescardo.github.io/TypeTopology/>.
+lives at <https://www.cs.bham.ac.uk/~mhe/TypeTopology/>.
 
 Many directories collect the work of several people and span several
 years, and so the descriptions are deliberately brief, with the
@@ -177,7 +177,7 @@ although they are intended to eventually be.
 ## Searching TypeTopology
 
 The repository can be searched for a name, a concept or a contributor at
-<https://martinescardo.github.io/TypeTopologySearch.html>, which is also
+<https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html>, which is also
 what the links in the [contributors](#contributors) list below use. The
 same searches are
 [available from Emacs](https://github.com/martinescardo/TypeTopologySearch/blob/main/README.md).
@@ -198,11 +198,11 @@ the Agda files tracked by git in the directory source.
 | Contributors | <!--#contributors-->35<!--/#--> |
 
 Of the <!--#dirs-->61<!--/#--> directories, <!--#indexed-->59<!--/#--> are
-imported by [index](https://martinescardo.github.io/TypeTopology/index.html)
+imported by [index](https://www.cs.bham.ac.uk/~mhe/TypeTopology/index.html)
 and are described below, and the remaining two,
 [InfinitePigeon](#infinitepigeon) and [Unsafe](#unsafe), are reached only
 through
-[AllModulesIndex](https://martinescardo.github.io/TypeTopology/AllModulesIndex.html).
+[AllModulesIndex](https://www.cs.bham.ac.uk/~mhe/TypeTopology/AllModulesIndex.html).
 Besides the directories, the [root of
 source](https://github.com/martinescardo/TypeTopology/tree/master/source)
 holds those two index files themselves.
@@ -307,7 +307,7 @@ is postulated. Univalence, function extensionality, propositional
 truncation, propositional resizing, excluded middle and choice are
 explicit assumptions of the theorems and modules that need them, so
 that each result records what it depends on. See the main
-[index file of the repository](https://martinescardo.github.io/TypeTopology/index.html)
+[index file of the repository](https://www.cs.bham.ac.uk/~mhe/TypeTopology/index.html)
 for further details. A few modules that significantly depart from this
 philosophy are discussed in
 [Description of unsafe modules](#description-of-unsafe-modules).
@@ -316,7 +316,7 @@ philosophy are discussed in
 
 ## Description of safe modules
 
-### [AlgebraicStructuresForcingSethood](https://martinescardo.github.io/TypeTopology/AlgebraicStructuresForcingSethood.index.html)
+### [AlgebraicStructuresForcingSethood](https://www.cs.bham.ac.uk/~mhe/TypeTopology/AlgebraicStructuresForcingSethood.index.html)
 
 We study algebraic structures whose mere existence on a type forces
 the type to be a set, that is, to have propositional identity
@@ -340,7 +340,7 @@ following David Wärn.
 
 [Table of contents](#table-of-contents)
 
-### [Apartness](https://martinescardo.github.io/TypeTopology/Apartness.index.html)
+### [Apartness](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Apartness.index.html)
 
 Apartness relations, including tight apartness, are treated together with
 their basic theory. An apartness is the positive, constructive counterpart
@@ -366,7 +366,7 @@ By Martin Escardo and Tom de Jong.
 
 [Table of contents](#table-of-contents)
 
-### [BinarySystems](https://martinescardo.github.io/TypeTopology/BinarySystems.index.html)
+### [BinarySystems](https://www.cs.bham.ac.uk/~mhe/TypeTopology/BinarySystems.index.html)
 
 The initial binary system is constructed. A binary system is a type with two
 distinguished points a and b and two endofunctions f and g, subject to the
@@ -392,7 +392,7 @@ By Martin Escardo and Alex Rice.
 
 [Table of contents](#table-of-contents)
 
-### [CantorSchroederBernstein](https://martinescardo.github.io/TypeTopology/CantorSchroederBernstein.index.html)
+### [CantorSchroederBernstein](https://www.cs.bham.ac.uk/~mhe/TypeTopology/CantorSchroederBernstein.index.html)
 
 Here the Cantor–Schröder–Bernstein theorem is generalized from sets to
 arbitrary (homotopy) types, so that if there are embeddings between
@@ -416,7 +416,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-### [Cardinals](https://martinescardo.github.io/TypeTopology/Cardinals.index.html)
+### [Cardinals](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Cardinals.index.html)
 
 Cardinals are studied in univalent foundations. The HoTT book obtains
 weak successor cardinals from excluded middle, and what is shown here
@@ -427,7 +427,7 @@ By Jon Sterling.
 
 [Table of contents](#table-of-contents)
 
-### [Categories](https://martinescardo.github.io/TypeTopology/Categories.index.html)
+### [Categories](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Categories.index.html)
 
 Here some 1-category theory is developed in univalent foundations. Wild
 categories, precategories, univalent categories, functors and natural
@@ -446,7 +446,7 @@ By Anna Williams.
 
 [Table of contents](#table-of-contents)
 
-### [CoNaturals](https://martinescardo.github.io/TypeTopology/CoNaturals.index.html)
+### [CoNaturals](https://www.cs.bham.ac.uk/~mhe/TypeTopology/CoNaturals.index.html)
 
 The type of conatural numbers is presented as decreasing binary sequences,
 also called the *generic convergent sequence* in the repository, where the
@@ -459,7 +459,7 @@ By Martin Escardo and Chuangjie Xu.
 
 [Table of contents](#table-of-contents)
 
-### [ContinuityAxiom](https://martinescardo.github.io/TypeTopology/ContinuityAxiom.index.html)
+### [ContinuityAxiom](https://www.cs.bham.ac.uk/~mhe/TypeTopology/ContinuityAxiom.index.html)
 
 Here we show that a Brouwerian continuity principle is inconsistent with the
 Curry–Howard interpretation. Formulating "all functions are continuous" as a
@@ -478,7 +478,7 @@ By Martin Escardo and Chuangjie Xu.
 
 [Table of contents](#table-of-contents)
 
-### [Coslice](https://martinescardo.github.io/TypeTopology/Coslice.index.html)
+### [Coslice](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Coslice.index.html)
 
 The coslice (∞,1)-category of a universe under a given type is studied.
 While this concept cannot be formalized in its entirety in current univalent
@@ -490,7 +490,7 @@ By Jon Sterling.
 
 [Table of contents](#table-of-contents)
 
-### [CrossedModules](https://martinescardo.github.io/TypeTopology/CrossedModules.index.html)
+### [CrossedModules](https://www.cs.bham.ac.uk/~mhe/TypeTopology/CrossedModules.index.html)
 
 Here we have crossed modules, a two-dimensional algebraic structure
 equivalent to internal categories in groups. A single module sets up the
@@ -500,7 +500,7 @@ By Ettore Aldrovandi and Keri D'Angelo.
 
 [Table of contents](#table-of-contents)
 
-### [C-Spaces](https://martinescardo.github.io/TypeTopology/C-Spaces.index.html)
+### [C-Spaces](https://www.cs.bham.ac.uk/~mhe/TypeTopology/C-Spaces.index.html)
 
 C-spaces are developed, following the PhD thesis of Chuangjie Xu, which
 gives a continuous computational interpretation of type theory. A C-space is
@@ -540,7 +540,7 @@ By Chuangjie Xu and Martin Escardo.
 
 1. T. Coquand, N.A. Danielsson, M.H. Escardó, U. Norell and C. Xu.
    "Negative consistent axioms can be postulated without loss of
-   canonicity". [3-page unpublished note](https://martinescardo.github.io/papers/negative-axioms.pdf), 19th October 2013, updated 25th October 2017.
+   canonicity". [3-page unpublished note](https://www.cs.bham.ac.uk/~mhe/papers/negative-axioms.pdf), 19th October 2013, updated 25th October 2017.
 
    [Formalized in
    Agda](https://github.com/andreasabel/logrel-mltt/tree/master/Application/NegativeAxioms)
@@ -548,7 +548,7 @@ By Chuangjie Xu and Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-### [DedekindReals](https://martinescardo.github.io/TypeTopology/DedekindReals.index.html)
+### [DedekindReals](https://www.cs.bham.ac.uk/~mhe/TypeTopology/DedekindReals.index.html)
 
 The Dedekind real numbers are constructed as two-sided Dedekind cuts,
 together with their arithmetic and order. A real is a pair of a lower and an
@@ -562,7 +562,7 @@ By Andrew Sneap.
 
 [Table of contents](#table-of-contents)
 
-### [DiscreteGraphicMonoids](https://martinescardo.github.io/TypeTopology/DiscreteGraphicMonoids.index.html)
+### [DiscreteGraphicMonoids](https://www.cs.bham.ac.uk/~mhe/TypeTopology/DiscreteGraphicMonoids.index.html)
 
 Following Lawvere, lists without repetitions over a discrete type are shown
 to form the free discrete graphic monoid, a monoid being called graphic when
@@ -574,7 +574,7 @@ By Martin Escardo and Paulo Oliva.
 
 [Table of contents](#table-of-contents)
 
-### [DomainTheory](https://martinescardo.github.io/TypeTopology/DomainTheory.index.html)
+### [DomainTheory](https://www.cs.bham.ac.uk/~mhe/TypeTopology/DomainTheory.index.html)
 
 Domain theory is developed in constructive and predicative univalent
 foundations. Much of the code accompanies Tom de Jong's PhD thesis "Domain
@@ -630,7 +630,7 @@ Escardo.
 
 [Table of contents](#table-of-contents)
 
-### [Dominance](https://martinescardo.github.io/TypeTopology/Dominance.index.html)
+### [Dominance](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Dominance.index.html)
 
 Dominances in the sense of Rosolini are studied, that is, classes of
 propositions closed under the operations needed to serve as a notion of
@@ -646,7 +646,7 @@ By Martin Escardo and Jon Sterling.
 
 [Table of contents](#table-of-contents)
 
-### [Duploids](https://martinescardo.github.io/TypeTopology/Duploids.index.html)
+### [Duploids](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Duploids.index.html)
 
 Here we have duploids, a categorical semantics due to Munch-Maccagnoni that
 unifies polarized sequent calculus, call-by-push-value and abstract
@@ -659,7 +659,7 @@ By Jon Sterling.
 
 [Table of contents](#table-of-contents)
 
-### [Dyadics](https://martinescardo.github.io/TypeTopology/Dyadics.index.html)
+### [Dyadics](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Dyadics.index.html)
 
 The dyadic rational numbers, that is, the rationals with power-of-two
 denominators, are developed with their type, addition, multiplication,
@@ -669,7 +669,7 @@ By Andrew Sneap.
 
 [Table of contents](#table-of-contents)
 
-### [DyadicsInductive](https://martinescardo.github.io/TypeTopology/DyadicsInductive.index.html)
+### [DyadicsInductive](https://www.cs.bham.ac.uk/~mhe/TypeTopology/DyadicsInductive.index.html)
 
 Here the dyadic rationals are defined inductively, as suggested by Martin
 Escardo and formalized by Tom de Jong, giving an alternative to the
@@ -683,7 +683,7 @@ By Tom de Jong.
 
 [Table of contents](#table-of-contents)
 
-### [EffectfulForcing](https://martinescardo.github.io/TypeTopology/EffectfulForcing.index.html)
+### [EffectfulForcing](https://www.cs.bham.ac.uk/~mhe/TypeTopology/EffectfulForcing.index.html)
 
 Dialogue trees and effectful forcing give a semantics of Gödel's system T in
 a monad of dialogue trees. From the dialogue tree of a definable functional
@@ -712,7 +712,7 @@ Chuangjie Xu and Paulo Oliva.
 
 [Table of contents](#table-of-contents)
 
-### [EGroups](https://martinescardo.github.io/TypeTopology/EGroups.index.html)
+### [EGroups](https://www.cs.bham.ac.uk/~mhe/TypeTopology/EGroups.index.html)
 
 Free groups are constructed here in pure Martin-Löf type theory using
 setoids. A setoid is a type with an equivalence relation given as data, and
@@ -734,7 +734,7 @@ equivalence relation of that egroup.
 
 Size is measured by the relation of a setoid rather than by its identity
 type. As in
-[Groups.Large](https://martinescardo.github.io/TypeTopology/Groups.Large.html),
+[Groups.Large](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Groups.Large.html),
 the free egroup on a large setoid whose relation is small-valued is itself
 large, in the sense that no egroup whose underlying type and relation are
 both small is isomorphic to it. The example is the universe taken with type
@@ -751,7 +751,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-### [Factorial](https://martinescardo.github.io/TypeTopology/Factorial.index.html)
+### [Factorial](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Factorial.index.html)
 
 The factorial of a type and its combinatorics are studied. The main result
 is that, for an arbitrary type X,
@@ -776,7 +776,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-### [Field](https://martinescardo.github.io/TypeTopology/Field.index.html)
+### [Field](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Field.index.html)
 
 Here the axioms for a field are given, in a formulation suitable for
 constructive mathematics, and then those for an ordered field on top of
@@ -792,7 +792,7 @@ By Andrew Sneap.
 
 [Table of contents](#table-of-contents)
 
-### [Fin](https://martinescardo.github.io/TypeTopology/Fin.index.html)
+### [Fin](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Fin.index.html)
 
 The standard finite types Fin n and their properties are developed,
 including their role as the canonical types with exactly n elements. Three
@@ -812,7 +812,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-### [Games](https://martinescardo.github.io/TypeTopology/Games.index.html)
+### [Games](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Games.index.html)
 
 The theory of finite, history-dependent games of perfect information is
 developed using selection functions and quantifiers. A game is given by a
@@ -868,7 +868,7 @@ By Martin Escardo and Paulo Oliva.
 
 [Table of contents](#table-of-contents)
 
-### [Groups](https://martinescardo.github.io/TypeTopology/Groups.index.html)
+### [Groups](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Groups.index.html)
 
 Group theory is developed, with the type of groups and its basic properties,
 subgroups, homomorphisms, kernels and images, quotients and cokernels, free
@@ -881,7 +881,7 @@ Bezem, Thierry Coquand and Peter Dybjer.
 
 [Table of contents](#table-of-contents)
 
-### [Higgs](https://martinescardo.github.io/TypeTopology/Higgs.index.html)
+### [Higgs](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Higgs.index.html)
 
 Denis Higgs' involution theorem, that every monomorphism from the type Ω of
 truth values to itself is an involution, is adapted to univalent
@@ -921,7 +921,7 @@ By Martin Escardo and J. A. Carr.
 
 [Table of contents](#table-of-contents)
 
-### [InjectiveTypes](https://martinescardo.github.io/TypeTopology/InjectiveTypes.index.html)
+### [InjectiveTypes](https://www.cs.bham.ac.uk/~mhe/TypeTopology/InjectiveTypes.index.html)
 
 Injective types and their theory are developed in univalent foundations,
 accompanying two papers, with a blackboard module in which the material was
@@ -976,7 +976,7 @@ By Martin Escardo and Tom de Jong.
 
 [Table of contents](#table-of-contents)
 
-### [Integers](https://martinescardo.github.io/TypeTopology/Integers.index.html)
+### [Integers](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Integers.index.html)
 
 The integers are constructed from the natural numbers, together with their
 arithmetic and order, and further operations such as absolute value,
@@ -986,7 +986,7 @@ By Andrew Sneap and Lane Biocini.
 
 [Table of contents](#table-of-contents)
 
-### [Iterative](https://martinescardo.github.io/TypeTopology/Iterative.index.html)
+### [Iterative](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Iterative.index.html)
 
 Here iterative multisets, iterative sets and iterative ordinals are defined
 using W-types, giving models of set theory and of the ordinals inside
@@ -1006,7 +1006,7 @@ By Martin Escardo, Tom de Jong and Alice Laroche.
 
 [Table of contents](#table-of-contents)
 
-### [Lifting](https://martinescardo.github.io/TypeTopology/Lifting.index.html)
+### [Lifting](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Lifting.index.html)
 
 The lifting monad, also known as the partial-map classifier monad, is
 developed, its value at a type X being the type of partial elements of X,
@@ -1023,7 +1023,7 @@ By Martin Escardo and Tom de Jong.
 
 [Table of contents](#table-of-contents)
 
-### [Locales](https://martinescardo.github.io/TypeTopology/Locales.index.html)
+### [Locales](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Locales.index.html)
 
 This is a constructive and predicative development of point-free topology in
 univalent foundations, accompanying the PhD thesis of Ayberk Tosun. Alongside a
@@ -1073,7 +1073,7 @@ By Ayberk Tosun.
 
 [Table of contents](#table-of-contents)
 
-### [MetricSpaces](https://martinescardo.github.io/TypeTopology/MetricSpaces.index.html)
+### [MetricSpaces](https://www.cs.bham.ac.uk/~mhe/TypeTopology/MetricSpaces.index.html)
 
 Metric spaces are developed in constructive univalent foundations without
 mentioning the real numbers. Instead of a distance function taking values in
@@ -1090,7 +1090,7 @@ By Andrew Sneap and Tom de Jong.
 
 [Table of contents](#table-of-contents)
 
-### [MGS](https://martinescardo.github.io/TypeTopology/MGS.index.html)
+### [MGS](https://www.cs.bham.ac.uk/~mhe/TypeTopology/MGS.index.html)
 
 This is a modular version of the HoTT/UF in Agda lecture notes, providing a
 more principled and self-contained introduction to the univalent foundations
@@ -1108,7 +1108,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-### [MLTT](https://martinescardo.github.io/TypeTopology/MLTT.index.html)
+### [MLTT](https://www.cs.bham.ac.uk/~mhe/TypeTopology/MLTT.index.html)
 
 Here is the Spartan Martin-Löf type theory that is the foundation of the
 whole development, with universes, the empty and unit types, sums, Σ-types
@@ -1121,7 +1121,7 @@ Carlo Angiuli.
 
 [Table of contents](#table-of-contents)
 
-### [Modal](https://martinescardo.github.io/TypeTopology/Modal.index.html)
+### [Modal](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Modal.index.html)
 
 Reflective subuniverses and modalities in homotopy type theory are treated,
 roughly following [Rijke, Shulman and
@@ -1136,7 +1136,7 @@ By Jon Sterling and Andrew Swan.
 
 [Table of contents](#table-of-contents)
 
-### [MonadOnTypes](https://martinescardo.github.io/TypeTopology/MonadOnTypes.index.html)
+### [MonadOnTypes](https://www.cs.bham.ac.uk/~mhe/TypeTopology/MonadOnTypes.index.html)
 
 Wild monads on types are developed, carrying a universe-level transformer so
 that the value of a monad may live in a higher universe than its argument, as
@@ -1162,7 +1162,7 @@ By Martin Escardo and Paulo Oliva.
 
 [Table of contents](#table-of-contents)
 
-### [Naturals](https://martinescardo.github.io/TypeTopology/Naturals.index.html)
+### [Naturals](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Naturals.index.html)
 
 The natural numbers and their elementary number theory are built up, with
 addition, multiplication and exponentiation, order, division and highest
@@ -1175,7 +1175,7 @@ Fredrik Nordvall Forsberg.
 
 [Table of contents](#table-of-contents)
 
-### [Notation](https://martinescardo.github.io/TypeTopology/Notation.index.html)
+### [Notation](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Notation.index.html)
 
 The general notation and conventions used throughout the development are
 collected, so that the same symbols and naming schemes are available
@@ -1187,7 +1187,7 @@ By Martin Escardo, Ian Ray and Lane Biocini.
 
 [Table of contents](#table-of-contents)
 
-### [NotionsOfDecidability](https://martinescardo.github.io/TypeTopology/NotionsOfDecidability.index.html)
+### [NotionsOfDecidability](https://www.cs.bham.ac.uk/~mhe/TypeTopology/NotionsOfDecidability.index.html)
 
 Various (closure) properties of decidable types are discussed. The
 type 𝟚 of booleans is shown to classify complemented subsets.
@@ -1212,7 +1212,7 @@ By Martin Escardo and Tom de Jong.
 
 [Table of contents](#table-of-contents)
 
-### [OrderedTypes](https://martinescardo.github.io/TypeTopology/OrderedTypes.index.html)
+### [OrderedTypes](https://www.cs.bham.ac.uk/~mhe/TypeTopology/OrderedTypes.index.html)
 
 Various ordered structures are defined, such as posets, frames, σ-frames,
 σ-sup-lattices, join-semilattices, and sup- and inf-lattices. There are also
@@ -1249,7 +1249,7 @@ By Ian Ray, Tom de Jong, Martin Escardo and Kelton OBrien.
 
 [Table of contents](#table-of-contents)
 
-### [Ordinals](https://martinescardo.github.io/TypeTopology/Ordinals.index.html)
+### [Ordinals](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Ordinals.index.html)
 
 The theory of ordinals is developed in univalent foundations, where an
 ordinal is a type equipped with a well-founded, extensional and transitive
@@ -1329,7 +1329,7 @@ Coquand and Peter Dybjer.
 
 [Table of contents](#table-of-contents)
 
-### [PathSequences](https://martinescardo.github.io/TypeTopology/PathSequences.index.html)
+### [PathSequences](https://www.cs.bham.ac.uk/~mhe/TypeTopology/PathSequences.index.html)
 
 This is a library for manipulating sequences of paths, providing a calculus
 for reassociating and reversing concatenations, ported from the [HoTT-Agda
@@ -1341,7 +1341,7 @@ By Ettore Aldrovandi.
 
 [Table of contents](#table-of-contents)
 
-### [PCF](https://martinescardo.github.io/TypeTopology/PCF.index.html)
+### [PCF](https://www.cs.bham.ac.uk/~mhe/TypeTopology/PCF.index.html)
 
 The programming language PCF is developed in two presentations, one
 combinatory and the other based on the lambda calculus, each with its
@@ -1366,7 +1366,7 @@ By Brendan Hart, Tom de Jong and Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-### [Quotient](https://martinescardo.github.io/TypeTopology/Quotient.index.html)
+### [Quotient](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Quotient.index.html)
 
 Set quotients are studied, starting from an axiomatization of them.
 Effectivity is not required as part of that axiomatization but is derived
@@ -1383,7 +1383,7 @@ By Martin Escardo and Tom de Jong.
 
 [Table of contents](#table-of-contents)
 
-### [Rationals](https://martinescardo.github.io/TypeTopology/Rationals.index.html)
+### [Rationals](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Rationals.index.html)
 
 The rational numbers are constructed from the integers via fractions,
 together with their arithmetic, order, absolute value, min and max,
@@ -1393,7 +1393,7 @@ By Andrew Sneap.
 
 [Table of contents](#table-of-contents)
 
-### [ReflexiveGraphs](https://martinescardo.github.io/TypeTopology/ReflexiveGraphs.index.html)
+### [ReflexiveGraphs](https://www.cs.bham.ac.uk/~mhe/TypeTopology/ReflexiveGraphs.index.html)
 
 Reflexive graphs and reflexive graph lenses are developed, following
 Sterling, as a modular approach to the structure identity principle. Lenses
@@ -1410,7 +1410,7 @@ By Ian Ray.
 
 [Table of contents](#table-of-contents)
 
-### [Relations](https://martinescardo.github.io/TypeTopology/Relations.index.html)
+### [Relations](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Relations.index.html)
 
 The basic theory of relations is set out, including their standard
 properties and constructions such as closures, used throughout the
@@ -1422,7 +1422,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-### [RelativeMonadOnStructuredTypes](https://martinescardo.github.io/TypeTopology/RelativeMonadOnStructuredTypes.index.html)
+### [RelativeMonadOnStructuredTypes](https://www.cs.bham.ac.uk/~mhe/TypeTopology/RelativeMonadOnStructuredTypes.index.html)
 
 Relative monads on structured types are developed, motivated by applications
 to combinatorial game theory, which need monads that are affine, in the
@@ -1442,7 +1442,7 @@ By Martin Escardo and Paulo Oliva.
 
 [Table of contents](#table-of-contents)
 
-### [Slice](https://martinescardo.github.io/TypeTopology/Slice.index.html)
+### [Slice](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Slice.index.html)
 
 The slice of a universe over a type is presented as families, together with
 its monad structure, the corresponding algebras, an embedding into the
@@ -1454,7 +1454,7 @@ By Martin Escardo, Ayberk Tosun, Ian Ray and Tom de Jong.
 
 [Table of contents](#table-of-contents)
 
-### [SyntheticHomotopyTheory](https://martinescardo.github.io/TypeTopology/SyntheticHomotopyTheory.index.html)
+### [SyntheticHomotopyTheory](https://www.cs.bham.ac.uk/~mhe/TypeTopology/SyntheticHomotopyTheory.index.html)
 
 Two types of interest for homotopy theory are defined. The first is the infinite
 dimensional real projective space ℝP∞. Justified by a paper by Ulrik Buchholtz
@@ -1473,7 +1473,7 @@ By Tom de Jong.
 
 [Table of contents](#table-of-contents)
 
-### [Taboos](https://martinescardo.github.io/TypeTopology/Taboos.index.html)
+### [Taboos](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Taboos.index.html)
 
 The non-constructive principles that mark the boundary of constructive
 reasoning are collected here, chiefly excluded middle and the
@@ -1519,7 +1519,7 @@ M.H. Escardó listed under [OrderedTypes](#orderedtypes) above.
 
 [Table of contents](#table-of-contents)
 
-### [TWA](https://martinescardo.github.io/TypeTopology/TWA.index.html)
+### [TWA](https://www.cs.bham.ac.uk/~mhe/TypeTopology/TWA.index.html)
 
 Todd Waugh Ambridge's thesis and related work are kept here. The thesis
 subdirectory is organized by chapter, and each chapter of the index links to
@@ -1579,7 +1579,7 @@ By Todd Waugh Ambridge, Andrew Sneap and Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-### [TypeTopology](https://martinescardo.github.io/TypeTopology/TypeTopology.index.html)
+### [TypeTopology](https://www.cs.bham.ac.uk/~mhe/TypeTopology/TypeTopology.index.html)
 
 Here we have the topological view of types after which the repository is
 named. The two should not be confused. TypeTopology is the repository, of
@@ -1646,7 +1646,7 @@ Tosun.
 
 [Table of contents](#table-of-contents)
 
-### [UF](https://martinescardo.github.io/TypeTopology/UF.index.html)
+### [UF](https://www.cs.bham.ac.uk/~mhe/TypeTopology/UF.index.html)
 
 Here is the core HoTT/UF library on which the rest of the development rests,
 developed on demand over many years. Of the other 59 directories, all but
@@ -1720,7 +1720,7 @@ and Peter Dybjer.
 
 [Table of contents](#table-of-contents)
 
-### [W](https://martinescardo.github.io/TypeTopology/W.index.html)
+### [W](https://www.cs.bham.ac.uk/~mhe/TypeTopology/W.index.html)
 
 W-types are the types of well-founded trees, which serve as a general scheme
 of inductive types and underlie several other developments, such as the
@@ -1731,7 +1731,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-### [WildCategories](https://martinescardo.github.io/TypeTopology/WildCategories.index.html)
+### [WildCategories](https://www.cs.bham.ac.uk/~mhe/TypeTopology/WildCategories.index.html)
 
 Wild higher categories, that is, categories without imposed coherence
 conditions, are developed, with the arguments due to Mike Shulman and typed
@@ -1742,7 +1742,7 @@ By Jon Sterling and Mike Shulman.
 
 [Table of contents](#table-of-contents)
 
-### [deprecated](https://martinescardo.github.io/TypeTopology/deprecated.index.html)
+### [deprecated](https://www.cs.bham.ac.uk/~mhe/TypeTopology/deprecated.index.html)
 
 Modules kept for reference or historical interest live here, superseded by
 material elsewhere but retained so that older results and links remain
@@ -1754,7 +1754,7 @@ By Martin Escardo and Jon Sterling.
 
 [Table of contents](#table-of-contents)
 
-### [Various](https://martinescardo.github.io/TypeTopology/Various.index.html)
+### [Various](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.index.html)
 
 Miscellaneous results of interest that do not belong naturally to any
 of the other directories are collected here.
@@ -1764,7 +1764,7 @@ and Ingo Blechschmidt.
 
 [Table of contents](#table-of-contents)
 
-#### [Various.CantorTheoremForEmbeddings](https://martinescardo.github.io/TypeTopology/Various.CantorTheoremForEmbeddings.html)
+#### [Various.CantorTheoremForEmbeddings](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.CantorTheoremForEmbeddings.html)
 
 Cantor's theorem is proved for embeddings of the powerset of a type into the
 type itself, following Taylor's Practical Foundations of Mathematics by way
@@ -1777,7 +1777,7 @@ By Jon Sterling.
 
 [Table of contents](#table-of-contents)
 
-#### [Various.Dedekind](https://martinescardo.github.io/TypeTopology/Various.Dedekind.html)
+#### [Various.Dedekind](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.Dedekind.html)
 
 These are exploratory notes on the Dedekind reals, written to try out ideas
 rather than to build a library, the library proper being
@@ -1812,7 +1812,7 @@ mentioned in the discussions.
 
 [Table of contents](#table-of-contents)
 
-#### [Various.DedekindNonAxiomatic](https://martinescardo.github.io/TypeTopology/Various.DedekindNonAxiomatic.html)
+#### [Various.DedekindNonAxiomatic](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.DedekindNonAxiomatic.html)
 
 The constructions of the module above are re-exported, with their
 assumptions on ℚ and its strict order discharged by Andrew Sneap's rational
@@ -1822,7 +1822,7 @@ By Tom de Jong.
 
 [Table of contents](#table-of-contents)
 
-#### [Various.DummettDisjunction](https://martinescardo.github.io/TypeTopology/Various.DummettDisjunction.html)
+#### [Various.DummettDisjunction](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.DummettDisjunction.html)
 
 Dummett disjunction of two propositions P and Q, defined as ((P → Q) → Q) ×
 ((Q → P) → P), is weaker than intuitionistic disjunction and stronger than
@@ -1834,7 +1834,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-#### [Various.LawvereFPT](https://martinescardo.github.io/TypeTopology/Various.LawvereFPT.html)
+#### [Various.LawvereFPT](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.LawvereFPT.html)
 
 Lawvere's fixed point theorem is proved, together with a range of its
 consequences. In our type theoretic form, the theorem says that if a type A
@@ -1895,7 +1895,7 @@ By Martin Escardo and Ingo Blechschmidt.
 
 [Table of contents](#table-of-contents)
 
-#### [Various.LawvereFPT-Generalized](https://martinescardo.github.io/TypeTopology/Various.LawvereFPT-Generalized.html)
+#### [Various.LawvereFPT-Generalized](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.LawvereFPT-Generalized.html)
 
 A question left open in the module above is answered here, namely whether a
 certain diagonalization can be replaced by a second application of the fixed
@@ -1906,7 +1906,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-#### [Various.Lumsdaine](https://martinescardo.github.io/TypeTopology/Various.Lumsdaine.html)
+#### [Various.Lumsdaine](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.Lumsdaine.html)
 
 Here is an improvement method learned from Peter Lumsdaine, adapted from an
 Agda rendering by Andy Pitts of his Coq code. From an identity system whose
@@ -1917,7 +1917,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-#### [Various.NatIsSetWithoutUniverse](https://martinescardo.github.io/TypeTopology/Various.NatIsSetWithoutUniverse.html)
+#### [Various.NatIsSetWithoutUniverse](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.NatIsSetWithoutUniverse.html)
 
 The natural numbers form a set, proved without using a universe, in answer
 to [a question of Naïm Favier](https://types.pl/@ncf/114779291760324789).
@@ -1930,7 +1930,7 @@ By Evan Cavallo.
 
 [Table of contents](#table-of-contents)
 
-#### [Various.NonCollapsibleFamily](https://martinescardo.github.io/TypeTopology/Various.NonCollapsibleFamily.html)
+#### [Various.NonCollapsibleFamily](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.NonCollapsibleFamily.html)
 
 A type is collapsible when it has a weakly constant endomap. If every type
 were collapsible, then every type would have decidable equality and hence be
@@ -1942,7 +1942,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-#### [Various.Pataraia](https://martinescardo.github.io/TypeTopology/Various.Pataraia.html)
+#### [Various.Pataraia](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.Pataraia.html)
 
 Every monotone endomap of a directed complete poset with a least element has
 a least fixed point, in topos logic. Pataraia was the first to prove this
@@ -1954,7 +1954,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-#### [Various.Pataraia-Taylor](https://martinescardo.github.io/TypeTopology/Various.Pataraia-Taylor.html)
+#### [Various.Pataraia-Taylor](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.Pataraia-Taylor.html)
 
 A predicative version of Pataraia's fixed point theorem is proved here:
 every monotone endomap of a directed complete poset with a least element
@@ -1975,7 +1975,7 @@ By Martin Escardo and Tom de Jong.
 
 [Table of contents](#table-of-contents)
 
-#### [Various.RootsOfBooleanFunctions](https://martinescardo.github.io/TypeTopology/Various.RootsOfBooleanFunctions.html)
+#### [Various.RootsOfBooleanFunctions](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.RootsOfBooleanFunctions.html)
 
 A formula is given for a putative root of any boolean function f : 𝟚ⁿ → 𝟚,
 written using only the function f and the constant 0, together
@@ -1988,7 +1988,7 @@ By Martin Escardo and Alice Laroche.
 
 [Table of contents](#table-of-contents)
 
-#### [Various.Types2019](https://martinescardo.github.io/TypeTopology/Various.Types2019.html)
+#### [Various.Types2019](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.Types2019.html)
 
 Here are links to the modules that implement the ideas of the TYPES 2019
 abstract on compact, totally separated and well-ordered types, cited under
@@ -1999,7 +1999,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-#### [Various.UnivalenceFromScratch](https://martinescardo.github.io/TypeTopology/Various.UnivalenceFromScratch.html)
+#### [Various.UnivalenceFromScratch](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.UnivalenceFromScratch.html)
 
 The univalence axiom is formulated in a self-contained way, first in
 mathematical English and then in Agda. The reason for it is that the axiom
@@ -2011,7 +2011,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-### [gist](https://martinescardo.github.io/TypeTopology/gist.index.html)
+### [gist](https://www.cs.bham.ac.uk/~mhe/TypeTopology/gist.index.html)
 
 Examples used for discussion or illustration are kept here, together with
 blackboard-style experiments which, if successful, are eventually moved to
@@ -2022,7 +2022,7 @@ Thierry Coquand, Peter Dybjer, Jakub Opršal and Tom de Jong.
 
 [Table of contents](#table-of-contents)
 
-#### [gist.2-injective-types](https://martinescardo.github.io/TypeTopology/gist.2-injective-types.html)
+#### [gist.2-injective-types](https://www.cs.bham.ac.uk/~mhe/TypeTopology/gist.2-injective-types.html)
 
 𝟚-injecting maps and 𝟚-injective types are introduced here. The motivation
 is that injective types have no non-trivial decidable properties in general,
@@ -2034,7 +2034,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-#### [gist.Ackermann](https://martinescardo.github.io/TypeTopology/gist.Ackermann.html)
+#### [gist.Ackermann](https://www.cs.bham.ac.uk/~mhe/TypeTopology/gist.Ackermann.html)
 
 The Ackermann function is defined by induction on the ordinal ω², regarding
 [this discussion
@@ -2044,7 +2044,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-#### [gist.DependentlyTypedTensors](https://martinescardo.github.io/TypeTopology/gist.DependentlyTypedTensors.html)
+#### [gist.DependentlyTypedTensors](https://www.cs.bham.ac.uk/~mhe/TypeTopology/gist.DependentlyTypedTensors.html)
 
 Tensors are encoded using dependent types. This summarizes a discussion with
 Stefano Gogioso, in which the observation was made independently by both
@@ -2054,7 +2054,7 @@ By Stefano Gogioso and Ayberk Tosun.
 
 [Table of contents](#table-of-contents)
 
-#### [gist.Hydra](https://martinescardo.github.io/TypeTopology/gist.Hydra.html)
+#### [gist.Hydra](https://www.cs.bham.ac.uk/~mhe/TypeTopology/gist.Hydra.html)
 
 The [Kirby-Paris hydra game](https://en.wikipedia.org/wiki/Hydra_game) is
 defined, with a proof that every battle eventually ends, and used to compute
@@ -2064,18 +2064,18 @@ By Alice Laroche, using ideas and notations from Ayberk Tosun.
 
 [Table of contents](#table-of-contents)
 
-#### [gist.InjectivesVersusAlgebras](https://martinescardo.github.io/TypeTopology/gist.InjectivesVersusAlgebras.html)
+#### [gist.InjectivesVersusAlgebras](https://www.cs.bham.ac.uk/~mhe/TypeTopology/gist.InjectivesVersusAlgebras.html)
 
 These are blackboard thoughts on injective types as algebras of the
 partial-map classifier monad, superseded by
-[InjectiveTypes.Algebra](https://martinescardo.github.io/TypeTopology/InjectiveTypes.Algebra.html)
+[InjectiveTypes.Algebra](https://www.cs.bham.ac.uk/~mhe/TypeTopology/InjectiveTypes.Algebra.html)
 apart from a few speculative ideas towards the end.
 
 By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-#### [gist.IntervalObject](https://martinescardo.github.io/TypeTopology/gist.IntervalObject.html)
+#### [gist.IntervalObject](https://www.cs.bham.ac.uk/~mhe/TypeTopology/gist.IntervalObject.html)
 
 Convex bodies, that is, cancellative iterative midpoint objects, are
 considered in the ∞-topos of types. These are experimental thoughts written
@@ -2086,16 +2086,16 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-#### [gist.multiset-addendum-question](https://martinescardo.github.io/TypeTopology/gist.multiset-addendum-question.html)
+#### [gist.multiset-addendum-question](https://www.cs.bham.ac.uk/~mhe/TypeTopology/gist.multiset-addendum-question.html)
 
 This answers the question asked in
-[Iterative.Multisets-Addendum](https://martinescardo.github.io/TypeTopology/Iterative.Multisets-Addendum.html).
+[Iterative.Multisets-Addendum](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Iterative.Multisets-Addendum.html).
 
 By Alice Laroche.
 
 [Table of contents](#table-of-contents)
 
-#### [gist.not-an-apartness](https://martinescardo.github.io/TypeTopology/gist.not-an-apartness.html)
+#### [gist.not-an-apartness](https://www.cs.bham.ac.uk/~mhe/TypeTopology/gist.not-an-apartness.html)
 
 A failed attempt at a tight apartness on the type ℕ∞₂ is given for
 illustration, satisfying every condition except cotransitivity.
@@ -2104,7 +2104,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-#### [gist.remove-swap](https://martinescardo.github.io/TypeTopology/gist.remove-swap.html)
+#### [gist.remove-swap](https://www.cs.bham.ac.uk/~mhe/TypeTopology/gist.remove-swap.html)
 
 The functions remove and remove-swap are defined without Agda's with,
 regarding [this mastodon
@@ -2114,7 +2114,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-#### [gist.TotallySeparatedReflectionOfOmega](https://martinescardo.github.io/TypeTopology/gist.TotallySeparatedReflectionOfOmega.html)
+#### [gist.TotallySeparatedReflectionOfOmega](https://www.cs.bham.ac.uk/~mhe/TypeTopology/gist.TotallySeparatedReflectionOfOmega.html)
 
 This is about the totally separated reflection of the type Ω of
 propositions. Every type X has one, given by the image of its evaluation map
@@ -2126,7 +2126,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-#### [gist.transport-discussion](https://martinescardo.github.io/TypeTopology/gist.transport-discussion.html)
+#### [gist.transport-discussion](https://www.cs.bham.ac.uk/~mhe/TypeTopology/gist.transport-discussion.html)
 
 The question is whether a certain transport can be performed more easily
 using univalence than by hand, and whether cumulativity helps. The
@@ -2136,7 +2136,7 @@ By Marc Bezem, Thierry Coquand, Peter Dybjer and Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-#### [gist.wrong-proofs](https://martinescardo.github.io/TypeTopology/gist.wrong-proofs.html)
+#### [gist.wrong-proofs](https://www.cs.bham.ac.uk/~mhe/TypeTopology/gist.wrong-proofs.html)
 
 These proofs are kept as they were so that [this mathstodon
 discussion](https://mathstodon.xyz/deck/@MartinEscardo/115751523590095370)
@@ -2148,12 +2148,12 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-#### [gist.MajoritiesOnlyActOnSets](https://martinescardo.github.io/TypeTopology/gist.MajoritiesOnlyActOnSets.html)
+#### [gist.MajoritiesOnlyActOnSets](https://www.cs.bham.ac.uk/~mhe/TypeTopology/gist.MajoritiesOnlyActOnSets.html)
 
 This, together with
-[gist.ThereAreNoHigherSemilattices](https://martinescardo.github.io/TypeTopology/gist.ThereAreNoHigherSemilattices.html)
+[gist.ThereAreNoHigherSemilattices](https://www.cs.bham.ac.uk/~mhe/TypeTopology/gist.ThereAreNoHigherSemilattices.html)
 and
-[gist.ThereAreNoHigherSemilattices2](https://martinescardo.github.io/TypeTopology/gist.ThereAreNoHigherSemilattices2.html),
+[gist.ThereAreNoHigherSemilattices2](https://www.cs.bham.ac.uk/~mhe/TypeTopology/gist.ThereAreNoHigherSemilattices2.html),
 is what remains of experiments that were moved to
 [AlgebraicStructuresForcingSethood](#algebraicstructuresforcingsethood) in
 April 2026. The three modules now do nothing but import the material in its
@@ -2169,26 +2169,26 @@ and by Tom de Jong, respectively.
 ## Description of unsafe modules
 
 Besides index, the module
-[AllModulesIndex](https://martinescardo.github.io/TypeTopology/AllModulesIndex.html)
+[AllModulesIndex](https://www.cs.bham.ac.uk/~mhe/TypeTopology/AllModulesIndex.html)
 imports
-[Unsafe.index](https://martinescardo.github.io/TypeTopology/Unsafe.index.html)
+[Unsafe.index](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Unsafe.index.html)
 and
-[InfinitePigeon.index](https://martinescardo.github.io/TypeTopology/InfinitePigeon.index.html).
+[InfinitePigeon.index](https://www.cs.bham.ac.uk/~mhe/TypeTopology/InfinitePigeon.index.html).
 Everything imported by the first, and three of the modules of the second, is
 what Agda cannot certify as
 [`--safe`](https://agda.readthedocs.io/en/latest/language/safe-agda.html).
 All of them are `--without-K`, like the rest of the development.
 
-### [Unsafe](https://martinescardo.github.io/TypeTopology/Unsafe.index.html)
+### [Unsafe](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Unsafe.index.html)
 
 The following are the modules imported by
-[Unsafe.index](https://martinescardo.github.io/TypeTopology/Unsafe.index.html).
+[Unsafe.index](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Unsafe.index.html).
 Some of them live in other directories, and are described here rather than
 there because it is here that they are collected.
 
 [Table of contents](#table-of-contents)
 
-#### [Games.Main](https://martinescardo.github.io/TypeTopology/Games.Main.html)
+#### [Games.Main](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Games.Main.html)
 
 This compiles, through Haskell, to a program that plays tic-tac-toe by the
 alpha-beta pruning of the directory [Games](#games), and prints an optimal
@@ -2199,7 +2199,7 @@ By Martin Escardo and Paulo Oliva.
 
 [Table of contents](#table-of-contents)
 
-#### [SyntheticHomotopyTheory.Circle.FundamentalGroup](https://martinescardo.github.io/TypeTopology/SyntheticHomotopyTheory.Circle.FundamentalGroup.html)
+#### [SyntheticHomotopyTheory.Circle.FundamentalGroup](https://www.cs.bham.ac.uk/~mhe/TypeTopology/SyntheticHomotopyTheory.Circle.FundamentalGroup.html)
 
 The loop space of the circle is equivalent to the integers, by the map that
 sends an integer k to the k-th power of the loop. It is not `--safe` because
@@ -2211,7 +2211,7 @@ By Tom de Jong.
 
 [Table of contents](#table-of-contents)
 
-#### [SyntheticHomotopyTheory.Circle.WithRewriting](https://martinescardo.github.io/TypeTopology/SyntheticHomotopyTheory.Circle.WithRewriting.html)
+#### [SyntheticHomotopyTheory.Circle.WithRewriting](https://www.cs.bham.ac.uk/~mhe/TypeTopology/SyntheticHomotopyTheory.Circle.WithRewriting.html)
 
 The circle is postulated, with a definitional computation rule at the point,
 and its dependent universal property is derived. It is not `--safe` because
@@ -2222,7 +2222,7 @@ By Tom de Jong.
 
 [Table of contents](#table-of-contents)
 
-#### [TWA.Thesis.Chapter6.Main](https://martinescardo.github.io/TypeTopology/TWA.Thesis.Chapter6.Main.html)
+#### [TWA.Thesis.Chapter6.Main](https://www.cs.bham.ac.uk/~mhe/TypeTopology/TWA.Thesis.Chapter6.Main.html)
 
 This compiles, through Haskell, to a program that runs the exact-real search
 and regression algorithms of [Todd Waugh Ambridge's thesis](#twa) and prints
@@ -2233,7 +2233,7 @@ By Todd Waugh Ambridge.
 
 [Table of contents](#table-of-contents)
 
-#### [Unsafe.CantorCompact](https://martinescardo.github.io/TypeTopology/Unsafe.CantorCompact.html)
+#### [Unsafe.CantorCompact](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Unsafe.CantorCompact.html)
 
 The Cantor type ℕ → 𝟚 is compact, as a corollary of the [countable Tychonoff
 theorem below](#unsafecountabletychonoff), together with further
@@ -2243,7 +2243,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-#### [Unsafe.CoNat-Equiv](https://martinescardo.github.io/TypeTopology/Unsafe.CoNat-Equiv.html)
+#### [Unsafe.CoNat-Equiv](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Unsafe.CoNat-Equiv.html)
 
 The conatural numbers defined by coinduction are equivalent to the conatural
 numbers defined as the generic convergent sequence, assuming function
@@ -2254,7 +2254,7 @@ By Alice Laroche.
 
 [Table of contents](#table-of-contents)
 
-#### [Unsafe.CountableTychonoff](https://martinescardo.github.io/TypeTopology/Unsafe.CountableTychonoff.html)
+#### [Unsafe.CountableTychonoff](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Unsafe.CountableTychonoff.html)
 
 Countable products of compact types are compact, obtained by iterating the
 fact that binary products preserve compactness. It is not `--safe` because
@@ -2265,7 +2265,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-#### [Unsafe.Haskell](https://martinescardo.github.io/TypeTopology/Unsafe.Haskell.html)
+#### [Unsafe.Haskell](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Unsafe.Haskell.html)
 
 Haskell primitives are postulated here, adapted from the [Agda standard
 library](https://github.com/agda/agda-stdlib) and given as postulates, so
@@ -2276,7 +2276,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-#### [Unsafe.Type-in-Type-False](https://martinescardo.github.io/TypeTopology/Unsafe.Type-in-Type-False.html)
+#### [Unsafe.Type-in-Type-False](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Unsafe.Type-in-Type-False.html)
 
 Type-in-type is inconsistent, shown in two ways. The first is [Coquand's
 paradox of
@@ -2291,7 +2291,7 @@ By Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
-### [InfinitePigeon](https://martinescardo.github.io/TypeTopology/InfinitePigeon.index.html)
+### [InfinitePigeon](https://www.cs.bham.ac.uk/~mhe/TypeTopology/InfinitePigeon.index.html)
 
 The material of the tutorial "Programs from proofs" is implemented here, as
 given by Ulrich Berger, Monika Seisenberger, Martin Escardo and Paulo Oliva
@@ -2310,14 +2310,14 @@ this has to be checked by the mathematician rather than by Agda.
 
 [Table of contents](#table-of-contents)
 
-#### [InfinitePigeon.J-Shift-BBC](https://martinescardo.github.io/TypeTopology/InfinitePigeon.J-Shift-BBC.html)
+#### [InfinitePigeon.J-Shift-BBC](https://www.cs.bham.ac.uk/~mhe/TypeTopology/InfinitePigeon.J-Shift-BBC.html)
 
 The Berardi-Bezem-Coquand functional realizes the shift for the selection
 monad J, and hence, in another module, that for the continuation monad K.
 
 [Table of contents](#table-of-contents)
 
-#### [InfinitePigeon.J-Shift-Selection](https://martinescardo.github.io/TypeTopology/InfinitePigeon.J-Shift-Selection.html)
+#### [InfinitePigeon.J-Shift-Selection](https://www.cs.bham.ac.uk/~mhe/TypeTopology/InfinitePigeon.J-Shift-Selection.html)
 
 The shift for the selection monad J is realized by infinite iteration of the
 finite shift. Termination is proved externally, by bar induction and
@@ -2325,7 +2325,7 @@ continuity.
 
 [Table of contents](#table-of-contents)
 
-#### [InfinitePigeon.K-Shift-MBR](https://martinescardo.github.io/TypeTopology/InfinitePigeon.K-Shift-MBR.html)
+#### [InfinitePigeon.K-Shift-MBR](https://www.cs.bham.ac.uk/~mhe/TypeTopology/InfinitePigeon.K-Shift-MBR.html)
 
 Berger's modified bar recursion realizes the shift for the continuation
 monad K.
@@ -2359,164 +2359,164 @@ links to a search for the files they contributed to. The others link to the
 file that mentions them, or, when there are several, to a search of the
 repository.
 
-* [Andreas Abel](https://martinescardo.github.io/TypeTopologySearch.html#q=Abel&c=1)
-* [Samson Abramsky](https://martinescardo.github.io/TypeTopologySearch.html#q=Abramsky&c=1)
-* [Wilhelm Ackermann](https://martinescardo.github.io/TypeTopologySearch.html#q=Ackermann&c=1)
-* [Peter Aczel](https://martinescardo.github.io/TypeTopologySearch.html#q=Aczel&c=1)
-* [Ettore Aldrovandi](https://martinescardo.github.io/TypeTopologySearch.html#q=Ettore%20Aldrovandi) (contributor)
-* [Cass Alexandru](https://martinescardo.github.io/TypeTopology/PCF.Combinatory.ScottModelOfPCF.html)
-* [Thorsten Altenkirch](https://martinescardo.github.io/TypeTopologySearch.html#q=Altenkirch&c=1)
-* [Carlo Angiuli](https://martinescardo.github.io/TypeTopologySearch.html#q=Carlo%20Angiuli) (contributor)
-* [Igor Arrieta](https://martinescardo.github.io/TypeTopologySearch.html#q=Igor%20Arrieta) (contributor)
-* [Jeremy Avigad](https://martinescardo.github.io/TypeTopology/UF.Pullback.html)
-* [Fredrik Bakke](https://martinescardo.github.io/TypeTopologySearch.html#q=Fredrik%20Bakke) (contributor)
-* [Stefan Banach](https://martinescardo.github.io/TypeTopologySearch.html#q=Banach&c=1)
-* [Reid Barton](https://martinescardo.github.io/TypeTopology/UF.Replacement.html)
-* [Andrej Bauer](https://martinescardo.github.io/TypeTopologySearch.html#q=Bauer&c=1)
-* [Ulrich Berger](https://martinescardo.github.io/TypeTopologySearch.html#q=Berger&c=1)
-* [Felix Bernstein](https://martinescardo.github.io/TypeTopologySearch.html#q=Bernstein&c=1)
-* [Marc Bezem](https://martinescardo.github.io/TypeTopologySearch.html#q=Marc%20Bezem) (contributor)
-* [Lane Biocini](https://martinescardo.github.io/TypeTopologySearch.html#q=Lane%20Biocini) (contributor)
-* [Errett Bishop](https://martinescardo.github.io/TypeTopologySearch.html#q=Bishop&c=1)
-* [Ingo Blechschmidt](https://martinescardo.github.io/TypeTopologySearch.html#q=Blechschmidt&c=1)
-* [Elisabeth Bonnevier](https://martinescardo.github.io/TypeTopologySearch.html#q=Bonnevier&c=1)
-* [Auke Booij](https://martinescardo.github.io/TypeTopology/Various.Dedekind.html)
-* [John Bourke](https://martinescardo.github.io/TypeTopology/InjectiveTypes.Article.html)
-* [L. E. J. Brouwer](https://martinescardo.github.io/TypeTopologySearch.html#q=Brouwer&c=1)
-* [Ulrik Buchholtz](https://martinescardo.github.io/TypeTopologySearch.html#q=Ulrik%20Buchholtz) (contributor)
-* [Cesare Burali-Forti](https://martinescardo.github.io/TypeTopologySearch.html#q=Burali-Forti&c=1)
-* [Pierre Cagne](https://martinescardo.github.io/TypeTopology/UF.Size.html)
-* [Georg Cantor](https://martinescardo.github.io/TypeTopologySearch.html#q=Cantor&c=1)
-* [J. A. Carr](https://martinescardo.github.io/TypeTopologySearch.html#q=J.%20A.%20Carr) (contributor)
-* [Augustin-Louis Cauchy](https://martinescardo.github.io/TypeTopologySearch.html#q=Cauchy&c=1)
-* [Evan Cavallo](https://martinescardo.github.io/TypeTopologySearch.html#q=Evan%20Cavallo) (contributor)
-* [Arthur Cayley](https://martinescardo.github.io/TypeTopologySearch.html#q=Cayley&c=1)
-* [James Chapman](https://martinescardo.github.io/TypeTopology/RelativeMonadOnStructuredTypes.index.html)
-* [Alonzo Church](https://martinescardo.github.io/TypeTopologySearch.html#q=Church&c=1)
-* [John Conway](https://martinescardo.github.io/TypeTopology/Games.Discussion.html)
-* [Thierry Coquand](https://martinescardo.github.io/TypeTopologySearch.html#q=Thierry%20Coquand) (contributor)
-* [Giovanni Curi](https://martinescardo.github.io/TypeTopologySearch.html#q=Curi&c=1)
-* [Haskell Curry](https://martinescardo.github.io/TypeTopologySearch.html#q=Curry&c=1)
-* [Keri D'Angelo](https://martinescardo.github.io/TypeTopologySearch.html#q=Keri%20D%27Angelo) (contributor)
-* [Nils Anders Danielsson](https://martinescardo.github.io/TypeTopologySearch.html#q=Danielsson&c=1)
-* [Tom de Jong](https://martinescardo.github.io/TypeTopologySearch.html#q=Tom%20de%20Jong) (contributor)
-* [Augustus De Morgan](https://martinescardo.github.io/TypeTopologySearch.html#q=De%20Morgan&c=1)
-* [Richard Dedekind](https://martinescardo.github.io/TypeTopologySearch.html#q=Dedekind&c=1)
-* [Michael Dummett](https://martinescardo.github.io/TypeTopologySearch.html#q=Dummett&c=1)
-* [Peter Dybjer](https://martinescardo.github.io/TypeTopologySearch.html#q=Peter%20Dybjer) (contributor)
-* [Beno Eckmann](https://martinescardo.github.io/TypeTopologySearch.html#q=Eckmann&c=1)
-* [Martin Escardo](https://martinescardo.github.io/TypeTopologySearch.html#q=Martin%20Escardo) (contributor)
-* [Naïm Favier](https://martinescardo.github.io/TypeTopology/Various.NatIsSetWithoutUniverse.html)
-* [Michael Fourman](https://martinescardo.github.io/TypeTopologySearch.html#q=Fourman&c=1)
-* [Jonas Frey](https://martinescardo.github.io/TypeTopologySearch.html#q=Frey&c=1)
-* [Peter Freyd](https://martinescardo.github.io/TypeTopologySearch.html#q=Freyd&c=1)
-* [Harvey Friedman](https://martinescardo.github.io/TypeTopologySearch.html#q=Friedman&c=1)
-* [Kurt Gödel](https://martinescardo.github.io/TypeTopologySearch.html#q=G%C3%B6del&c=1)
-* [Stefano Gogioso](https://martinescardo.github.io/TypeTopology/gist.DependentlyTypedTensors.html)
-* [Daniel Gratzer](https://martinescardo.github.io/TypeTopologySearch.html#q=Gratzer&c=1)
-* [Dan Grayson](https://martinescardo.github.io/TypeTopologySearch.html#q=Dan%20Grayson&c=1)
-* [Robin Grayson](https://martinescardo.github.io/TypeTopologySearch.html#q=Robin%20Grayson&c=1)
-* [Chris Groassack](https://martinescardo.github.io/TypeTopology/TypeTopology.index.html)
-* [Alexander Grothendieck](https://martinescardo.github.io/TypeTopologySearch.html#q=Grothendieck&c=1)
-* [Håkon Robbestad Gylterud](https://martinescardo.github.io/TypeTopologySearch.html#q=Gylterud&c=1)
-* [Peter Hancock](https://martinescardo.github.io/TypeTopologySearch.html#q=Hancock&c=1)
-* [Brendan Hart](https://martinescardo.github.io/TypeTopologySearch.html#q=Brendan%20Hart) (contributor)
-* [Felix Hausdorff](https://martinescardo.github.io/TypeTopologySearch.html#q=Hausdorff&c=1)
-* [Michael Hedberg](https://martinescardo.github.io/TypeTopologySearch.html#q=Hedberg&c=1)
-* [Arend Heyting](https://martinescardo.github.io/TypeTopologySearch.html#q=Heyting&c=1)
-* [Denis Higgs](https://martinescardo.github.io/TypeTopologySearch.html#q=Higgs&c=1)
-* [Peter Hilton](https://martinescardo.github.io/TypeTopologySearch.html#q=Hilton&c=1)
-* [Martin Hofmann](https://martinescardo.github.io/TypeTopologySearch.html#q=Hofmann&c=1)
-* [William Alvin Howard](https://martinescardo.github.io/TypeTopologySearch.html#q=Howard&c=1)
-* [John Isbell](https://martinescardo.github.io/TypeTopology/NotionsOfDecidability.QuasiDecidable.html)
-* [Bart Jacobs](https://martinescardo.github.io/TypeTopologySearch.html#q=Jacobs&c=1)
-* [Peter Johnstone](https://martinescardo.github.io/TypeTopologySearch.html#q=Johnstone&c=1)
-* [André Joyal](https://martinescardo.github.io/TypeTopologySearch.html#q=Joyal&c=1)
-* [Achim Jung](https://martinescardo.github.io/TypeTopologySearch.html#q=Jung&c=1)
-* [Ohad Kammar](https://martinescardo.github.io/TypeTopologySearch.html#q=Ohad%20Kammar) (contributor)
-* [Kan](https://martinescardo.github.io/TypeTopologySearch.html#q=Kan&c=1)
-* [Chris Kapulkin](https://martinescardo.github.io/TypeTopologySearch.html#q=Kapulkin&c=1)
-* [Klaus Keimel](https://martinescardo.github.io/TypeTopology/TypeTopology.TotallySeparated.html)
-* [Laurie Kirby](https://martinescardo.github.io/TypeTopology/gist.Hydra.html)
-* [Dominik Kirst](https://martinescardo.github.io/TypeTopology/Ordinals.WellOrderingTaboo.html)
-* [Stephen Kleene](https://martinescardo.github.io/TypeTopologySearch.html#q=Kleene&c=1)
-* [Heinrich Kleisli](https://martinescardo.github.io/TypeTopologySearch.html#q=Kleisli&c=1)
-* [Cory Knapp](https://martinescardo.github.io/TypeTopologySearch.html#q=Cory%20Knapp) (contributor)
-* [König](https://martinescardo.github.io/TypeTopologySearch.html#q=K%C3%B6nig&c=1)
-* [Nicolai Kraus](https://martinescardo.github.io/TypeTopologySearch.html#q=Nicolai%20Kraus) (contributor)
-* [Georg Kreisel](https://martinescardo.github.io/TypeTopologySearch.html#q=Kreisel&c=1)
-* [Kazimierz Kuratowski](https://martinescardo.github.io/TypeTopologySearch.html#q=Kuratowski&c=1)
-* [Joachim Lambek](https://martinescardo.github.io/TypeTopologySearch.html#q=Lambek&c=1)
-* [Alice Laroche](https://martinescardo.github.io/TypeTopologySearch.html#q=Alice%20Laroche) (contributor)
-* [F. William Lawvere](https://martinescardo.github.io/TypeTopologySearch.html#q=Lawvere&c=1)
-* [Gerald Leversha](https://martinescardo.github.io/TypeTopologySearch.html#q=Leversha&c=1)
-* [Paul Levy](https://martinescardo.github.io/TypeTopologySearch.html#q=Paul%20Levy) (contributor)
-* [Peter Lumsdaine](https://martinescardo.github.io/TypeTopologySearch.html#q=Lumsdaine&c=1)
-* [Anatoly Maltsev](https://martinescardo.github.io/TypeTopology/AlgebraicStructuresForcingSethood.WeakNearUnanimity.html)
-* [Graham Manuell](https://martinescardo.github.io/TypeTopology/Locales.Compactness.CharacterizationOfCompactLocales.html)
-* [Markov](https://martinescardo.github.io/TypeTopologySearch.html#q=Markov&c=1)
-* [Per Martin-Löf](https://martinescardo.github.io/TypeTopologySearch.html#q=Martin-L%C3%B6f&c=1)
-* [Sebastian Meyer](https://martinescardo.github.io/TypeTopologySearch.html#q=Meyer&c=1)
-* [Anders Mörtberg](https://martinescardo.github.io/TypeTopologySearch.html#q=M%C3%B6rtberg&c=1)
-* [Joan Moschovakis](https://martinescardo.github.io/TypeTopologySearch.html#q=Moschovakis&c=1)
-* [Guillaume Munch-Maccagnoni](https://martinescardo.github.io/TypeTopologySearch.html#q=Munch-Maccagnoni&c=1)
-* [Fredrik Nordvall Forsberg](https://martinescardo.github.io/TypeTopologySearch.html#q=Fredrik%20Nordvall%20Forsberg) (contributor)
-* [Ulf Norell](https://martinescardo.github.io/TypeTopology/TypeTopology.DecidabilityOfNonContinuity.html)
-* [Kelton OBrien](https://martinescardo.github.io/TypeTopologySearch.html#q=Kelton%20OBrien) (contributor)
-* [Paulo Oliva](https://martinescardo.github.io/TypeTopologySearch.html#q=Paulo%20Oliva) (contributor)
-* [Jakub Opršal](https://martinescardo.github.io/TypeTopologySearch.html#q=Jakub%20Opr%C5%A1al) (contributor)
-* [Bruno Paiva](https://martinescardo.github.io/TypeTopologySearch.html#q=Bruno%20Paiva) (contributor)
-* [Dito Pataraia](https://martinescardo.github.io/TypeTopologySearch.html#q=Pataraia&c=1)
-* [Giuseppe Peano](https://martinescardo.github.io/TypeTopologySearch.html#q=Peano&c=1)
-* [Charles Sanders Peirce](https://martinescardo.github.io/TypeTopologySearch.html#q=Peirce&c=1)
-* [Andy Pitts](https://martinescardo.github.io/TypeTopologySearch.html#q=Pitts&c=1)
-* [William C. Powell](https://martinescardo.github.io/TypeTopologySearch.html#q=Powell&c=1)
-* [Cécilia Pradic](https://martinescardo.github.io/TypeTopologySearch.html#q=Pradic&c=1)
-* [Vincent Rahli](https://martinescardo.github.io/TypeTopologySearch.html#q=Vincent%20Rahli) (contributor)
-* [Ian Ray](https://martinescardo.github.io/TypeTopologySearch.html#q=Ian%20Ray) (contributor)
-* [Alex Rice](https://martinescardo.github.io/TypeTopologySearch.html#q=Alex%20Rice) (contributor)
-* [Egbert Rijke](https://martinescardo.github.io/TypeTopologySearch.html#q=Rijke&c=1)
-* [Giuseppe Rosolini](https://martinescardo.github.io/TypeTopologySearch.html#q=Rosolini&c=1)
-* [J. Barkley Rosser](https://martinescardo.github.io/TypeTopologySearch.html#q=Rosser&c=1)
-* [Bertrand Russell](https://martinescardo.github.io/TypeTopologySearch.html#q=Russell&c=1)
-* [Christian Sattler](https://martinescardo.github.io/TypeTopology/Ordinals.OrdinalOfOrdinalsInfima.html)
-* [Ernst Schröder](https://martinescardo.github.io/TypeTopologySearch.html#q=Schr%C3%B6der&c=1)
-* [Dana Scott](https://martinescardo.github.io/TypeTopologySearch.html#q=Scott&c=1)
-* [Phil Scott](https://martinescardo.github.io/TypeTopologySearch.html#q=Phil%20Scott&c=1)
-* [Monika Seisenberger](https://martinescardo.github.io/TypeTopology/InfinitePigeon.index.html)
-* [Anton Setzer](https://martinescardo.github.io/TypeTopologySearch.html#q=Setzer&c=1)
-* [Mike Shulman](https://martinescardo.github.io/TypeTopologySearch.html#q=Mike%20Shulman) (contributor)
-* [Wacław Sierpiński](https://martinescardo.github.io/TypeTopologySearch.html#q=Sierpi%C5%84ski&c=1)
-* [Alex Simpson](https://martinescardo.github.io/TypeTopologySearch.html#q=Simpson&c=1)
-* [Jan M. Smith](https://martinescardo.github.io/TypeTopology/Various.NatIsSetWithoutUniverse.html)
-* [Andrew Sneap](https://martinescardo.github.io/TypeTopologySearch.html#q=Andrew%20Sneap) (contributor)
-* [Kristina Sojakova](https://martinescardo.github.io/TypeTopologySearch.html#q=Sojakova&c=1)
-* [Bas Spitters](https://martinescardo.github.io/TypeTopologySearch.html#q=Spitters&c=1)
-* [Jon Sterling](https://martinescardo.github.io/TypeTopologySearch.html#q=Jon%20Sterling) (contributor)
-* [Marshall Stone](https://martinescardo.github.io/TypeTopologySearch.html#q=Stone&c=1)
-* [Thomas Streicher](https://martinescardo.github.io/TypeTopologySearch.html#q=Streicher&c=1)
-* [Andrew Swan](https://martinescardo.github.io/TypeTopologySearch.html#q=Andrew%20Swan) (contributor)
-* [Alfred Tarski](https://martinescardo.github.io/TypeTopologySearch.html#q=Tarski&c=1)
-* [Paul Taylor](https://martinescardo.github.io/TypeTopologySearch.html#q=Paul%20Taylor&c=1)
-* [Walter Taylor](https://martinescardo.github.io/TypeTopologySearch.html#q=Walter%20Taylor&c=1)
-* [Linus Torvalds](https://martinescardo.github.io/TypeTopology/index.html)
-* [Ayberk Tosun](https://martinescardo.github.io/TypeTopologySearch.html#q=Ayberk%20Tosun) (contributor)
-* [Anne Sjerp Troelstra](https://martinescardo.github.io/TypeTopologySearch.html#q=Troelstra&c=1)
-* [Alan Turing](https://martinescardo.github.io/TypeTopologySearch.html#q=Turing&c=1)
-* [Andrey Tychonoff](https://martinescardo.github.io/TypeTopologySearch.html#q=Tychonoff&c=1)
-* [Tarmo Uustalu](https://martinescardo.github.io/TypeTopology/RelativeMonadOnStructuredTypes.index.html)
-* [Simcha van Collem](https://martinescardo.github.io/TypeTopologySearch.html#q=Simcha%20van%20Collem) (contributor)
-* [Andrea Vezzosi](https://martinescardo.github.io/TypeTopologySearch.html#q=Vezzosi&c=1)
-* [Steve Vickers](https://martinescardo.github.io/TypeTopologySearch.html#q=Vickers&c=1)
-* [Vladimir Voevodsky](https://martinescardo.github.io/TypeTopologySearch.html#q=Voevodsky&c=1)
-* [David Wärn](https://martinescardo.github.io/TypeTopologySearch.html#q=W%C3%A4rn&c=1)
-* [Todd Waugh Ambridge](https://martinescardo.github.io/TypeTopologySearch.html#q=Todd%20Waugh%20Ambridge) (contributor)
-* [Ross Willard](https://martinescardo.github.io/TypeTopologySearch.html#q=Willard&c=1)
-* [Anna Williams](https://martinescardo.github.io/TypeTopologySearch.html#q=Anna%20Williams) (contributor)
-* [Gavin Wraith](https://martinescardo.github.io/TypeTopologySearch.html#q=Wraith&c=1)
-* [Chuangjie Xu](https://martinescardo.github.io/TypeTopologySearch.html#q=Chuangjie%20Xu) (contributor)
-* [Nobuo Yoneda](https://martinescardo.github.io/TypeTopologySearch.html#q=Yoneda&c=1)
-* [Ernst Zermelo](https://martinescardo.github.io/TypeTopologySearch.html#q=Zermelo&c=1)
-* [Max Zorn](https://martinescardo.github.io/TypeTopologySearch.html#q=Zorn&c=1)
+* [Andreas Abel](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Abel&c=1)
+* [Samson Abramsky](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Abramsky&c=1)
+* [Wilhelm Ackermann](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Ackermann&c=1)
+* [Peter Aczel](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Aczel&c=1)
+* [Ettore Aldrovandi](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Ettore%20Aldrovandi) (contributor)
+* [Cass Alexandru](https://www.cs.bham.ac.uk/~mhe/TypeTopology/PCF.Combinatory.ScottModelOfPCF.html)
+* [Thorsten Altenkirch](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Altenkirch&c=1)
+* [Carlo Angiuli](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Carlo%20Angiuli) (contributor)
+* [Igor Arrieta](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Igor%20Arrieta) (contributor)
+* [Jeremy Avigad](https://www.cs.bham.ac.uk/~mhe/TypeTopology/UF.Pullback.html)
+* [Fredrik Bakke](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Fredrik%20Bakke) (contributor)
+* [Stefan Banach](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Banach&c=1)
+* [Reid Barton](https://www.cs.bham.ac.uk/~mhe/TypeTopology/UF.Replacement.html)
+* [Andrej Bauer](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Bauer&c=1)
+* [Ulrich Berger](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Berger&c=1)
+* [Felix Bernstein](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Bernstein&c=1)
+* [Marc Bezem](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Marc%20Bezem) (contributor)
+* [Lane Biocini](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Lane%20Biocini) (contributor)
+* [Errett Bishop](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Bishop&c=1)
+* [Ingo Blechschmidt](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Blechschmidt&c=1)
+* [Elisabeth Bonnevier](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Bonnevier&c=1)
+* [Auke Booij](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.Dedekind.html)
+* [John Bourke](https://www.cs.bham.ac.uk/~mhe/TypeTopology/InjectiveTypes.Article.html)
+* [L. E. J. Brouwer](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Brouwer&c=1)
+* [Ulrik Buchholtz](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Ulrik%20Buchholtz) (contributor)
+* [Cesare Burali-Forti](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Burali-Forti&c=1)
+* [Pierre Cagne](https://www.cs.bham.ac.uk/~mhe/TypeTopology/UF.Size.html)
+* [Georg Cantor](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Cantor&c=1)
+* [J. A. Carr](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=J.%20A.%20Carr) (contributor)
+* [Augustin-Louis Cauchy](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Cauchy&c=1)
+* [Evan Cavallo](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Evan%20Cavallo) (contributor)
+* [Arthur Cayley](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Cayley&c=1)
+* [James Chapman](https://www.cs.bham.ac.uk/~mhe/TypeTopology/RelativeMonadOnStructuredTypes.index.html)
+* [Alonzo Church](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Church&c=1)
+* [John Conway](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Games.Discussion.html)
+* [Thierry Coquand](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Thierry%20Coquand) (contributor)
+* [Giovanni Curi](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Curi&c=1)
+* [Haskell Curry](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Curry&c=1)
+* [Keri D'Angelo](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Keri%20D%27Angelo) (contributor)
+* [Nils Anders Danielsson](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Danielsson&c=1)
+* [Tom de Jong](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Tom%20de%20Jong) (contributor)
+* [Augustus De Morgan](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=De%20Morgan&c=1)
+* [Richard Dedekind](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Dedekind&c=1)
+* [Michael Dummett](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Dummett&c=1)
+* [Peter Dybjer](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Peter%20Dybjer) (contributor)
+* [Beno Eckmann](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Eckmann&c=1)
+* [Martin Escardo](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Martin%20Escardo) (contributor)
+* [Naïm Favier](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.NatIsSetWithoutUniverse.html)
+* [Michael Fourman](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Fourman&c=1)
+* [Jonas Frey](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Frey&c=1)
+* [Peter Freyd](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Freyd&c=1)
+* [Harvey Friedman](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Friedman&c=1)
+* [Kurt Gödel](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=G%C3%B6del&c=1)
+* [Stefano Gogioso](https://www.cs.bham.ac.uk/~mhe/TypeTopology/gist.DependentlyTypedTensors.html)
+* [Daniel Gratzer](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Gratzer&c=1)
+* [Dan Grayson](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Dan%20Grayson&c=1)
+* [Robin Grayson](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Robin%20Grayson&c=1)
+* [Chris Groassack](https://www.cs.bham.ac.uk/~mhe/TypeTopology/TypeTopology.index.html)
+* [Alexander Grothendieck](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Grothendieck&c=1)
+* [Håkon Robbestad Gylterud](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Gylterud&c=1)
+* [Peter Hancock](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Hancock&c=1)
+* [Brendan Hart](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Brendan%20Hart) (contributor)
+* [Felix Hausdorff](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Hausdorff&c=1)
+* [Michael Hedberg](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Hedberg&c=1)
+* [Arend Heyting](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Heyting&c=1)
+* [Denis Higgs](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Higgs&c=1)
+* [Peter Hilton](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Hilton&c=1)
+* [Martin Hofmann](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Hofmann&c=1)
+* [William Alvin Howard](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Howard&c=1)
+* [John Isbell](https://www.cs.bham.ac.uk/~mhe/TypeTopology/NotionsOfDecidability.QuasiDecidable.html)
+* [Bart Jacobs](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Jacobs&c=1)
+* [Peter Johnstone](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Johnstone&c=1)
+* [André Joyal](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Joyal&c=1)
+* [Achim Jung](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Jung&c=1)
+* [Ohad Kammar](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Ohad%20Kammar) (contributor)
+* [Kan](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Kan&c=1)
+* [Chris Kapulkin](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Kapulkin&c=1)
+* [Klaus Keimel](https://www.cs.bham.ac.uk/~mhe/TypeTopology/TypeTopology.TotallySeparated.html)
+* [Laurie Kirby](https://www.cs.bham.ac.uk/~mhe/TypeTopology/gist.Hydra.html)
+* [Dominik Kirst](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Ordinals.WellOrderingTaboo.html)
+* [Stephen Kleene](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Kleene&c=1)
+* [Heinrich Kleisli](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Kleisli&c=1)
+* [Cory Knapp](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Cory%20Knapp) (contributor)
+* [König](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=K%C3%B6nig&c=1)
+* [Nicolai Kraus](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Nicolai%20Kraus) (contributor)
+* [Georg Kreisel](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Kreisel&c=1)
+* [Kazimierz Kuratowski](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Kuratowski&c=1)
+* [Joachim Lambek](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Lambek&c=1)
+* [Alice Laroche](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Alice%20Laroche) (contributor)
+* [F. William Lawvere](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Lawvere&c=1)
+* [Gerald Leversha](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Leversha&c=1)
+* [Paul Levy](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Paul%20Levy) (contributor)
+* [Peter Lumsdaine](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Lumsdaine&c=1)
+* [Anatoly Maltsev](https://www.cs.bham.ac.uk/~mhe/TypeTopology/AlgebraicStructuresForcingSethood.WeakNearUnanimity.html)
+* [Graham Manuell](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Locales.Compactness.CharacterizationOfCompactLocales.html)
+* [Markov](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Markov&c=1)
+* [Per Martin-Löf](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Martin-L%C3%B6f&c=1)
+* [Sebastian Meyer](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Meyer&c=1)
+* [Anders Mörtberg](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=M%C3%B6rtberg&c=1)
+* [Joan Moschovakis](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Moschovakis&c=1)
+* [Guillaume Munch-Maccagnoni](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Munch-Maccagnoni&c=1)
+* [Fredrik Nordvall Forsberg](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Fredrik%20Nordvall%20Forsberg) (contributor)
+* [Ulf Norell](https://www.cs.bham.ac.uk/~mhe/TypeTopology/TypeTopology.DecidabilityOfNonContinuity.html)
+* [Kelton OBrien](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Kelton%20OBrien) (contributor)
+* [Paulo Oliva](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Paulo%20Oliva) (contributor)
+* [Jakub Opršal](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Jakub%20Oprsal) (contributor)
+* [Bruno Paiva](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Bruno%20Paiva) (contributor)
+* [Dito Pataraia](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Pataraia&c=1)
+* [Giuseppe Peano](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Peano&c=1)
+* [Charles Sanders Peirce](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Peirce&c=1)
+* [Andy Pitts](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Pitts&c=1)
+* [William C. Powell](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Powell&c=1)
+* [Cécilia Pradic](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Pradic&c=1)
+* [Vincent Rahli](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Vincent%20Rahli) (contributor)
+* [Ian Ray](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Ian%20Ray) (contributor)
+* [Alex Rice](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Alex%20Rice) (contributor)
+* [Egbert Rijke](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Rijke&c=1)
+* [Giuseppe Rosolini](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Rosolini&c=1)
+* [J. Barkley Rosser](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Rosser&c=1)
+* [Bertrand Russell](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Russell&c=1)
+* [Christian Sattler](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Ordinals.OrdinalOfOrdinalsInfima.html)
+* [Ernst Schröder](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Schr%C3%B6der&c=1)
+* [Dana Scott](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Scott&c=1)
+* [Phil Scott](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Phil%20Scott&c=1)
+* [Monika Seisenberger](https://www.cs.bham.ac.uk/~mhe/TypeTopology/InfinitePigeon.index.html)
+* [Anton Setzer](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Setzer&c=1)
+* [Mike Shulman](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Mike%20Shulman) (contributor)
+* [Wacław Sierpiński](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Sierpi%C5%84ski&c=1)
+* [Alex Simpson](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Simpson&c=1)
+* [Jan M. Smith](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.NatIsSetWithoutUniverse.html)
+* [Andrew Sneap](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Andrew%20Sneap) (contributor)
+* [Kristina Sojakova](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Sojakova&c=1)
+* [Bas Spitters](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Spitters&c=1)
+* [Jon Sterling](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Jon%20Sterling) (contributor)
+* [Marshall Stone](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Stone&c=1)
+* [Thomas Streicher](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Streicher&c=1)
+* [Andrew Swan](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Andrew%20Swan) (contributor)
+* [Alfred Tarski](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Tarski&c=1)
+* [Paul Taylor](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Paul%20Taylor&c=1)
+* [Walter Taylor](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Walter%20Taylor&c=1)
+* [Linus Torvalds](https://www.cs.bham.ac.uk/~mhe/TypeTopology/index.html)
+* [Ayberk Tosun](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Ayberk%20Tosun) (contributor)
+* [Anne Sjerp Troelstra](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Troelstra&c=1)
+* [Alan Turing](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Turing&c=1)
+* [Andrey Tychonoff](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Tychonoff&c=1)
+* [Tarmo Uustalu](https://www.cs.bham.ac.uk/~mhe/TypeTopology/RelativeMonadOnStructuredTypes.index.html)
+* [Simcha van Collem](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Simcha%20van%20Collem) (contributor)
+* [Andrea Vezzosi](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Vezzosi&c=1)
+* [Steve Vickers](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Vickers&c=1)
+* [Vladimir Voevodsky](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Voevodsky&c=1)
+* [David Wärn](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=W%C3%A4rn&c=1)
+* [Todd Waugh Ambridge](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Todd%20Waugh%20Ambridge) (contributor)
+* [Ross Willard](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Willard&c=1)
+* [Anna Williams](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Anna%20Williams) (contributor)
+* [Gavin Wraith](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Wraith&c=1)
+* [Chuangjie Xu](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Chuangjie%20Xu) (contributor)
+* [Nobuo Yoneda](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Yoneda&c=1)
+* [Ernst Zermelo](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Zermelo&c=1)
+* [Max Zorn](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Zorn&c=1)
 
 [Table of contents](#table-of-contents)
