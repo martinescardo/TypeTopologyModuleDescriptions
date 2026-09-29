@@ -124,8 +124,8 @@ GIT_ALIAS = {
 
 # People who have committed a stray fix but are not TypeTopology contributors,
 # and are counted under "others" rather than named.
-DRIVE_BY = {"Harrison Grodin", "Philip Dorrell", "Ingo Blechschmidt",
-            "Scott Fleischman"}
+DRIVE_BY = {"Harrison Grodin", "Philip Dorrell", "Scott Fleischman",
+            "Andreas Abel"}
 
 
 def pct(x):

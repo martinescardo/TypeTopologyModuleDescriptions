@@ -186,16 +186,16 @@ same searches are
 
 ## Repository statistics
 
-The counts below were taken on <!--#date-->14th August 2026<!--/#-->, over
+The counts below were taken on <!--#date-->29th September 2026<!--/#-->, over
 the Agda files tracked by git in the directory source.
 
 | what is counted | count |
 | --- | ---: |
-| Agda files | <!--#files-->990<!--/#--> |
-| Lines, including comments and blank lines | <!--#lines-->287,833<!--/#--> |
-| Lines that are not blank | <!--#nonblank-->223,253<!--/#--> |
+| Agda files | <!--#files-->996<!--/#--> |
+| Lines, including comments and blank lines | <!--#lines-->295,295<!--/#--> |
+| Lines that are not blank | <!--#nonblank-->229,216<!--/#--> |
 | Directories | <!--#dirs-->61<!--/#--> |
-| Contributors | <!--#contributors-->35<!--/#--> |
+| Contributors | <!--#contributors-->36<!--/#--> |
 
 Of the <!--#dirs-->61<!--/#--> directories, <!--#indexed-->59<!--/#--> are
 imported by [index](https://www.cs.bham.ac.uk/~mhe/TypeTopology/index.html)
@@ -214,19 +214,19 @@ directory that is meant here and throughout.
 <!-- ttstats:directories -->
 | directory | files | lines | share |
 | --- | ---: | ---: | ---: |
-| [Ordinals](#ordinals) | 67 | 29,825 | 10.4% |
-| [Locales](#locales) | 85 | 29,553 | 10.3% |
-| [UF](#uf) | 80 | 27,213 | 9.5% |
-| [DomainTheory](#domaintheory) | 44 | 19,260 | 6.7% |
-| [TypeTopology](#typetopology) | 35 | 14,611 | 5.1% |
-| [TWA](#twa) | 33 | 10,972 | 3.9% |
-| [InjectiveTypes](#injectivetypes) | 19 | 10,913 | 3.8% |
-| [MGS](#mgs) | 30 | 9,298 | 3.3% |
+| [Ordinals](#ordinals) | 71 | 32,228 | 11.0% |
+| [Locales](#locales) | 85 | 29,549 | 10.1% |
+| [UF](#uf) | 80 | 27,290 | 9.3% |
+| [DomainTheory](#domaintheory) | 44 | 19,260 | 6.6% |
+| [TypeTopology](#typetopology) | 37 | 18,755 | 6.4% |
+| [TWA](#twa) | 33 | 10,972 | 3.8% |
+| [InjectiveTypes](#injectivetypes) | 19 | 10,908 | 3.7% |
+| [MGS](#mgs) | 30 | 9,296 | 3.2% |
 | [Groups](#groups) | 27 | 7,681 | 2.7% |
-| [C-Spaces](#c-spaces) | 38 | 7,377 | 2.6% |
-| [EffectfulForcing](#effectfulforcing) | 27 | 7,360 | 2.6% |
-| [Various](#various) | 15 | 6,945 | 2.5% |
-| others | 490 | 106,825 | 37.2% |
+| [C-Spaces](#c-spaces) | 38 | 7,375 | 2.5% |
+| [EffectfulForcing](#effectfulforcing) | 27 | 7,356 | 2.5% |
+| [Games](#games) | 18 | 6,995 | 2.4% |
+| others | 487 | 107,630 | 36.5% |
 <!-- /ttstats:directories -->
 
 [Table of contents](#table-of-contents)
@@ -240,7 +240,7 @@ former and current students, collaborators, and people doing their own
 work.
 
 To put numbers on this, the table below gives the share of
-the <!--#files-->990<!--/#--> Agda files of the repository that is due to
+the <!--#files-->996<!--/#--> Agda files of the repository that is due to
 each of us, counted in two ways. The first column attributes each file to
 the authors named in its header, splitting a file equally when it names
 several, and resolves the few files with no name in the header by the git
@@ -251,24 +251,24 @@ last change to each line.
 <!-- ttstats:contributors -->
 | | by header | by blame |
 | --- | ---: | ---: |
-| Martin Escardo | 45.3% | 53.4% |
-| Tom de Jong | 12.3% | 14.8% |
-| Ayberk Tosun | 11.6% | 11.5% |
-| Andrew Sneap | 5.5% | 4.3% |
-| Chuangjie Xu | 4.1% | 2.7% |
-| Todd Waugh Ambridge | 3.7% | 2.8% |
-| Ian Ray | 3.0% | 3.3% |
-| Paulo Oliva | 2.4% | 0.0% |
-| Nicolai Kraus | 1.7% | 0.3% |
+| Martin Escardo | 46.5% | 54.4% |
+| Tom de Jong | 12.1% | 14.6% |
+| Ayberk Tosun | 11.3% | 11.2% |
+| Andrew Sneap | 5.3% | 4.2% |
+| Chuangjie Xu | 4.1% | 2.6% |
+| Todd Waugh Ambridge | 3.6% | 2.7% |
+| Ian Ray | 2.9% | 3.3% |
+| Paulo Oliva | 2.3% | 0.0% |
+| Nicolai Kraus | 1.6% | 0.3% |
 | Jon Sterling | 1.5% | 1.2% |
 | Fredrik Nordvall Forsberg | 1.4% | 0.0% |
-| Anna Williams | 1.1% | 1.2% |
-| Ettore Aldrovandi | 1.1% | 1.6% |
+| Anna Williams | 1.1% | 1.1% |
+| Ettore Aldrovandi | 1.0% | 1.5% |
 | Brendan Hart | 1.0% | 0.0% |
-| others | 5.0% | 3.5% |
+| others | 4.9% | 3.4% |
 <!-- /ttstats:contributors -->
 
-The table was last updated on <!--#date-->14th August 2026<!--/#-->. It
+The table was last updated on <!--#date-->29th September 2026<!--/#-->. It
 names only those of us who reach 1% in at least one of the two columns, and
 so it is not a list of contributors. The [full
 list](https://github.com/martinescardo/TypeTopology/blob/master/README.md#current-contributors-in-alphabetical-order-of-first-name)
@@ -2378,7 +2378,7 @@ repository.
 * [Marc Bezem](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Marc%20Bezem) (contributor)
 * [Lane Biocini](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Lane%20Biocini) (contributor)
 * [Errett Bishop](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Bishop&c=1)
-* [Ingo Blechschmidt](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Blechschmidt&c=1)
+* [Ingo Blechschmidt](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Ingo%20Blechschmidt) (contributor)
 * [Elisabeth Bonnevier](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Bonnevier&c=1)
 * [Auke Booij](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.Dedekind.html)
 * [John Bourke](https://www.cs.bham.ac.uk/~mhe/TypeTopology/InjectiveTypes.Article.html)
