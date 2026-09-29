@@ -2420,7 +2420,7 @@ repository.
 * [Daniel Gratzer](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Gratzer&c=1)
 * [Dan Grayson](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Dan%20Grayson&c=1)
 * [Robin Grayson](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Robin%20Grayson&c=1)
-* [Chris Groassack](https://www.cs.bham.ac.uk/~mhe/TypeTopology/TypeTopology.index.html)
+* [Chris Grossack](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Grossack&c=1)
 * [Alexander Grothendieck](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Grothendieck&c=1)
 * [Håkon Robbestad Gylterud](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Gylterud&c=1)
 * [Peter Hancock](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Hancock&c=1)
