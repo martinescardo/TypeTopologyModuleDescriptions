@@ -972,7 +972,8 @@ By Martin Escardo and Tom de Jong.
    Structures in Computer Science 31(1), 2021, 89–111, [doi:10.1017/S0960129520000225](https://doi.org/10.1017/S0960129520000225).
 
 1. T. de Jong and M.H. Escardó, "Examples and counterexamples of injective
-   types", 2026, [doi:10.48550/arXiv.2601.12536](https://doi.org/10.48550/arXiv.2601.12536).
+   types", Annals of Pure and Applied Logic 178(2), 2027, 103829,
+   [doi:10.1016/j.apal.2026.103829](https://doi.org/10.1016/j.apal.2026.103829).
 
 [Table of contents](#table-of-contents)
 
@@ -1643,6 +1644,9 @@ Tosun.
 
 1. M.H. Escardó, "Compact, totally separated and well-ordered types in
    univalent mathematics", abstract, TYPES 2019, Oslo, <https://eutypes.cs.ru.nl/pmwiki/uploads/Main/books-of-abstracts-TYPES2019.pdf>.
+
+1. M.H. Escardó, "Compact totally separated types", 2026,
+   [doi:10.48550/arXiv.2609.10447](https://doi.org/10.48550/arXiv.2609.10447).
 
 [Table of contents](#table-of-contents)
 
