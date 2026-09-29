@@ -2399,7 +2399,7 @@ repository.
 * [Alonzo Church](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Church&c=1)
 * [John Conway](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Games.Discussion.html)
 * [Thierry Coquand](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Thierry%20Coquand) (contributor)
-* [Giovanni Curi](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Curi&c=1)
+* [Giovanni Curi](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Giovanni%20Curi&c=1)
 * [Haskell Curry](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Curry&c=1)
 * [Keri D'Angelo](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Keri%20D%27Angelo) (contributor)
 * [Nils Anders Danielsson](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Danielsson&c=1)
