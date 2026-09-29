@@ -192,8 +192,8 @@ the Agda files tracked by git in the directory source.
 | what is counted | count |
 | --- | ---: |
 | Agda files | <!--#files-->996<!--/#--> |
-| Lines, including comments and blank lines | <!--#lines-->295,295<!--/#--> |
-| Lines that are not blank | <!--#nonblank-->229,216<!--/#--> |
+| Lines, including comments and blank lines | <!--#lines-->296,029<!--/#--> |
+| Lines that are not blank | <!--#nonblank-->229,929<!--/#--> |
 | Directories | <!--#dirs-->61<!--/#--> |
 | Contributors | <!--#contributors-->36<!--/#--> |
 
@@ -214,19 +214,19 @@ directory that is meant here and throughout.
 <!-- ttstats:directories -->
 | directory | files | lines | share |
 | --- | ---: | ---: | ---: |
-| [Ordinals](#ordinals) | 71 | 32,228 | 11.0% |
-| [Locales](#locales) | 85 | 29,549 | 10.1% |
-| [UF](#uf) | 80 | 27,290 | 9.3% |
+| [Ordinals](#ordinals) | 71 | 32,560 | 11.0% |
+| [Locales](#locales) | 85 | 29,553 | 10.0% |
+| [UF](#uf) | 80 | 27,299 | 9.3% |
 | [DomainTheory](#domaintheory) | 44 | 19,260 | 6.6% |
 | [TypeTopology](#typetopology) | 37 | 18,755 | 6.4% |
-| [TWA](#twa) | 33 | 10,972 | 3.8% |
+| [TWA](#twa) | 33 | 11,049 | 3.8% |
 | [InjectiveTypes](#injectivetypes) | 19 | 10,908 | 3.7% |
 | [MGS](#mgs) | 30 | 9,296 | 3.2% |
-| [Groups](#groups) | 27 | 7,681 | 2.7% |
+| [Groups](#groups) | 27 | 7,697 | 2.7% |
+| [EffectfulForcing](#effectfulforcing) | 27 | 7,427 | 2.6% |
 | [C-Spaces](#c-spaces) | 38 | 7,375 | 2.5% |
-| [EffectfulForcing](#effectfulforcing) | 27 | 7,356 | 2.5% |
-| [Games](#games) | 18 | 6,995 | 2.4% |
-| others | 487 | 107,630 | 36.5% |
+| [Games](#games) | 18 | 7,020 | 2.4% |
+| others | 487 | 107,830 | 36.5% |
 <!-- /ttstats:directories -->
 
 [Table of contents](#table-of-contents)
@@ -251,21 +251,21 @@ last change to each line.
 <!-- ttstats:contributors -->
 | | by header | by blame |
 | --- | ---: | ---: |
-| Martin Escardo | 46.5% | 54.4% |
-| Tom de Jong | 12.1% | 14.6% |
+| Martin Escardo | 46.5% | 54.6% |
+| Tom de Jong | 11.9% | 14.6% |
 | Ayberk Tosun | 11.3% | 11.2% |
 | Andrew Sneap | 5.3% | 4.2% |
 | Chuangjie Xu | 4.1% | 2.6% |
-| Todd Waugh Ambridge | 3.6% | 2.7% |
+| Todd Waugh Ambridge | 3.7% | 2.7% |
 | Ian Ray | 2.9% | 3.3% |
-| Paulo Oliva | 2.3% | 0.0% |
-| Nicolai Kraus | 1.6% | 0.3% |
+| Paulo Oliva | 2.4% | 0.0% |
+| Nicolai Kraus | 1.7% | 0.3% |
 | Jon Sterling | 1.5% | 1.2% |
 | Fredrik Nordvall Forsberg | 1.4% | 0.0% |
 | Anna Williams | 1.1% | 1.1% |
 | Ettore Aldrovandi | 1.0% | 1.5% |
 | Brendan Hart | 1.0% | 0.0% |
-| others | 4.9% | 3.4% |
+| others | 5.1% | 3.3% |
 <!-- /ttstats:contributors -->
 
 The table was last updated on <!--#date-->29th September 2026<!--/#-->. It
