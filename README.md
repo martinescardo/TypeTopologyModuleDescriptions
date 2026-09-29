@@ -2363,7 +2363,7 @@ links to a search for the files they contributed to. The others link to the
 file that mentions them, or, when there are several, to a search of the
 repository.
 
-* [Andreas Abel](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Abel&c=1)
+* [Andreas Abel](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Andreas%20Abel&c=1)
 * [Samson Abramsky](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Abramsky&c=1)
 * [Wilhelm Ackermann](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Ackermann&c=1)
 * [Peter Aczel](https://www.cs.bham.ac.uk/~mhe/TypeTopologySearch.html#q=Aczel&c=1)
