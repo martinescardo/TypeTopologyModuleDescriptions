@@ -186,14 +186,14 @@ same searches are
 
 ## Repository statistics
 
-The counts below were taken on <!--#date-->29th September 2026<!--/#-->, over
+The counts below were taken on <!--#date-->30th September 2026<!--/#-->, over
 the Agda files tracked by git in the directory source.
 
 | what is counted | count |
 | --- | ---: |
-| Agda files | <!--#files-->996<!--/#--> |
-| Lines, including comments and blank lines | <!--#lines-->296,029<!--/#--> |
-| Lines that are not blank | <!--#nonblank-->229,929<!--/#--> |
+| Agda files | <!--#files-->997<!--/#--> |
+| Lines, including comments and blank lines | <!--#lines-->296,674<!--/#--> |
+| Lines that are not blank | <!--#nonblank-->230,446<!--/#--> |
 | Directories | <!--#dirs-->61<!--/#--> |
 | Contributors | <!--#contributors-->36<!--/#--> |
 
@@ -214,19 +214,19 @@ directory that is meant here and throughout.
 <!-- ttstats:directories -->
 | directory | files | lines | share |
 | --- | ---: | ---: | ---: |
-| [Ordinals](#ordinals) | 71 | 32,560 | 11.0% |
-| [Locales](#locales) | 85 | 29,553 | 10.0% |
-| [UF](#uf) | 80 | 27,299 | 9.3% |
-| [DomainTheory](#domaintheory) | 44 | 19,260 | 6.6% |
+| [Ordinals](#ordinals) | 71 | 32,566 | 11.0% |
+| [Locales](#locales) | 85 | 29,554 | 10.0% |
+| [UF](#uf) | 80 | 27,305 | 9.3% |
+| [DomainTheory](#domaintheory) | 44 | 19,278 | 6.5% |
 | [TypeTopology](#typetopology) | 37 | 18,755 | 6.4% |
-| [TWA](#twa) | 33 | 11,049 | 3.8% |
+| [TWA](#twa) | 33 | 11,052 | 3.8% |
 | [InjectiveTypes](#injectivetypes) | 19 | 10,908 | 3.7% |
 | [MGS](#mgs) | 30 | 9,296 | 3.2% |
-| [Groups](#groups) | 27 | 7,697 | 2.7% |
-| [EffectfulForcing](#effectfulforcing) | 27 | 7,427 | 2.6% |
-| [C-Spaces](#c-spaces) | 38 | 7,375 | 2.5% |
-| [Games](#games) | 18 | 7,020 | 2.4% |
-| others | 487 | 107,830 | 36.5% |
+| [Groups](#groups) | 27 | 7,697 | 2.6% |
+| [EffectfulForcing](#effectfulforcing) | 27 | 7,438 | 2.6% |
+| [C-Spaces](#c-spaces) | 38 | 7,415 | 2.5% |
+| [Games](#games) | 18 | 7,030 | 2.4% |
+| others | 488 | 108,380 | 36.6% |
 <!-- /ttstats:directories -->
 
 [Table of contents](#table-of-contents)
@@ -240,7 +240,7 @@ former and current students, collaborators, and people doing their own
 work.
 
 To put numbers on this, the table below gives the share of
-the <!--#files-->996<!--/#--> Agda files of the repository that is due to
+the <!--#files-->997<!--/#--> Agda files of the repository that is due to
 each of us, counted in two ways. The first column attributes each file to
 the authors named in its header, splitting a file equally when it names
 several, and resolves the few files with no name in the header by the git
@@ -251,14 +251,14 @@ last change to each line.
 <!-- ttstats:contributors -->
 | | by header | by blame |
 | --- | ---: | ---: |
-| Martin Escardo | 46.5% | 54.6% |
-| Tom de Jong | 11.9% | 14.6% |
-| Ayberk Tosun | 11.3% | 11.2% |
+| Martin Escardo | 46.5% | 54.7% |
+| Tom de Jong | 11.9% | 14.5% |
+| Ayberk Tosun | 11.2% | 11.2% |
 | Andrew Sneap | 5.3% | 4.2% |
 | Chuangjie Xu | 4.1% | 2.6% |
 | Todd Waugh Ambridge | 3.7% | 2.7% |
 | Ian Ray | 2.9% | 3.3% |
-| Paulo Oliva | 2.4% | 0.0% |
+| Paulo Oliva | 2.3% | 0.0% |
 | Nicolai Kraus | 1.7% | 0.3% |
 | Jon Sterling | 1.5% | 1.2% |
 | Fredrik Nordvall Forsberg | 1.4% | 0.0% |
@@ -268,7 +268,7 @@ last change to each line.
 | others | 5.1% | 3.3% |
 <!-- /ttstats:contributors -->
 
-The table was last updated on <!--#date-->29th September 2026<!--/#-->. It
+The table was last updated on <!--#date-->30th September 2026<!--/#-->. It
 names only those of us who reach 1% in at least one of the two columns, and
 so it is not a list of contributors. The [full
 list](https://github.com/martinescardo/TypeTopology/blob/master/README.md#current-contributors-in-alphabetical-order-of-first-name)
@@ -380,13 +380,18 @@ axioms, because the quotient that is needed happens to be available.
 Two constructions are given, the first working with a subtype of normal
 elements and the second avoiding it, which is simpler. The second does not
 require the underlying type of a binary system to be a set, and sethood of
-the initial one follows rather than being assumed. A third construction, in
-cubical type theory, defines the initial binary system both as a higher
-inductive type and in pure Martin-Löf type theory and shows the two
-definitions equivalent, from which sethood also follows. It is not imported
-by the index, because it needs Agda 2.6.2 together with the Cubical Library
-and currently breaks the build, so it is linked directly:
-[CubicalBinarySystem](https://github.com/martinescardo/TypeTopology/blob/master/source/BinarySystems/CubicalBinarySystem.lagda).
+the initial one follows rather than being assumed. It is moreover initial in
+the strong sense that the type of homomorphisms from it to any binary system
+is a singleton, once homomorphisms are required to respect the three
+equations coherently.
+
+A third construction, in cubical type theory, defines the initial binary
+system both as a higher inductive type and in pure Martin-Löf type theory
+and shows the two definitions equivalent, from which sethood also follows.
+It is not imported by the index, because it needs Agda 2.6.2 together with
+the Cubical Library and currently breaks the build, so it is linked
+directly:
+[CubicalType](https://github.com/martinescardo/TypeTopology/blob/master/source/BinarySystems/CubicalType.lagda).
 
 By Martin Escardo and Alex Rice.
 
@@ -1256,7 +1261,9 @@ The theory of ordinals is developed in univalent foundations, where an
 ordinal is a type equipped with a well-founded, extensional and transitive
 order. By univalence, the ordinals of a universe themselves form an ordinal
 in the next universe, which is large but locally small, and it is
-algebraically injective.
+algebraically injective. The type of simulations into a fixed ordinal is
+equivalent to the type of its lower sets, and so it is small in the presence
+of Ω-resizing.
 
 The arithmetic comprises addition, multiplication and exponentiation and
 their properties, together with bounded operations, suprema and sums, and
@@ -1617,8 +1624,11 @@ Cantor type with a point removed, in the sense of the subtype of points
 apart from it, is isomorphic to ℕ × (ℕ → 𝟚). A point is a limit point when
 its being isolated would imply WLPO, a formulation chosen to stay agnostic
 about classical principles, since under excluded middle every point of a set
-is isolated. Crucially, we don't assume continuity axioms so that all
-results hold in all toposes.
+is isolated. The delay monad is incarnated with ℕ∞ as the type of times, a
+delayed element of X being a time u together with a partial element of X
+defined when u is finite, and the type of delayed elements of X is shown to
+be the final coalgebra of the functor X + (−). Crucially, we don't assume
+continuity axioms so that all results hold in all toposes.
 
 By Martin Escardo, Andrew Swan, Fredrik Bakke, Chuangjie Xu and Ayberk
 Tosun.
