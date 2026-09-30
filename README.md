@@ -271,7 +271,7 @@ last change to each line.
 The table was last updated on <!--#date-->30th September 2026<!--/#-->. It
 names only those of us who reach 1% in at least one of the two columns, and
 so it is not a list of contributors. The [full
-list](https://github.com/martinescardo/TypeTopology/blob/master/README.md#current-contributors-in-alphabetical-order-of-first-name)
+list](https://github.com/martinescardo/TypeTopology/blob/master/README.md#current-typetopology-contributors-in-alphabetical-order-of-first-name)
 is in the
 [README](https://github.com/martinescardo/TypeTopology/blob/master/README.md)
 of the repository, which also records two contributors who wrote no Agda
