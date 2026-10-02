@@ -186,14 +186,14 @@ same searches are
 
 ## Repository statistics
 
-The counts below were taken on <!--#date-->30th September 2026<!--/#-->, over
+The counts below were taken on <!--#date-->2nd October 2026<!--/#-->, over
 the Agda files tracked by git in the directory source.
 
 | what is counted | count |
 | --- | ---: |
-| Agda files | <!--#files-->997<!--/#--> |
-| Lines, including comments and blank lines | <!--#lines-->296,674<!--/#--> |
-| Lines that are not blank | <!--#nonblank-->230,446<!--/#--> |
+| Agda files | <!--#files-->1,000<!--/#--> |
+| Lines, including comments and blank lines | <!--#lines-->297,978<!--/#--> |
+| Lines that are not blank | <!--#nonblank-->231,404<!--/#--> |
 | Directories | <!--#dirs-->61<!--/#--> |
 | Contributors | <!--#contributors-->36<!--/#--> |
 
@@ -215,18 +215,18 @@ directory that is meant here and throughout.
 | directory | files | lines | share |
 | --- | ---: | ---: | ---: |
 | [Ordinals](#ordinals) | 71 | 32,566 | 11.0% |
-| [Locales](#locales) | 85 | 29,554 | 10.0% |
-| [UF](#uf) | 80 | 27,305 | 9.3% |
+| [Locales](#locales) | 88 | 30,825 | 10.4% |
+| [UF](#uf) | 80 | 27,305 | 9.2% |
 | [DomainTheory](#domaintheory) | 44 | 19,278 | 6.5% |
-| [TypeTopology](#typetopology) | 37 | 18,755 | 6.4% |
+| [TypeTopology](#typetopology) | 37 | 18,755 | 6.3% |
 | [TWA](#twa) | 33 | 11,052 | 3.8% |
 | [InjectiveTypes](#injectivetypes) | 19 | 10,908 | 3.7% |
 | [MGS](#mgs) | 30 | 9,296 | 3.2% |
 | [Groups](#groups) | 27 | 7,697 | 2.6% |
-| [EffectfulForcing](#effectfulforcing) | 27 | 7,438 | 2.6% |
+| [EffectfulForcing](#effectfulforcing) | 27 | 7,438 | 2.5% |
 | [C-Spaces](#c-spaces) | 38 | 7,415 | 2.5% |
 | [Games](#games) | 18 | 7,030 | 2.4% |
-| others | 488 | 108,380 | 36.6% |
+| others | 488 | 108,413 | 36.4% |
 <!-- /ttstats:directories -->
 
 [Table of contents](#table-of-contents)
@@ -240,7 +240,7 @@ former and current students, collaborators, and people doing their own
 work.
 
 To put numbers on this, the table below gives the share of
-the <!--#files-->997<!--/#--> Agda files of the repository that is due to
+the <!--#files-->1,000<!--/#--> Agda files of the repository that is due to
 each of us, counted in two ways. The first column attributes each file to
 the authors named in its header, splitting a file equally when it names
 several, and resolves the few files with no name in the header by the git
@@ -251,24 +251,24 @@ last change to each line.
 <!-- ttstats:contributors -->
 | | by header | by blame |
 | --- | ---: | ---: |
-| Martin Escardo | 46.5% | 54.7% |
+| Martin Escardo | 46.3% | 54.5% |
 | Tom de Jong | 11.9% | 14.5% |
-| Ayberk Tosun | 11.2% | 11.2% |
+| Ayberk Tosun | 11.6% | 11.5% |
 | Andrew Sneap | 5.3% | 4.2% |
 | Chuangjie Xu | 4.1% | 2.6% |
-| Todd Waugh Ambridge | 3.7% | 2.7% |
+| Todd Waugh Ambridge | 3.6% | 2.7% |
 | Ian Ray | 2.9% | 3.3% |
 | Paulo Oliva | 2.3% | 0.0% |
-| Nicolai Kraus | 1.7% | 0.3% |
+| Nicolai Kraus | 1.6% | 0.3% |
 | Jon Sterling | 1.5% | 1.2% |
 | Fredrik Nordvall Forsberg | 1.4% | 0.0% |
 | Anna Williams | 1.1% | 1.1% |
 | Ettore Aldrovandi | 1.0% | 1.5% |
 | Brendan Hart | 1.0% | 0.0% |
-| others | 5.1% | 3.3% |
+| others | 5.0% | 3.3% |
 <!-- /ttstats:contributors -->
 
-The table was last updated on <!--#date-->30th September 2026<!--/#-->. It
+The table was last updated on <!--#date-->2nd October 2026<!--/#-->. It
 names only those of us who reach 1% in at least one of the two columns, and
 so it is not a list of contributors. The [full
 list](https://github.com/martinescardo/TypeTopology/blob/master/README.md#current-typetopology-contributors-in-alphabetical-order-of-first-name)
@@ -1062,6 +1062,12 @@ Scott domain (involving nontrivial base constructions in the predicative
 setting), and the points of the patch of the Scott locale of a Scott domain. The
 Sierpiński locale is also constructed as the Scott locale of the Sierpiński
 DCPO.
+
+The development also includes formal topology, following Sara Negri's
+"Continuous domains as formal spaces" (Mathematical Structures in Computer
+Science, 2002, [doi:10.1017/S0960129501003450](https://doi.org/10.1017/S0960129501003450)).
+Formal topologies and quasi formal topologies are defined as there, with
+morphisms given by relations, and each forms a precategory.
 
 By Ayberk Tosun.
 
