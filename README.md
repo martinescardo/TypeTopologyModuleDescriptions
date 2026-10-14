@@ -186,14 +186,14 @@ same searches are
 
 ## Repository statistics
 
-The counts below were taken on <!--#date-->2nd October 2026<!--/#-->, over
+The counts below were taken on <!--#date-->14th October 2026<!--/#-->, over
 the Agda files tracked by git in the directory source.
 
 | what is counted | count |
 | --- | ---: |
 | Agda files | <!--#files-->1,000<!--/#--> |
-| Lines, including comments and blank lines | <!--#lines-->297,978<!--/#--> |
-| Lines that are not blank | <!--#nonblank-->231,404<!--/#--> |
+| Lines, including comments and blank lines | <!--#lines-->298,033<!--/#--> |
+| Lines that are not blank | <!--#nonblank-->231,441<!--/#--> |
 | Directories | <!--#dirs-->61<!--/#--> |
 | Contributors | <!--#contributors-->36<!--/#--> |
 
@@ -225,8 +225,8 @@ directory that is meant here and throughout.
 | [Groups](#groups) | 27 | 7,697 | 2.6% |
 | [EffectfulForcing](#effectfulforcing) | 27 | 7,438 | 2.5% |
 | [C-Spaces](#c-spaces) | 38 | 7,415 | 2.5% |
-| [Games](#games) | 18 | 7,030 | 2.4% |
-| others | 488 | 108,413 | 36.4% |
+| [Games](#games) | 18 | 7,094 | 2.4% |
+| others | 488 | 108,404 | 36.4% |
 <!-- /ttstats:directories -->
 
 [Table of contents](#table-of-contents)
@@ -252,7 +252,7 @@ last change to each line.
 | | by header | by blame |
 | --- | ---: | ---: |
 | Martin Escardo | 46.3% | 54.5% |
-| Tom de Jong | 11.9% | 14.5% |
+| Tom de Jong | 11.8% | 14.5% |
 | Ayberk Tosun | 11.6% | 11.5% |
 | Andrew Sneap | 5.3% | 4.2% |
 | Chuangjie Xu | 4.1% | 2.6% |
@@ -268,7 +268,7 @@ last change to each line.
 | others | 5.0% | 3.3% |
 <!-- /ttstats:contributors -->
 
-The table was last updated on <!--#date-->2nd October 2026<!--/#-->. It
+The table was last updated on <!--#date-->14th October 2026<!--/#-->. It
 names only those of us who reach 1% in at least one of the two columns, and
 so it is not a list of contributors. The [full
 list](https://github.com/martinescardo/TypeTopology/blob/master/README.md#current-typetopology-contributors-in-alphabetical-order-of-first-name)
