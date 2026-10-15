@@ -125,7 +125,7 @@ GIT_ALIAS = {
 # People who have committed a stray fix but are not TypeTopology contributors,
 # and are counted under "others" rather than named.
 DRIVE_BY = {"Harrison Grodin", "Philip Dorrell", "Scott Fleischman",
-            "Andreas Abel"}
+            "Andreas Abel", "Jesper Cockx"}
 
 
 def pct(x):
@@ -166,10 +166,10 @@ def ordinal(n):
 
 def collect(tt):
     """Every figure the README reports, computed from the TypeTopology clone."""
-    files = [f for f in git(tt, "ls-files", "source").splitlines()
+    files = [f for f in git(tt, "ls-files", "source", "cubical").splitlines()
              if f.endswith((".lagda", ".agda"))]
     if not files:
-        sys.exit(f"no Agda files under source in {tt}")
+        sys.exit(f"no Agda files under source or cubical in {tt}")
 
     text = {}
     for f in files:
@@ -179,7 +179,8 @@ def collect(tt):
     total = sum(len(t) for t in text.values())
     nonblank = sum(1 for t in text.values() for line in t if line.strip())
 
-    # A directory is a top-level subdirectory of source holding Agda files.
+    # A directory is a top-level subdirectory of source or cubical holding
+    # Agda files, and the two count as one where they share a name.
     dir_files, dir_lines = defaultdict(int), defaultdict(int)
     for f in files:
         parts = f.split("/")

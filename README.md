@@ -186,14 +186,14 @@ same searches are
 
 ## Repository statistics
 
-The counts below were taken on <!--#date-->14th October 2026<!--/#-->, over
-the Agda files tracked by git in the directory source.
+The counts below were taken on <!--#date-->15th October 2026<!--/#-->, over
+the Agda files tracked by git in the directories source and cubical.
 
 | what is counted | count |
 | --- | ---: |
 | Agda files | <!--#files-->1,000<!--/#--> |
-| Lines, including comments and blank lines | <!--#lines-->298,033<!--/#--> |
-| Lines that are not blank | <!--#nonblank-->231,441<!--/#--> |
+| Lines, including comments and blank lines | <!--#lines-->298,032<!--/#--> |
+| Lines that are not blank | <!--#nonblank-->231,440<!--/#--> |
 | Directories | <!--#dirs-->61<!--/#--> |
 | Contributors | <!--#contributors-->36<!--/#--> |
 
@@ -215,7 +215,7 @@ directory that is meant here and throughout.
 | directory | files | lines | share |
 | --- | ---: | ---: | ---: |
 | [Ordinals](#ordinals) | 71 | 32,566 | 11.0% |
-| [Locales](#locales) | 88 | 30,825 | 10.4% |
+| [Locales](#locales) | 88 | 30,824 | 10.4% |
 | [UF](#uf) | 80 | 27,305 | 9.2% |
 | [DomainTheory](#domaintheory) | 44 | 19,278 | 6.5% |
 | [TypeTopology](#typetopology) | 37 | 18,755 | 6.3% |
@@ -268,7 +268,7 @@ last change to each line.
 | others | 5.0% | 3.3% |
 <!-- /ttstats:contributors -->
 
-The table was last updated on <!--#date-->14th October 2026<!--/#-->. It
+The table was last updated on <!--#date-->15th October 2026<!--/#-->. It
 names only those of us who reach 1% in at least one of the two columns, and
 so it is not a list of contributors. The [full
 list](https://github.com/martinescardo/TypeTopology/blob/master/README.md#current-typetopology-contributors-in-alphabetical-order-of-first-name)
@@ -389,9 +389,9 @@ A third construction, in cubical type theory, defines the initial binary
 system both as a higher inductive type and in pure Martin-Löf type theory
 and shows the two definitions equivalent, from which sethood also follows.
 It is not imported by the index, because it needs Agda 2.6.2 together with
-the Cubical Library and currently breaks the build, so it is linked
-directly:
-[CubicalType](https://github.com/martinescardo/TypeTopology/blob/master/source/BinarySystems/CubicalType.lagda).
+the Cubical Library and currently breaks the build. It is kept instead in
+the directory cubical, beside source, and is linked directly:
+[CubicalType](https://github.com/martinescardo/TypeTopology/blob/master/cubical/BinarySystems/CubicalType.lagda).
 
 By Martin Escardo and Alex Rice.
 
