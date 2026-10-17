@@ -186,14 +186,14 @@ same searches are
 
 ## Repository statistics
 
-The counts below were taken on <!--#date-->15th October 2026<!--/#-->, over
+The counts below were taken on <!--#date-->17th October 2026<!--/#-->, over
 the Agda files tracked by git in the directories source and cubical.
 
 | what is counted | count |
 | --- | ---: |
-| Agda files | <!--#files-->1,000<!--/#--> |
-| Lines, including comments and blank lines | <!--#lines-->298,032<!--/#--> |
-| Lines that are not blank | <!--#nonblank-->231,440<!--/#--> |
+| Agda files | <!--#files-->1,002<!--/#--> |
+| Lines, including comments and blank lines | <!--#lines-->298,259<!--/#--> |
+| Lines that are not blank | <!--#nonblank-->231,594<!--/#--> |
 | Directories | <!--#dirs-->61<!--/#--> |
 | Contributors | <!--#contributors-->36<!--/#--> |
 
@@ -214,7 +214,7 @@ directory that is meant here and throughout.
 <!-- ttstats:directories -->
 | directory | files | lines | share |
 | --- | ---: | ---: | ---: |
-| [Ordinals](#ordinals) | 71 | 32,566 | 11.0% |
+| [Ordinals](#ordinals) | 73 | 32,811 | 11.1% |
 | [Locales](#locales) | 88 | 30,824 | 10.4% |
 | [UF](#uf) | 80 | 27,305 | 9.2% |
 | [DomainTheory](#domaintheory) | 44 | 19,278 | 6.5% |
@@ -226,7 +226,7 @@ directory that is meant here and throughout.
 | [EffectfulForcing](#effectfulforcing) | 27 | 7,438 | 2.5% |
 | [C-Spaces](#c-spaces) | 38 | 7,415 | 2.5% |
 | [Games](#games) | 18 | 7,094 | 2.4% |
-| others | 488 | 108,404 | 36.4% |
+| others | 488 | 108,386 | 36.4% |
 <!-- /ttstats:directories -->
 
 [Table of contents](#table-of-contents)
@@ -240,7 +240,7 @@ former and current students, collaborators, and people doing their own
 work.
 
 To put numbers on this, the table below gives the share of
-the <!--#files-->1,000<!--/#--> Agda files of the repository that is due to
+the <!--#files-->1,002<!--/#--> Agda files of the repository that is due to
 each of us, counted in two ways. The first column attributes each file to
 the authors named in its header, splitting a file equally when it names
 several, and resolves the few files with no name in the header by the git
@@ -252,23 +252,23 @@ last change to each line.
 | | by header | by blame |
 | --- | ---: | ---: |
 | Martin Escardo | 46.3% | 54.5% |
-| Tom de Jong | 11.8% | 14.5% |
+| Tom de Jong | 12.0% | 14.5% |
 | Ayberk Tosun | 11.6% | 11.5% |
 | Andrew Sneap | 5.3% | 4.2% |
-| Chuangjie Xu | 4.1% | 2.6% |
+| Chuangjie Xu | 4.0% | 2.6% |
 | Todd Waugh Ambridge | 3.6% | 2.7% |
 | Ian Ray | 2.9% | 3.3% |
 | Paulo Oliva | 2.3% | 0.0% |
 | Nicolai Kraus | 1.6% | 0.3% |
+| Fredrik Nordvall Forsberg | 1.5% | 0.0% |
 | Jon Sterling | 1.5% | 1.2% |
-| Fredrik Nordvall Forsberg | 1.4% | 0.0% |
 | Anna Williams | 1.1% | 1.1% |
 | Ettore Aldrovandi | 1.0% | 1.5% |
 | Brendan Hart | 1.0% | 0.0% |
 | others | 5.0% | 3.3% |
 <!-- /ttstats:contributors -->
 
-The table was last updated on <!--#date-->15th October 2026<!--/#-->. It
+The table was last updated on <!--#date-->17th October 2026<!--/#-->. It
 names only those of us who reach 1% in at least one of the two columns, and
 so it is not a list of contributors. The [full
 list](https://github.com/martinescardo/TypeTopology/blob/master/README.md#current-typetopology-contributors-in-alphabetical-order-of-first-name)
