@@ -186,14 +186,14 @@ same searches are
 
 ## Repository statistics
 
-The counts below were taken on <!--#date-->17th October 2026<!--/#-->, over
+The counts below were taken on <!--#date-->6th November 2026<!--/#-->, over
 the Agda files tracked by git in the directories source and cubical.
 
 | what is counted | count |
 | --- | ---: |
-| Agda files | <!--#files-->1,002<!--/#--> |
-| Lines, including comments and blank lines | <!--#lines-->298,259<!--/#--> |
-| Lines that are not blank | <!--#nonblank-->231,594<!--/#--> |
+| Agda files | <!--#files-->1,008<!--/#--> |
+| Lines, including comments and blank lines | <!--#lines-->303,912<!--/#--> |
+| Lines that are not blank | <!--#nonblank-->236,111<!--/#--> |
 | Directories | <!--#dirs-->61<!--/#--> |
 | Contributors | <!--#contributors-->36<!--/#--> |
 
@@ -214,19 +214,19 @@ directory that is meant here and throughout.
 <!-- ttstats:directories -->
 | directory | files | lines | share |
 | --- | ---: | ---: | ---: |
-| [Ordinals](#ordinals) | 73 | 32,811 | 11.1% |
-| [Locales](#locales) | 88 | 30,824 | 10.4% |
-| [UF](#uf) | 80 | 27,305 | 9.2% |
-| [DomainTheory](#domaintheory) | 44 | 19,278 | 6.5% |
-| [TypeTopology](#typetopology) | 37 | 18,755 | 6.3% |
-| [TWA](#twa) | 33 | 11,052 | 3.8% |
-| [InjectiveTypes](#injectivetypes) | 19 | 10,908 | 3.7% |
-| [MGS](#mgs) | 30 | 9,296 | 3.2% |
+| [Ordinals](#ordinals) | 74 | 33,001 | 10.9% |
+| [Locales](#locales) | 90 | 31,157 | 10.3% |
+| [UF](#uf) | 80 | 27,312 | 9.0% |
+| [TypeTopology](#typetopology) | 39 | 23,110 | 7.7% |
+| [DomainTheory](#domaintheory) | 44 | 19,278 | 6.4% |
+| [TWA](#twa) | 33 | 11,052 | 3.7% |
+| [InjectiveTypes](#injectivetypes) | 19 | 10,908 | 3.6% |
+| [MGS](#mgs) | 30 | 9,301 | 3.1% |
 | [Groups](#groups) | 27 | 7,697 | 2.6% |
 | [EffectfulForcing](#effectfulforcing) | 27 | 7,438 | 2.5% |
 | [C-Spaces](#c-spaces) | 38 | 7,415 | 2.5% |
 | [Games](#games) | 18 | 7,094 | 2.4% |
-| others | 488 | 108,386 | 36.4% |
+| others | 489 | 109,149 | 36.0% |
 <!-- /ttstats:directories -->
 
 [Table of contents](#table-of-contents)
@@ -240,7 +240,7 @@ former and current students, collaborators, and people doing their own
 work.
 
 To put numbers on this, the table below gives the share of
-the <!--#files-->1,002<!--/#--> Agda files of the repository that is due to
+the <!--#files-->1,008<!--/#--> Agda files of the repository that is due to
 each of us, counted in two ways. The first column attributes each file to
 the authors named in its header, splitting a file equally when it names
 several, and resolves the few files with no name in the header by the git
@@ -251,24 +251,24 @@ last change to each line.
 <!-- ttstats:contributors -->
 | | by header | by blame |
 | --- | ---: | ---: |
-| Martin Escardo | 46.3% | 54.5% |
-| Tom de Jong | 12.0% | 14.5% |
-| Ayberk Tosun | 11.6% | 11.5% |
-| Andrew Sneap | 5.3% | 4.2% |
-| Chuangjie Xu | 4.0% | 2.6% |
-| Todd Waugh Ambridge | 3.6% | 2.7% |
+| Martin Escardo | 47.1% | 54.9% |
+| Tom de Jong | 11.8% | 14.4% |
+| Ayberk Tosun | 11.5% | 11.4% |
+| Andrew Sneap | 5.2% | 4.1% |
+| Chuangjie Xu | 3.9% | 2.5% |
+| Todd Waugh Ambridge | 3.6% | 2.6% |
 | Ian Ray | 2.9% | 3.3% |
 | Paulo Oliva | 2.3% | 0.0% |
-| Nicolai Kraus | 1.6% | 0.3% |
+| Nicolai Kraus | 1.5% | 0.3% |
 | Fredrik Nordvall Forsberg | 1.5% | 0.0% |
 | Jon Sterling | 1.5% | 1.2% |
-| Anna Williams | 1.1% | 1.1% |
+| Anna Williams | 1.0% | 1.1% |
 | Ettore Aldrovandi | 1.0% | 1.5% |
 | Brendan Hart | 1.0% | 0.0% |
-| others | 5.0% | 3.3% |
+| others | 5.0% | 3.2% |
 <!-- /ttstats:contributors -->
 
-The table was last updated on <!--#date-->17th October 2026<!--/#-->. It
+The table was last updated on <!--#date-->6th November 2026<!--/#-->. It
 names only those of us who reach 1% in at least one of the two columns, and
 so it is not a list of contributors. The [full
 list](https://github.com/martinescardo/TypeTopology/blob/master/README.md#current-typetopology-contributors-in-alphabetical-order-of-first-name)
@@ -1239,6 +1239,10 @@ accompanying his paper referenced below, is part of the development. This
 account is instantiated in the presence of propositional resizing to obtain a
 generalization of Tarski's least fixed point theorem, namely one for endomaps on
 a large sup-lattice with a small basis.
+Such a sup-lattice is a retract of the powerset of its basis, and hence is
+small under Ω-resizing, and least prefixed points exist for all monotone
+endomaps of sup-lattices with a small basis precisely when they exist for
+all monotone operators on powersets.
 Finally, the proof that the axiom of choice implies Zorn's lemma is included.
 
 By Ian Ray, Tom de Jong, Martin Escardo and Kelton OBrien.
@@ -1312,8 +1316,11 @@ hierarchy 𝕍 the set-theoretic ordinals are the transitive sets of transitive
 sets, and this subtype is shown to coincide with the type-theoretic
 ordinals.
 
-Ordinals are also presented syntactically, by Brouwer codes and by other
-notation systems, each with its interpretation. Among the concrete ordinals
+Ordinals are also presented by Brouwer codes and by other notation systems.
+Assuming ¬WLPO, the compact totally separated interpretation of the Brouwer
+codes gives Stone types, in the sense developed in
+[TypeTopology](#typetopology), and the hypothesis can't be dropped, because
+one of the codes is interpreted as ℕ∞. Among the concrete ordinals
 there are the ordinal of truth values, the ordinals below ω given by Fin, a
 Church encoding, and the conatural numbers ℕ∞. A supremum of a
 compact-indexed family of compact ordinals is compact, and the lexicographic
@@ -1625,7 +1632,7 @@ do not preserve total separatedness, and the compact ordinals are
 nevertheless shown to be totally separated by exhibiting them as retracts of
 the Cantor type, which suffices because total separatedness is inherited by
 retracts. The decreasing sequences of natural numbers bounded by a fixed
-number form a Stone type, being both compact and totally separated. The
+number form a compact totally separated type. The
 Cantor type with a point removed, in the sense of the subtype of points
 apart from it, is isomorphic to ℕ × (ℕ → 𝟚). A point is a limit point when
 its being isolated would imply WLPO, a formulation chosen to stay agnostic
@@ -1635,6 +1642,21 @@ delayed element of X being a time u together with a partial element of X
 defined when u is finite, and the type of delayed elements of X is shown to
 be the final coalgebra of the functor X + (−). Crucially, we don't assume
 continuity axioms so that all results hold in all toposes.
+
+Stone types are studied too. The clopens of a type are its 𝟚-valued
+functions, and they form a boolean algebra in which each point determines
+the principal ultrafilter of its clopen neighbourhoods. A type is a Stone
+type when the map taking a point to its principal ultrafilter is an
+equivalence and its boolean algebra of clopens is discrete. This is a
+variant of the notion of Cherubini, Coquand, Geerligs and Moeneclaey, "A
+Foundation for Synthetic Stone Duality" (TYPES 2024, LIPIcs 336, 2025,
+[doi:10.4230/LIPIcs.TYPES.2024.3](https://doi.org/10.4230/LIPIcs.TYPES.2024.3)),
+and the two are compared. Assuming ¬WLPO, which can be regarded as a weak
+continuity principle, ℕ∞ is a Stone type, and this can't be proved without
+such an assumption. The Stone types include the finite types and are closed
+under retracts, binary sums and binary products, and a proposition is a
+Stone type precisely when it is decidable. That the Stone types are closed
+under Σ gives ¬¬WLPO.
 
 By Martin Escardo, Andrew Swan, Fredrik Bakke, Chuangjie Xu and Ayberk
 Tosun.
