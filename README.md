@@ -52,6 +52,7 @@ should be updated automatically by the repository maintainers.
 1. [Games](#games)
 1. [Groups](#groups)
 1. [Higgs](#higgs)
+1. [InductiveBars](#inductivebars)
 1. [InjectiveTypes](#injectivetypes)
 1. [Integers](#integers)
 1. [Iterative](#iterative)
@@ -186,18 +187,18 @@ same searches are
 
 ## Repository statistics
 
-The counts below were taken on <!--#date-->6th November 2026<!--/#-->, over
+The counts below were taken on <!--#date-->10th November 2026<!--/#-->, over
 the Agda files tracked by git in the directories source and cubical.
 
 | what is counted | count |
 | --- | ---: |
-| Agda files | <!--#files-->1,008<!--/#--> |
-| Lines, including comments and blank lines | <!--#lines-->303,912<!--/#--> |
-| Lines that are not blank | <!--#nonblank-->236,111<!--/#--> |
-| Directories | <!--#dirs-->61<!--/#--> |
+| Agda files | <!--#files-->1,015<!--/#--> |
+| Lines, including comments and blank lines | <!--#lines-->305,557<!--/#--> |
+| Lines that are not blank | <!--#nonblank-->237,339<!--/#--> |
+| Directories | <!--#dirs-->62<!--/#--> |
 | Contributors | <!--#contributors-->36<!--/#--> |
 
-Of the <!--#dirs-->61<!--/#--> directories, <!--#indexed-->59<!--/#--> are
+Of the <!--#dirs-->62<!--/#--> directories, <!--#indexed-->60<!--/#--> are
 imported by [index](https://www.cs.bham.ac.uk/~mhe/TypeTopology/index.html)
 and are described below, and the remaining two,
 [InfinitePigeon](#infinitepigeon) and [Unsafe](#unsafe), are reached only
@@ -214,19 +215,19 @@ directory that is meant here and throughout.
 <!-- ttstats:directories -->
 | directory | files | lines | share |
 | --- | ---: | ---: | ---: |
-| [Ordinals](#ordinals) | 74 | 33,001 | 10.9% |
-| [Locales](#locales) | 90 | 31,157 | 10.3% |
-| [UF](#uf) | 80 | 27,312 | 9.0% |
-| [TypeTopology](#typetopology) | 39 | 23,110 | 7.7% |
-| [DomainTheory](#domaintheory) | 44 | 19,278 | 6.4% |
-| [TWA](#twa) | 33 | 11,052 | 3.7% |
-| [InjectiveTypes](#injectivetypes) | 19 | 10,908 | 3.6% |
+| [Ordinals](#ordinals) | 74 | 33,023 | 10.9% |
+| [Locales](#locales) | 90 | 31,163 | 10.2% |
+| [UF](#uf) | 80 | 27,344 | 9.0% |
+| [TypeTopology](#typetopology) | 39 | 23,137 | 7.6% |
+| [DomainTheory](#domaintheory) | 44 | 19,288 | 6.4% |
+| [TWA](#twa) | 33 | 11,056 | 3.7% |
+| [InjectiveTypes](#injectivetypes) | 19 | 10,910 | 3.6% |
 | [MGS](#mgs) | 30 | 9,301 | 3.1% |
-| [Groups](#groups) | 27 | 7,697 | 2.6% |
-| [EffectfulForcing](#effectfulforcing) | 27 | 7,438 | 2.5% |
+| [Groups](#groups) | 27 | 7,699 | 2.6% |
+| [EffectfulForcing](#effectfulforcing) | 27 | 7,440 | 2.5% |
 | [C-Spaces](#c-spaces) | 38 | 7,415 | 2.5% |
 | [Games](#games) | 18 | 7,094 | 2.4% |
-| others | 489 | 109,149 | 36.0% |
+| others | 496 | 110,687 | 36.3% |
 <!-- /ttstats:directories -->
 
 [Table of contents](#table-of-contents)
@@ -240,7 +241,7 @@ former and current students, collaborators, and people doing their own
 work.
 
 To put numbers on this, the table below gives the share of
-the <!--#files-->1,008<!--/#--> Agda files of the repository that is due to
+the <!--#files-->1,015<!--/#--> Agda files of the repository that is due to
 each of us, counted in two ways. The first column attributes each file to
 the authors named in its header, splitting a file equally when it names
 several, and resolves the few files with no name in the header by the git
@@ -251,24 +252,24 @@ last change to each line.
 <!-- ttstats:contributors -->
 | | by header | by blame |
 | --- | ---: | ---: |
-| Martin Escardo | 47.1% | 54.9% |
+| Martin Escardo | 47.0% | 54.8% |
 | Tom de Jong | 11.8% | 14.4% |
-| Ayberk Tosun | 11.5% | 11.4% |
-| Andrew Sneap | 5.2% | 4.1% |
-| Chuangjie Xu | 3.9% | 2.5% |
+| Ayberk Tosun | 11.3% | 11.3% |
+| Andrew Sneap | 5.1% | 4.1% |
+| Chuangjie Xu | 4.2% | 3.0% |
 | Todd Waugh Ambridge | 3.6% | 2.6% |
 | Ian Ray | 2.9% | 3.3% |
-| Paulo Oliva | 2.3% | 0.0% |
+| Paulo Oliva | 2.4% | 0.0% |
 | Nicolai Kraus | 1.5% | 0.3% |
+| Jon Sterling | 1.5% | 1.1% |
 | Fredrik Nordvall Forsberg | 1.5% | 0.0% |
-| Jon Sterling | 1.5% | 1.2% |
 | Anna Williams | 1.0% | 1.1% |
 | Ettore Aldrovandi | 1.0% | 1.5% |
 | Brendan Hart | 1.0% | 0.0% |
-| others | 5.0% | 3.2% |
+| others | 4.9% | 3.2% |
 <!-- /ttstats:contributors -->
 
-The table was last updated on <!--#date-->6th November 2026<!--/#-->. It
+The table was last updated on <!--#date-->10th November 2026<!--/#-->. It
 names only those of us who reach 1% in at least one of the two columns, and
 so it is not a list of contributors. The [full
 list](https://github.com/martinescardo/TypeTopology/blob/master/README.md#current-typetopology-contributors-in-alphabetical-order-of-first-name)
@@ -923,6 +924,29 @@ where it has exactly the identity and negation, and conversely, if there is
 an automorphism of Ω other than the identity, then the topos is boolean.
 
 By Martin Escardo and J. A. Carr.
+
+[Table of contents](#table-of-contents)
+
+### [InductiveBars](https://www.cs.bham.ac.uk/~mhe/TypeTopology/InductiveBars.index.html)
+
+Inductive bars on finite sequences of natural numbers are given in two
+formulations, which are shown to be logically equivalent. A function from
+the Baire type to the natural numbers is bar continuous when the finite
+sequences determining its values form an inductive bar. Bar continuity
+implies pointwise continuity and uniform continuity on every pointwise
+bounded subset, and it is logically equivalent to eloquence, so that all
+system T definable functionals are bar continuous. It is also equivalent to
+having a bar-continuous modulus of pointwise continuity. Brouwer's thesis is
+proved for monotone bars with bar-continuous witnesses, which recovers the
+result for T-definable witnesses of J. Sterling, "Higher order functions and
+Brouwer's thesis" (Journal of Functional Programming 31, 2021,
+[doi:10.1017/S0956796821000095](https://doi.org/10.1017/S0956796821000095)),
+and a Spector bar recursor is constructed for each bar-continuous control
+functional, following P. Oliva and S. Steila, "A direct proof of
+Schwichtenberg's bar recursion closure theorem" (Journal of Symbolic Logic
+83(1), 2018, [doi:10.1017/jsl.2017.33](https://doi.org/10.1017/jsl.2017.33)).
+
+By Chuangjie Xu and Martin Escardo.
 
 [Table of contents](#table-of-contents)
 
@@ -1604,7 +1628,7 @@ By Todd Waugh Ambridge, Andrew Sneap and Martin Escardo.
 
 Here we have the topological view of types after which the repository is
 named. The two should not be confused. TypeTopology is the repository, of
-which this is one directory among 61, and it is the one where the
+which this is one directory among 62, and it is the one where the
 topological view itself is developed. Types are treated as though they
 carried an intrinsic topology, so that notions such as compactness, in the
 sense of exhaustive searchability, discreteness, total separatedness,
@@ -1691,7 +1715,7 @@ Tosun.
 ### [UF](https://www.cs.bham.ac.uk/~mhe/TypeTopology/UF.index.html)
 
 Here is the core HoTT/UF library on which the rest of the development rests,
-developed on demand over many years. Of the other 59 directories, all but
+developed on demand over many years. Of the other 60 directories, all but
 Notation and InfinitePigeon import it, and only MLTT, which every one of
 them imports, is more widely used.
 
