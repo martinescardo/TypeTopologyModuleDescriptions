@@ -187,14 +187,14 @@ same searches are
 
 ## Repository statistics
 
-The counts below were taken on <!--#date-->10th November 2026<!--/#-->, over
+The counts below were taken on <!--#date-->13th November 2026<!--/#-->, over
 the Agda files tracked by git in the directories source and cubical.
 
 | what is counted | count |
 | --- | ---: |
-| Agda files | <!--#files-->1,015<!--/#--> |
-| Lines, including comments and blank lines | <!--#lines-->305,557<!--/#--> |
-| Lines that are not blank | <!--#nonblank-->237,339<!--/#--> |
+| Agda files | <!--#files-->1,017<!--/#--> |
+| Lines, including comments and blank lines | <!--#lines-->306,379<!--/#--> |
+| Lines that are not blank | <!--#nonblank-->237,985<!--/#--> |
 | Directories | <!--#dirs-->62<!--/#--> |
 | Contributors | <!--#contributors-->36<!--/#--> |
 
@@ -215,11 +215,11 @@ directory that is meant here and throughout.
 <!-- ttstats:directories -->
 | directory | files | lines | share |
 | --- | ---: | ---: | ---: |
-| [Ordinals](#ordinals) | 74 | 33,023 | 10.9% |
+| [Ordinals](#ordinals) | 74 | 33,341 | 10.9% |
 | [Locales](#locales) | 90 | 31,163 | 10.2% |
 | [UF](#uf) | 80 | 27,344 | 9.0% |
-| [TypeTopology](#typetopology) | 39 | 23,137 | 7.6% |
-| [DomainTheory](#domaintheory) | 44 | 19,288 | 6.4% |
+| [TypeTopology](#typetopology) | 39 | 23,380 | 7.7% |
+| [DomainTheory](#domaintheory) | 44 | 19,288 | 6.3% |
 | [TWA](#twa) | 33 | 11,056 | 3.7% |
 | [InjectiveTypes](#injectivetypes) | 19 | 10,910 | 3.6% |
 | [MGS](#mgs) | 30 | 9,301 | 3.1% |
@@ -227,7 +227,7 @@ directory that is meant here and throughout.
 | [EffectfulForcing](#effectfulforcing) | 27 | 7,440 | 2.5% |
 | [C-Spaces](#c-spaces) | 38 | 7,415 | 2.5% |
 | [Games](#games) | 18 | 7,094 | 2.4% |
-| others | 496 | 110,687 | 36.3% |
+| others | 498 | 110,948 | 36.3% |
 <!-- /ttstats:directories -->
 
 [Table of contents](#table-of-contents)
@@ -241,7 +241,7 @@ former and current students, collaborators, and people doing their own
 work.
 
 To put numbers on this, the table below gives the share of
-the <!--#files-->1,015<!--/#--> Agda files of the repository that is due to
+the <!--#files-->1,017<!--/#--> Agda files of the repository that is due to
 each of us, counted in two ways. The first column attributes each file to
 the authors named in its header, splitting a file equally when it names
 several, and resolves the few files with no name in the header by the git
@@ -252,11 +252,11 @@ last change to each line.
 <!-- ttstats:contributors -->
 | | by header | by blame |
 | --- | ---: | ---: |
-| Martin Escardo | 47.0% | 54.8% |
-| Tom de Jong | 11.8% | 14.4% |
+| Martin Escardo | 47.1% | 54.8% |
+| Tom de Jong | 11.7% | 14.3% |
 | Ayberk Tosun | 11.3% | 11.3% |
 | Andrew Sneap | 5.1% | 4.1% |
-| Chuangjie Xu | 4.2% | 3.0% |
+| Chuangjie Xu | 4.3% | 3.0% |
 | Todd Waugh Ambridge | 3.6% | 2.6% |
 | Ian Ray | 2.9% | 3.3% |
 | Paulo Oliva | 2.4% | 0.0% |
@@ -269,7 +269,7 @@ last change to each line.
 | others | 4.9% | 3.2% |
 <!-- /ttstats:contributors -->
 
-The table was last updated on <!--#date-->10th November 2026<!--/#-->. It
+The table was last updated on <!--#date-->13th November 2026<!--/#-->. It
 names only those of us who reach 1% in at least one of the two columns, and
 so it is not a list of contributors. The [full
 list](https://github.com/martinescardo/TypeTopology/blob/master/README.md#current-typetopology-contributors-in-alphabetical-order-of-first-name)
@@ -929,22 +929,27 @@ By Martin Escardo and J. A. Carr.
 
 ### [InductiveBars](https://www.cs.bham.ac.uk/~mhe/TypeTopology/InductiveBars.index.html)
 
-Inductive bars on finite sequences of natural numbers are given in two
-formulations, which are shown to be logically equivalent. A function from
-the Baire type to the natural numbers is bar continuous when the finite
-sequences determining its values form an inductive bar. Bar continuity
-implies pointwise continuity and uniform continuity on every pointwise
-bounded subset, and it is logically equivalent to eloquence, so that all
-system T definable functionals are bar continuous. It is also equivalent to
-having a bar-continuous modulus of pointwise continuity. Brouwer's thesis is
-proved for monotone bars with bar-continuous witnesses, which recovers the
-result for T-definable witnesses of J. Sterling, "Higher order functions and
-Brouwer's thesis" (Journal of Functional Programming 31, 2021,
+Inductive bars on finite sequences over an arbitrary type are given in two
+formulations, which are shown to be logically equivalent. A function of
+type (ℕ → A) → R is bar continuous when the finite sequences determining
+its values form an inductive bar. Bar continuity is logically equivalent
+to eloquence, and to having a self-modulating, bar-continuous modulus of
+pointwise continuity. On the Baire type it implies uniform continuity on
+every pointwise bounded subset, and all system T definable functionals are
+bar continuous. Brouwer's thesis is proved for monotone bars with
+bar-continuous witnesses, which recovers the result for T-definable
+witnesses of J. Sterling, "Higher order functions and Brouwer's thesis"
+(Journal of Functional Programming 31, 2021,
 [doi:10.1017/S0956796821000095](https://doi.org/10.1017/S0956796821000095)),
 and a Spector bar recursor is constructed for each bar-continuous control
 functional, following P. Oliva and S. Steila, "A direct proof of
 Schwichtenberg's bar recursion closure theorem" (Journal of Symbolic Logic
 83(1), 2018, [doi:10.1017/jsl.2017.33](https://doi.org/10.1017/jsl.2017.33)).
+There is also a modified bar recursor, in the sense of U. Berger and
+P. Oliva, "Modified bar recursion" (Mathematical Structures in Computer
+Science 16(2), 2006,
+[doi:10.1017/S0960129506005093](https://doi.org/10.1017/S0960129506005093)),
+for each bar-continuous outcome functional, with any result type.
 
 By Chuangjie Xu and Martin Escardo.
 
@@ -1341,6 +1346,10 @@ sets, and this subtype is shown to coincide with the type-theoretic
 ordinals.
 
 Ordinals are also presented by Brouwer codes and by other notation systems.
+Each Brouwer code has a discrete and a compact interpretation, and LPO is
+equivalent to each of the statements that, for every code, the two
+interpretations are order equivalent, that the discrete one is an initial
+segment of the compact one, and that the discrete one is compact.
 Assuming ¬WLPO, the compact totally separated interpretation of the Brouwer
 codes gives Stone types, in the sense developed in
 [TypeTopology](#typetopology), and the hypothesis can't be dropped, because
