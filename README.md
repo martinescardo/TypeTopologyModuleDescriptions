@@ -187,14 +187,14 @@ same searches are
 
 ## Repository statistics
 
-The counts below were taken on <!--#date-->13th November 2026<!--/#-->, over
+The counts below were taken on <!--#date-->19th November 2026<!--/#-->, over
 the Agda files tracked by git in the directories source and cubical.
 
 | what is counted | count |
 | --- | ---: |
-| Agda files | <!--#files-->1,017<!--/#--> |
-| Lines, including comments and blank lines | <!--#lines-->306,379<!--/#--> |
-| Lines that are not blank | <!--#nonblank-->237,985<!--/#--> |
+| Agda files | <!--#files-->1,028<!--/#--> |
+| Lines, including comments and blank lines | <!--#lines-->310,567<!--/#--> |
+| Lines that are not blank | <!--#nonblank-->241,238<!--/#--> |
 | Directories | <!--#dirs-->62<!--/#--> |
 | Contributors | <!--#contributors-->36<!--/#--> |
 
@@ -215,19 +215,19 @@ directory that is meant here and throughout.
 <!-- ttstats:directories -->
 | directory | files | lines | share |
 | --- | ---: | ---: | ---: |
-| [Ordinals](#ordinals) | 74 | 33,341 | 10.9% |
-| [Locales](#locales) | 90 | 31,163 | 10.2% |
-| [UF](#uf) | 80 | 27,344 | 9.0% |
-| [TypeTopology](#typetopology) | 39 | 23,380 | 7.7% |
+| [Ordinals](#ordinals) | 74 | 33,331 | 10.8% |
+| [Locales](#locales) | 90 | 31,163 | 10.1% |
+| [UF](#uf) | 80 | 27,344 | 8.9% |
+| [TypeTopology](#typetopology) | 39 | 24,650 | 8.0% |
 | [DomainTheory](#domaintheory) | 44 | 19,288 | 6.3% |
-| [TWA](#twa) | 33 | 11,056 | 3.7% |
+| [TWA](#twa) | 33 | 11,056 | 3.6% |
 | [InjectiveTypes](#injectivetypes) | 19 | 10,910 | 3.6% |
-| [MGS](#mgs) | 30 | 9,301 | 3.1% |
-| [Groups](#groups) | 27 | 7,699 | 2.6% |
-| [EffectfulForcing](#effectfulforcing) | 27 | 7,440 | 2.5% |
-| [C-Spaces](#c-spaces) | 38 | 7,415 | 2.5% |
-| [Games](#games) | 18 | 7,094 | 2.4% |
-| others | 498 | 110,948 | 36.3% |
+| [MGS](#mgs) | 30 | 9,301 | 3.0% |
+| [Games](#games) | 27 | 8,544 | 2.8% |
+| [Groups](#groups) | 27 | 7,699 | 2.5% |
+| [EffectfulForcing](#effectfulforcing) | 27 | 7,440 | 2.4% |
+| [C-Spaces](#c-spaces) | 38 | 7,415 | 2.4% |
+| others | 500 | 112,426 | 36.3% |
 <!-- /ttstats:directories -->
 
 [Table of contents](#table-of-contents)
@@ -241,7 +241,7 @@ former and current students, collaborators, and people doing their own
 work.
 
 To put numbers on this, the table below gives the share of
-the <!--#files-->1,017<!--/#--> Agda files of the repository that is due to
+the <!--#files-->1,028<!--/#--> Agda files of the repository that is due to
 each of us, counted in two ways. The first column attributes each file to
 the authors named in its header, splitting a file equally when it names
 several, and resolves the few files with no name in the header by the git
@@ -252,24 +252,24 @@ last change to each line.
 <!-- ttstats:contributors -->
 | | by header | by blame |
 | --- | ---: | ---: |
-| Martin Escardo | 47.1% | 54.8% |
-| Tom de Jong | 11.7% | 14.3% |
-| Ayberk Tosun | 11.3% | 11.3% |
-| Andrew Sneap | 5.1% | 4.1% |
-| Chuangjie Xu | 4.3% | 3.0% |
-| Todd Waugh Ambridge | 3.6% | 2.6% |
+| Martin Escardo | 47.3% | 55.4% |
+| Tom de Jong | 11.6% | 14.2% |
+| Ayberk Tosun | 11.2% | 11.2% |
+| Andrew Sneap | 5.0% | 4.0% |
+| Chuangjie Xu | 4.2% | 3.0% |
+| Todd Waugh Ambridge | 3.5% | 2.6% |
 | Ian Ray | 2.9% | 3.3% |
-| Paulo Oliva | 2.4% | 0.0% |
+| Paulo Oliva | 2.8% | 0.0% |
 | Nicolai Kraus | 1.5% | 0.3% |
-| Jon Sterling | 1.5% | 1.1% |
-| Fredrik Nordvall Forsberg | 1.5% | 0.0% |
+| Jon Sterling | 1.4% | 1.1% |
+| Fredrik Nordvall Forsberg | 1.4% | 0.0% |
 | Anna Williams | 1.0% | 1.1% |
-| Ettore Aldrovandi | 1.0% | 1.5% |
+| Ettore Aldrovandi | 1.0% | 1.4% |
 | Brendan Hart | 1.0% | 0.0% |
 | others | 4.9% | 3.2% |
 <!-- /ttstats:contributors -->
 
-The table was last updated on <!--#date-->13th November 2026<!--/#-->. It
+The table was last updated on <!--#date-->19th November 2026<!--/#-->. It
 names only those of us who reach 1% in at least one of the two columns, and
 so it is not a list of contributors. The [full
 list](https://github.com/martinescardo/TypeTopology/blob/master/README.md#current-typetopology-contributors-in-alphabetical-order-of-first-name)
@@ -832,7 +832,9 @@ Aczel's W-type of constructive set theory, and are studied briefly in their
 own right. There is a constructor for building games conveniently, an
 alternative equivalent definition not yet used, notions of optimal move and
 optimal play, and a computation of the list of all optimal plays of a game
-in two ways.
+in two ways. Tic-tac-toe is given as an example in three variants, the
+second built with the game constructor and the third more efficient but
+less elegant.
 
 Two reworkings generalize the theory by a monad parameter, applying the
 selection monad transformer to it and requiring the outcomes to carry an
@@ -848,19 +850,20 @@ so the second reworking uses relative monads on structured types instead.
 Both are experimental, and the authors record that they are not yet sure the
 algebras model the intended notions.
 
-Efficiency is a running concern. Tic-tac-toe appears in three variants, the
-second built with the game constructor and the third more efficient but less
-elegant, as the test case. Alpha-beta pruning is developed for minimax
-games, those with alternating min and max quantifiers, in three stages. The
-selection functions are pruned first, with the correctness of the resulting
-optimal play left to be formulated. A game is then transformed so that its
-optimal plays can be read off from the optimal outcomes of the transformed
-game, and this is proved correct. Finally the transformation is itself
-pruned, and here the correctness statement is written down but its proof is
-left open. No efficiency theorems are proved either, although the tests
-report the pruned version running eight times faster. A separate speed-up
-computes a product of selection functions as a product of quantifiers, which
-is also what the proof of the second stage rests on.
+To improve efficiency, optimal plays are computed with the product of
+quantifiers instead of the product of selection functions, by extending the
+type of outcomes to include the play that leads to each outcome, and
+alpha-beta pruning is obtained by combining the continuation monad with the
+reader monad, which records the alpha-beta bounds within the outcomes and
+leaves the types of moves unchanged. This is done for minimax games in the
+generality of the games with dependent types above, where the moves at a
+round, and the number of rounds, may depend on the moves played so far, and
+each node is labelled by either player, and the alpha-beta search is proved
+to compute the same optimal outcomes and optimal plays as exhaustive
+minimax search. This is the subject of the paper "Alpha-Beta Pruning via
+Monadic Continuations", which a module of the development follows item by
+item. It supersedes a version of March and April 2023, where the ideas
+originated, now in [deprecated](#deprecated).
 
 By Martin Escardo and Paulo Oliva.
 
@@ -1272,9 +1275,11 @@ Such a sup-lattice is a retract of the powerset of its basis, and hence is
 small under Ω-resizing, and least prefixed points exist for all monotone
 endomaps of sup-lattices with a small basis precisely when they exist for
 all monotone operators on powersets.
+Decidable strict weak orders, used for the values of the games in
+[Games](#games), are defined too.
 Finally, the proof that the axiom of choice implies Zorn's lemma is included.
 
-By Ian Ray, Tom de Jong, Martin Escardo and Kelton OBrien.
+By Ian Ray, Tom de Jong, Martin Escardo, Kelton OBrien and Paulo Oliva.
 
 **Publications.**
 
@@ -1655,7 +1660,13 @@ The Cantor type is searchable for uniformly continuous decidable predicates,
 and more generally so is ℕ → X for any compact X. For any function ℕ∞ → ℕ it
 is decidable whether it fails to be continuous, and for any function ℕ∞ → 𝟚
 it is decidable whether it takes the value 1 at every finite element. The
-simple types, generated from ℕ by function types, all have ℕ as a retract,
+paper on which the first of these results is based is formalized in full.
+In particular, every function ℕ∞ → ℕ has a least modulus of continuity in
+ℕ∞, its discontinuity degree, which is ∞ precisely when the function is not
+continuous, and if the Cantor type is Π-compact then every function from it
+into a type with decidable equality has a least modulus of uniform
+continuity in ℕ∞.
+The simple types, generated from ℕ by function types, all have ℕ as a retract,
 so none of them is 𝟚-compact unless WLPO holds. A product of pointed compact
 types indexed by a proposition is compact, whereas assuming this for compact
 types that are not pointed gives weak excluded middle. Compactness is
@@ -1686,7 +1697,9 @@ Foundation for Synthetic Stone Duality" (TYPES 2024, LIPIcs 336, 2025,
 [doi:10.4230/LIPIcs.TYPES.2024.3](https://doi.org/10.4230/LIPIcs.TYPES.2024.3)),
 and the two are compared. Assuming ¬WLPO, which can be regarded as a weak
 continuity principle, ℕ∞ is a Stone type, and this can't be proved without
-such an assumption. The Stone types include the finite types and are closed
+such an assumption. Under the same assumption, the Cantor type is a Stone
+type precisely when it is Π-compact, and neither hypothesis can be dropped.
+The Stone types include the finite types and are closed
 under retracts, binary sums and binary products, and a proposition is a
 Stone type precisely when it is decidable. That the Stone types are closed
 under Σ gives ¬¬WLPO.
@@ -1822,10 +1835,11 @@ By Jon Sterling and Mike Shulman.
 Modules kept for reference or historical interest live here, superseded by
 material elsewhere but retained so that older results and links remain
 available. It currently holds earlier accounts of categories and of the structure
-identity principle, and a first construction of free groups over setoids,
-superseded by [EGroups](#egroups).
+identity principle, a first construction of free groups over setoids,
+superseded by [EGroups](#egroups), and the first version of alpha-beta
+pruning, superseded by [Games](#games).
 
-By Martin Escardo and Jon Sterling.
+By Martin Escardo, Jon Sterling and Paulo Oliva.
 
 [Table of contents](#table-of-contents)
 
@@ -2266,9 +2280,9 @@ there because it is here that they are collected.
 #### [Games.Main](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Games.Main.html)
 
 This compiles, through Haskell, to a program that plays tic-tac-toe by the
-alpha-beta pruning of the directory [Games](#games), and prints an optimal
-play. It is not `--safe` because it prints, using the postulates of
-[Unsafe.Haskell](#unsafehaskell).
+first version of alpha-beta pruning, now in [deprecated](#deprecated), and
+prints an optimal play. It is not `--safe` because it prints, using the
+postulates of [Unsafe.Haskell](#unsafehaskell).
 
 By Martin Escardo and Paulo Oliva.
 
