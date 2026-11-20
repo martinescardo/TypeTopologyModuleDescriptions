@@ -187,14 +187,14 @@ same searches are
 
 ## Repository statistics
 
-The counts below were taken on <!--#date-->19th November 2026<!--/#-->, over
+The counts below were taken on <!--#date-->20th November 2026<!--/#-->, over
 the Agda files tracked by git in the directories source and cubical.
 
 | what is counted | count |
 | --- | ---: |
 | Agda files | <!--#files-->1,028<!--/#--> |
-| Lines, including comments and blank lines | <!--#lines-->310,567<!--/#--> |
-| Lines that are not blank | <!--#nonblank-->241,238<!--/#--> |
+| Lines, including comments and blank lines | <!--#lines-->311,411<!--/#--> |
+| Lines that are not blank | <!--#nonblank-->241,948<!--/#--> |
 | Directories | <!--#dirs-->62<!--/#--> |
 | Contributors | <!--#contributors-->36<!--/#--> |
 
@@ -215,19 +215,19 @@ directory that is meant here and throughout.
 <!-- ttstats:directories -->
 | directory | files | lines | share |
 | --- | ---: | ---: | ---: |
-| [Ordinals](#ordinals) | 74 | 33,331 | 10.8% |
+| [Ordinals](#ordinals) | 75 | 34,341 | 11.1% |
 | [Locales](#locales) | 90 | 31,163 | 10.1% |
-| [UF](#uf) | 80 | 27,344 | 8.9% |
+| [UF](#uf) | 80 | 27,344 | 8.8% |
 | [TypeTopology](#typetopology) | 39 | 24,650 | 8.0% |
-| [DomainTheory](#domaintheory) | 44 | 19,288 | 6.3% |
+| [DomainTheory](#domaintheory) | 44 | 19,288 | 6.2% |
 | [TWA](#twa) | 33 | 11,056 | 3.6% |
 | [InjectiveTypes](#injectivetypes) | 19 | 10,910 | 3.6% |
 | [MGS](#mgs) | 30 | 9,301 | 3.0% |
-| [Games](#games) | 27 | 8,544 | 2.8% |
+| [Games](#games) | 26 | 8,396 | 2.7% |
 | [Groups](#groups) | 27 | 7,699 | 2.5% |
-| [EffectfulForcing](#effectfulforcing) | 27 | 7,440 | 2.4% |
+| [EffectfulForcing](#effectfulforcing) | 27 | 7,422 | 2.4% |
 | [C-Spaces](#c-spaces) | 38 | 7,415 | 2.4% |
-| others | 500 | 112,426 | 36.3% |
+| others | 500 | 112,426 | 36.2% |
 <!-- /ttstats:directories -->
 
 [Table of contents](#table-of-contents)
@@ -252,13 +252,13 @@ last change to each line.
 <!-- ttstats:contributors -->
 | | by header | by blame |
 | --- | ---: | ---: |
-| Martin Escardo | 47.3% | 55.4% |
-| Tom de Jong | 11.6% | 14.2% |
-| Ayberk Tosun | 11.2% | 11.2% |
+| Martin Escardo | 47.2% | 55.2% |
+| Tom de Jong | 11.8% | 14.4% |
+| Ayberk Tosun | 11.1% | 11.1% |
 | Andrew Sneap | 5.0% | 4.0% |
 | Chuangjie Xu | 4.2% | 3.0% |
-| Todd Waugh Ambridge | 3.5% | 2.6% |
-| Ian Ray | 2.9% | 3.3% |
+| Todd Waugh Ambridge | 3.5% | 2.5% |
+| Ian Ray | 2.9% | 3.2% |
 | Paulo Oliva | 2.8% | 0.0% |
 | Nicolai Kraus | 1.5% | 0.3% |
 | Jon Sterling | 1.4% | 1.1% |
@@ -266,10 +266,10 @@ last change to each line.
 | Anna Williams | 1.0% | 1.1% |
 | Ettore Aldrovandi | 1.0% | 1.4% |
 | Brendan Hart | 1.0% | 0.0% |
-| others | 4.9% | 3.2% |
+| others | 4.8% | 3.1% |
 <!-- /ttstats:contributors -->
 
-The table was last updated on <!--#date-->19th November 2026<!--/#-->. It
+The table was last updated on <!--#date-->20th November 2026<!--/#-->. It
 names only those of us who reach 1% in at least one of the two columns, and
 so it is not a list of contributors. The [full
 list](https://github.com/martinescardo/TypeTopology/blob/master/README.md#current-typetopology-contributors-in-alphabetical-order-of-first-name)
