@@ -1309,14 +1309,14 @@ algebraically injective. The type of simulations into a fixed ordinal is
 equivalent to the type of its lower sets, and so it is small in the presence
 of Ω-resizing.
 
-The arithmetic comprises addition, multiplication and exponentiation and
-their properties, together with bounded operations, suprema and sums, and
-variants of these for the topped and the trichotomous ordinals. It is
-noteworthy that the infimum of a merely inhabited family of ordinals is
-constructed using propositional truncation and univalence alone, the
-construction staying small by an observation of Christian Sattler, whereas
-the known constructions of suprema need set quotients or, equivalently, set
-replacement.
+The arithmetic comprises both ordinary and Hessenberg addition,
+multiplication and exponentiation and their properties, together with
+bounded operations, suprema and sums, and variants of these for the topped
+and the trichotomous ordinals. It is noteworthy that the infimum of a merely
+inhabited family of ordinals is constructed using propositional truncation
+and univalence alone, the construction staying small by an observation of
+Christian Sattler, whereas the known constructions of suprema need set
+quotients or, equivalently, set replacement.
 
 Exponentiation has a subdirectory of its own. It is specified first, then
 constructed abstractly using suprema and concretely using decreasing lists,
@@ -1332,12 +1332,13 @@ Several classically true statements about ordinals are taboos here, in that
 each of them implies excluded middle. Shulman observed that this is so if
 every subset of an ordinal is an ordinal. Following Swan, it is so if every
 set can be inductively well-ordered, and again if every discrete ordinal is
-trichotomous. Trichotomy and total separatedness both fail in general. The
-inductive well-ordering principle is in fact equivalent to the axiom of
-choice, which gives that every set can be well-ordered, and conversely. The
-Burali-Forti argument is used to show that the embedding of a universe into
-its successor is not an equivalence, and likewise for the types of sets,
-magmas, monoids and groups.
+trichotomous. Other examples include various claims about either ordinary or
+Hessenberg addition, such as monotonicity. Trichotomy and total
+separatedness both fail in general. The inductive well-ordering principle is
+in fact equivalent to the axiom of choice, which gives that every set can be
+well-ordered, and conversely. The Burali-Forti argument is used to show that
+the embedding of a universe into its successor is not an equivalence, and
+likewise for the types of sets, magmas, monoids and groups.
 
 Sums of ordinal-indexed families are constructed with the lexicographic
 order for families indexed by an ordinal with a top element, and it is
